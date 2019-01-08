@@ -1,14 +1,19 @@
 
-.content {
-  text-align: center;
-  height: 400rpx;
+.page-panel {
+  padding: 0rpx 47rpx 47rpx 47rpx;
 }
-.logo {
-  height: 200rpx;
-  width: 200rpx;
-  margin-top: 200rpx;
+.page-title {
+  font-size: 46rpx;
+  color: #464646;
+  padding: 60rpx 0rpx 50rpx;
+  font-weight: bold;
 }
-.title {
-  font-size: 36rpx;
-  color: #8f8f94;
+.list-panel .item {
+  overflow: hidden;
+  padding: 0rpx 0rpx 24rpx 0rpx;
+}
+.list-panel .item image {
+  max-width: 100%;
+  border-radius: 10rpx;
+  vertical-align: middle;
 }

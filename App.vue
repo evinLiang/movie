@@ -39,4 +39,8 @@
   width: 50%;
   width: calc((100% - 24upx) / 2);
 }
+.themeColor { 
+	color: #e91e63;
+	font-size: 46upx;
+}
 </style>

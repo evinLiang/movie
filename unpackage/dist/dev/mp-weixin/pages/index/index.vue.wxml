@@ -22,7 +22,7 @@
       <text class="_text data-v-55d73c99 themeColor">M</text>V排行</view>
     <scroll-view class="_scroll-view data-v-55d73c99 scroll-view_H" scroll-x style="width: 100%">
       <view class="_view data-v-55d73c99 topMvList">
-        <view class="_view data-v-55d73c99 item" wx:key="item" key="{{item}}" wx:for="{{topMvList}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-55d73c99 item" wx:key="item" key="{{item}}" bindtap="handleProxy" data-eventid="{{'QYl-0-'+index}}" data-comkey="{{$k}}" wx:for="{{topMvList}}" wx:for-index="index" wx:for-item="item">
           <image src="{{item.cover}}" mode="widthFix" class="_image data-v-55d73c99"></image>
           <text class="_text data-v-55d73c99 name">{{item.name}}</text>
           <view class="_view data-v-55d73c99 btn">

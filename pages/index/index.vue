@@ -21,7 +21,7 @@
 		<view class="page-title"><text class="themeColor">M</text>V排行</view>
 		<scroll-view class="scroll-view_H" scroll-x style="width: 100%">
 			<view class="topMvList">
-				<view class="item" v-for="item in topMvList" :key="item">
+				<view class="item" v-for="item in topMvList" :key="item" @tap="openMvDetail(item.id)">
 					<image :src="item.cover" mode="widthFix"></image>
 					<text class="name">{{item.name}}</text>
 					<view class="btn">
@@ -244,6 +244,13 @@
 						});
 					}
 				})
+			},
+			openMvDetail(mvid){
+				//跳转mv详情
+				var mvid = mvid;
+				uni.navigateTo({
+					url: '../mvDetail/mvDetail?mvid='+mvid
+				});
 			}
 		}
 	}

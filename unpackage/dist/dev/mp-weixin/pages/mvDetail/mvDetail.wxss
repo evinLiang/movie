@@ -1,0 +1,4 @@
+
+.video ._video {
+  width: 100%;
+}

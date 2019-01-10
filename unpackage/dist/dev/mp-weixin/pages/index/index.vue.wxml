@@ -8,11 +8,11 @@
         </swiper-item>
       </swiper>
     </view>
-    <view class="_view data-v-55d73c99 page-title">
+    <view class="_view data-v-55d73c99 page-title" bindtap="handleProxy" data-eventid="{{'qO9-0'}}" data-comkey="{{$k}}">
       <text class="_text data-v-55d73c99 themeColor">推</text>荐歌单</view>
     <scroll-view class="_scroll-view data-v-55d73c99 scroll-view_H" scroll-x style="width: 100%">
       <view class="_view data-v-55d73c99 personalizedList">
-        <view class="_view data-v-55d73c99 item" wx:key="item.id" key="{{item.id}}" wx:if="{{index<=10}}" wx:for="{{personalizedList}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-55d73c99 item" wx:key="item.id" key="{{item.id}}" wx:if="{{index<=10}}" bindtap="handleProxy" data-eventid="{{'Zut-1-'+index}}" data-comkey="{{$k}}" wx:for="{{personalizedList}}" wx:for-index="index" wx:for-item="item">
           <image src="{{item.picUrl}}" mode="widthFix" class="_image data-v-55d73c99"></image>
           <text class="_text data-v-55d73c99 name">{{item.name}}</text>
         </view>
@@ -22,7 +22,7 @@
       <text class="_text data-v-55d73c99 themeColor">M</text>V排行</view>
     <scroll-view class="_scroll-view data-v-55d73c99 scroll-view_H" scroll-x style="width: 100%">
       <view class="_view data-v-55d73c99 topMvList">
-        <view class="_view data-v-55d73c99 item" wx:key="item.id" key="{{item.id}}" bindtap="handleProxy" data-eventid="{{'xhW-0-'+index}}" data-comkey="{{$k}}" wx:for="{{topMvList}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-55d73c99 item" wx:key="item.id" key="{{item.id}}" bindtap="handleProxy" data-eventid="{{'xOu-2-'+index}}" data-comkey="{{$k}}" wx:for="{{topMvList}}" wx:for-index="index" wx:for-item="item">
           <image src="{{item.cover}}" mode="widthFix" class="_image data-v-55d73c99"></image>
           <text class="_text data-v-55d73c99 name">{{item.name}}</text>
           <view class="_view data-v-55d73c99 playBtn">

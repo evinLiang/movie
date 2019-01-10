@@ -19,6 +19,16 @@
   width: 50%;
   width: calc((100% - 24rpx) / 2);
 }
+.ease-row .ease-col-3-1 {
+  box-sizing: border-box;
+  width: 33.3333%;
+  width: calc((100% - 48rpx) / 3);
+}
+.ease-row .ease-col-3-2 {
+  box-sizing: border-box;
+  width: 33.3333%;
+  width: calc(100% - ((100% - 48rpx) / 3) - 24rpx);
+}
 .page-panel {
   padding: 32rpx;
 }
@@ -31,6 +41,9 @@
 .themeColor {
   color: #e91e63;
   font-size: 46rpx;
+}
+image {
+  vertical-align: middle;
 }
 .playBtn {
   position: absolute;

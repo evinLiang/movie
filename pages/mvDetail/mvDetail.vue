@@ -235,7 +235,9 @@
 		margin-top: 25upx;
 		font-weight: bold;
 		font-size: 30upx;
-		max-height: 86upx;
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: 2;
 		overflow: hidden;
 	}
 	

@@ -1,5 +1,6 @@
 module.exports = {
 	server:'http://music.evinweb.com/',		//正式环境地址
+	doucment: 'https://binaryify.github.io/NeteaseCloudMusicApi/#/',	//接口说明文档
 	type:{
 		banner: "banner",						//说明 : 调用此接口 , 可获取 banner( 轮播图 ) 数据
 		personalized: "personalized",			//说明 : 调用此接口 , 可获取推荐歌单
@@ -8,6 +9,7 @@ module.exports = {
 		djRecommend: "dj/recommend",			//说明 : 登陆后调用此接口 , 可获得推荐电台 
 		mvDetail: "mv/detail",					//说明 : 调用此接口 , 传入 mvid ( 在搜索音乐的时候传 type=1004 获得 ) , 可获取对应 MV 数据 , 数据包含 mv 名字 , 歌手 , 发布时间 , mv 视频地址等数据 , 其中 mv 视频 网易做了防盗链处理 , 可能不能直接播放 , 需要播放的话需要调用 ' mv 地址' 接口
 		mvUrl: "mv/url",                        //说明 : 调用此接口 , 传入 mv id,可获取 mv 播放地址
-		simiMv: "simi/mv"						//说明 : 调用此接口 , 传入 mvid 可获取相似 mv
+		simiMv: "simi/mv",						//说明 : 调用此接口 , 传入 mvid 可获取相似 mv
+		playlistDetail: "playlist/detail"		//说明 : 歌单能看到歌单名字 , 但看不到具体歌单内容 , 调用此接口 , 传入歌单 id, 可 以获取对应歌单内的所有的音乐
 	}
 }

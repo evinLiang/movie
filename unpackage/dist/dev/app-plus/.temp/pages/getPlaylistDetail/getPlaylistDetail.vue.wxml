@@ -1,0 +1,27 @@
+<template name="81aea1c4">
+  <view class="_view data-v-3aad9327 page-panel">
+    <view class="_view data-v-3aad9327 playlistDetail ease-row">
+      <view class="_view data-v-3aad9327 ease-col-3-1 coverImgUrls">
+        <image src="{{playlist.coverImgUrl}}" mode="widthFix" class="_image data-v-3aad9327"></image>
+      </view>
+      <view class="_view data-v-3aad9327 ease-col-3-2 playlistInfo">
+        <view class="_view data-v-3aad9327 name">{{playlist.name}}</view>
+        <view class="_view data-v-3aad9327 description">{{playlist.description}}</view>
+      </view>
+    </view>
+    <view class="_view data-v-3aad9327 privileges">
+      <view class="_view data-v-3aad9327 item" wx:key="item.id" key="{{item.id}}" wx:for="{{playlist.tracks}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-3aad9327 index">{{index+1}}</view>
+        <view class="_view data-v-3aad9327 info">
+          <view class="_view data-v-3aad9327 name">{{item.name}}</view>
+          <text wx:key="childItem.id" key="{{childItem.id}}" class="_text data-v-3aad9327 arName" wx:if="{{i<=1}}" wx:for="{{item.ar}}" wx:for-index="i" wx:for-item="childItem">{{childItem.name}} </text>
+        </view>
+        <view class="_view data-v-3aad9327 btn">
+          <text class="_text data-v-3aad9327"></text>
+          <text class="_text data-v-3aad9327"></text>
+          <text class="_text data-v-3aad9327"></text>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

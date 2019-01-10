@@ -8,12 +8,22 @@
             }
         },
         {
-            "path" : "pages/detail/detail",
-            "style" : {}
+            "path" : "pages/mvDetail/mvDetail",
+            "style" : {
+                "navigationBarTitleText" : "MV详情"
+            }
         },
         {
-            "path" : "pages/mvDetail/mvDetail",
-            "style" : {}
+            "path" : "pages/getPlaylistDetail/getPlaylistDetail",
+            "style" : {
+                "navigationBarTitleText" : "歌单列表"
+            }
+        },
+        {
+            "path" : "pages/personalizedList/personalizedList",
+            "style" : {
+				"navigationBarTitleText" : "歌单"
+			}
         }
     ],
     "globalStyle" : {

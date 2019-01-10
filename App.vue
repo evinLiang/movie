@@ -40,6 +40,16 @@
 		width: 50%;
 		width: calc((100% - 24upx) / 2);
 	}
+	.ease-row .ease-col-3-1 {
+		box-sizing: border-box;
+		width: 33.3333%;
+		width: calc((100% - 48upx) / 3);
+	}
+	.ease-row .ease-col-3-2 {
+		box-sizing: border-box;
+		width: 33.3333%;
+		width: calc(100% - ((100% - 48upx) / 3) - 24upx);
+	}
 	
 	.page-panel {
 		padding: 32upx;
@@ -56,7 +66,11 @@
 		color: #e91e63;
 		font-size: 46upx;
 	}
-
+	
+	image {
+		vertical-align: middle;
+	}
+	
 	.playBtn {
 		position: absolute;
 		z-index: 99;

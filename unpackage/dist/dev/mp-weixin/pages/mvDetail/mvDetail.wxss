@@ -54,7 +54,9 @@ page {
   margin-top: 25rpx;
   font-weight: bold;
   font-size: 30rpx;
-  max-height: 86rpx;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
   overflow: hidden;
 }
 .simiMvList .item .info .artistName {

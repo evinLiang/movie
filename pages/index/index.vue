@@ -9,10 +9,10 @@
 				</swiper-item>
 			</swiper>
 		</view>
-		<view class="page-title"><text class="themeColor">推</text>荐歌单</view>
+		<view class="page-title" @tap="openPersonalizedList()"><text class="themeColor">推</text>荐歌单</view>
 		<scroll-view class="scroll-view_H" scroll-x style="width: 100%">
 			<view class="personalizedList">
-				<view class="item" v-for="(item,index) in personalizedList" :key="item.id" v-if='index<=10'>
+				<view class="item" v-for="(item,index) in personalizedList" :key="item.id" v-if='index<=10' @tap="openPersonalizedDetail(item.id)">
 					<image :src="item.picUrl" mode="widthFix"></image>
 					<text class="name">{{item.name}}</text>
 				</view>
@@ -266,6 +266,21 @@
 				uni.navigateTo({
 					url: '../mvDetail/mvDetail?mvid='+mvid
 				});
+			},
+			openPersonalizedDetail(id){
+				
+				//跳转歌单详情
+				var id = id;
+				uni.navigateTo({
+					url: '../getPlaylistDetail/getPlaylistDetail?id='+id
+				});
+			},
+			openPersonalizedList(){
+				
+				//跳转推荐歌单列表
+				uni.navigateTo({
+					url: '../personalizedList/personalizedList'
+				});
 			}
 		}
 	}
@@ -286,7 +301,6 @@
 	.banner image {
 		width: 100%;
 		height: 236upx;
-		vertical-align: middle;
 		border-radius: 10upx;
 		box-shadow: 0 0 10px hsla(0, 0%, 51%, .1);
 	}
@@ -355,7 +369,7 @@
 		z-index: 1;
 		width: 150upx;
 		height: 150upx;
-		line-height: 150upx;
+		line-height: 142upx;
 		text-align: center;
 		margin-right: 20upx;
 	}
@@ -365,6 +379,7 @@
 		height: 150upx;
 		border-radius: 50%;
 		box-shadow: 0 0 10px hsla(0, 0%, 51%, .1);
+		vertical-align: middle;
 	}
 
 	.toplistArtistList .item .name {

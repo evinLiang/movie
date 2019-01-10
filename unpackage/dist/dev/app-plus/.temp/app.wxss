@@ -1,0 +1,25 @@
+
+.ease-row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-box-lines: multiple;
+  -moz-box-lines: multiple;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  align-items: flex-start;
+}
+.ease-row .ease-col-2-1 {
+  box-sizing: border-box;
+  width: 50%;
+  width: calc((100% - 24rpx) / 2);
+}
+.themeColor {
+  color: #e91e63;
+  font-size: 46rpx;
+}

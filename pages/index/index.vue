@@ -4,7 +4,7 @@
 			<swiper :indicator-dots="swiper.indicatorDots" :autoplay="swiper.autoplay" :interval="swiper.interval" :duration="swiper.duration"
 			 :circular="swiper.circular" :indicator-active-color="swiper.indicatorActiveColor" :previous-margin="swiper.previousMargin"
 			 :next-margin="swiper.previousMargin">
-				<swiper-item v-for="item in bannersList" :key="item">
+				<swiper-item v-for="item in bannersList" :key="item.id">
 					<image :src="item.imageUrl" mode="widthFix"></image>
 				</swiper-item>
 			</swiper>
@@ -12,7 +12,7 @@
 		<view class="page-title"><text class="themeColor">推</text>荐歌单</view>
 		<scroll-view class="scroll-view_H" scroll-x style="width: 100%">
 			<view class="personalizedList">
-				<view class="item" v-for="(item,index) in personalizedList" :key="item" v-if='index<=10'>
+				<view class="item" v-for="(item,index) in personalizedList" :key="item.id" v-if='index<=10'>
 					<image :src="item.picUrl" mode="widthFix"></image>
 					<text class="name">{{item.name}}</text>
 				</view>
@@ -21,10 +21,10 @@
 		<view class="page-title"><text class="themeColor">M</text>V排行</view>
 		<scroll-view class="scroll-view_H" scroll-x style="width: 100%">
 			<view class="topMvList">
-				<view class="item" v-for="item in topMvList" :key="item" @tap="openMvDetail(item.id)">
+				<view class="item" v-for="item in topMvList" :key="item.id" @tap="openMvDetail(item.id)">
 					<image :src="item.cover" mode="widthFix"></image>
 					<text class="name">{{item.name}}</text>
-					<view class="btn">
+					<view class="playBtn">
 						<view class="icon"></view>
 					</view>
 				</view>
@@ -33,7 +33,7 @@
 		<view class="page-title"><text class="themeColor">歌</text>手榜</view>
 		<scroll-view class="scroll-view_H" scroll-x style="width: 100%">
 			<view class="toplistArtistList">
-				<view class="item" v-for="(item,index) in toplistArtistList" :key="item" v-if='index<=20'>
+				<view class="item" v-for="(item,index) in toplistArtistList" :key="item.id" v-if='index<=20'>
 					<image :src="item.img1v1Url" mode="widthFix"></image>
 					<text class="name">{{item.name}}</text>
 				</view>
@@ -41,8 +41,13 @@
 		</scroll-view>
 		<view class="page-title"><text class="themeColor">推</text>荐电台</view>
 		<view class="djRecommendList">
-			<view class="item" v-for="(item,index) in djRecommendList" :key="item" v-if='index<=10'>
-				<image :src="item.picUrl" mode="widthFix"></image>
+			<view class="item" v-for="(item,index) in djRecommendList" :key="item.id" v-if='index<=10'>
+				<view class="pic">
+					<image :src="item.picUrl" mode="widthFix"></image>
+					<view class="playBtn">
+						<view class="icon"></view>
+					</view>
+				</view>
 				<view class="content">
 					<view class="name">{{item.name}}</view>
 					<view class="rcmdtext">{{item.rcmdtext}}</view>
@@ -82,6 +87,8 @@
 		},
 		methods: {
 			getBannerList() {
+				
+				//获取banner
 				var _this = this;
 				uni.showLoading({
 					title: '加载中'
@@ -90,11 +97,11 @@
 					url: _this.MusicApi.server + _this.MusicApi.type.banner,
 					success: (res) => {
 						uni.hideLoading();
-						console.log(res.data);
+						//console.log(res.data);
 						if (res.data.code == 200) {
 							_this.bannersList = res.data.banners;
 						} else {
-							console.error("数据获取失败");
+							//console.error("数据获取失败");
 							uni.showToast({
 								title: 'banner数据获取失败',
 								duration: 5000,
@@ -113,6 +120,8 @@
 				})
 			},
 			getPersonalizedList() {
+				
+				//获取推荐歌单
 				var _this = this;
 				uni.showLoading({
 					title: '加载中'
@@ -121,7 +130,7 @@
 					url: _this.MusicApi.server + _this.MusicApi.type.personalized,
 					success: (res) => {
 						uni.hideLoading();
-						console.log(res.data);
+						//console.log(res.data);
 						if (res.data.code == 200) {
 							_this.personalizedList = res.data.result;
 						} else {
@@ -144,6 +153,8 @@
 				})
 			},
 			getTopMvList() {
+				
+				//获取mv排行
 				var _this = this;
 				uni.showLoading({
 					title: '加载中'
@@ -155,7 +166,7 @@
 					},
 					success: (res) => {
 						uni.hideLoading();
-						console.log(res.data);
+						//console.log(res.data);
 						if (res.data.code == 200) {
 							_this.topMvList = res.data.data;
 						} else {
@@ -178,6 +189,8 @@
 				})
 			},
 			getToplistArtistList() {
+				
+				//获取歌手榜单
 				var _this = this;
 				uni.showLoading({
 					title: '加载中'
@@ -189,7 +202,7 @@
 					},
 					success: (res) => {
 						uni.hideLoading();
-						console.log(res.data);
+						//console.log(res.data);
 						if (res.data.code == 200) {
 							_this.toplistArtistList = res.data.list.artists;
 						} else {
@@ -212,6 +225,8 @@
 				})
 			},
 			getDjRecommendList() {
+				
+				//获取推荐电台
 				var _this = this;
 				uni.showLoading({
 					title: '加载中'
@@ -223,7 +238,7 @@
 					},
 					success: (res) => {
 						uni.hideLoading();
-						console.log(res.data);
+						//console.log(res.data);
 						if (res.data.code == 200) {
 							_this.djRecommendList = res.data.djRadios;
 						} else {
@@ -257,17 +272,6 @@
 </script>
 
 <style>
-	.page-panel {
-		padding: 32upx;
-	}
-
-	.page-title {
-		font-size: 36upx;
-		padding: 25upx 0upx;
-		font-weight: bold;
-		color: rbga(72, 88, 162, 0.3);
-	}
-
 	.banner swiper {
 		height: 236upx;
 		border-radius: 10upx;
@@ -281,6 +285,7 @@
 
 	.banner image {
 		width: 100%;
+		height: 236upx;
 		vertical-align: middle;
 		border-radius: 10upx;
 		box-shadow: 0 0 10px hsla(0, 0%, 51%, .1);
@@ -345,27 +350,6 @@
 		border-radius: 0upx 0upx 10upx 10upx;
 	}
 
-	.topMvList .item .btn {
-		position: absolute;
-		z-index: 3;
-		left: 30upx;
-		top: 30upx;
-		width: 80upx;
-		height: 80upx;
-		background: rgba(255, 255, 255, 0.8);
-		border-radius: 50%;
-	}
-
-	.topMvList .item .icon {
-		margin: 26upx 0upx 0upx 30upx;
-		width: 0;
-		height: 0;
-		border-top: 14upx solid transparent;
-		border-bottom: 14upx solid transparent;
-		border-left: 28upx solid #e91e63;
-		border-radius: 5upx;
-	}
-
 	.toplistArtistList .item {
 		position: relative;
 		z-index: 1;
@@ -373,7 +357,7 @@
 		height: 150upx;
 		line-height: 150upx;
 		text-align: center;
-		margin-right: 12upx;
+		margin-right: 20upx;
 	}
 
 	.toplistArtistList .item image {
@@ -401,10 +385,31 @@
 		margin-bottom: 40upx;
 	}
 
-	.djRecommendList .item image {
+	.djRecommendList .item .pic {
+		position: relative;
+		z-index: 1;
+		margin-right: 40upx;
+	}
+	
+	.djRecommendList .item .pic .playBtn {
+		left: inherit;
+		top: inherit;
+		right: 20upx;
+		bottom: 30upx;
+		width: 50upx;
+		height: 50upx;
+	}
+	
+	.djRecommendList .item .pic .playBtn .icon {
+		margin: 16upx 0upx 0upx 18upx;
+		border-top: 10upx solid transparent;
+		border-bottom: 10upx solid transparent;
+		border-left: 20upx solid #e91e63;
+	}
+	
+	.djRecommendList .item .pic image {
 		width: 180upx;
 		height: 180upx;
-		margin-right: 40upx;
 		border-radius: 10upx;
 		box-shadow: 0 0 10px hsla(0, 0%, 51%, .3);
 	}

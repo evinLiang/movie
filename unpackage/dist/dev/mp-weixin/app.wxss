@@ -19,7 +19,38 @@
   width: 50%;
   width: calc((100% - 24rpx) / 2);
 }
+.page-panel {
+  padding: 32rpx;
+}
+.page-title {
+  font-size: 36rpx;
+  padding: 25rpx 0rpx;
+  font-weight: bold;
+  color: rbga(72, 88, 162, 0.3);
+}
 .themeColor {
   color: #e91e63;
   font-size: 46rpx;
+}
+.playBtn {
+  position: absolute;
+  z-index: 99;
+  left: 30rpx;
+  top: 30rpx;
+  width: 80rpx;
+  height: 80rpx;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+}
+.playBtn .icon {
+  margin: 26rpx 0rpx 0rpx 30rpx;
+  width: 0;
+  height: 0;
+  border-top: 14rpx solid transparent;
+  border-bottom: 14rpx solid transparent;
+  border-left: 28rpx solid #e91e63;
+  border-radius: 5rpx;
+}
+.font-w-b {
+  font-weight: bold;
 }

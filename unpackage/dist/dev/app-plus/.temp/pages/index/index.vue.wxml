@@ -1,0 +1,60 @@
+<template name="7f263910">
+  <view class="_view data-v-55d73c99 page-panel">
+    <view class="_view data-v-55d73c99 banner">
+      <swiper indicator-dots="{{swiper.indicatorDots}}" autoplay="{{swiper.autoplay}}" interval="{{swiper.interval}}" duration="{{swiper.duration}}" circular="{{swiper.circular}}" indicator-active-color="{{swiper.indicatorActiveColor}}" previous-margin="{{swiper.previousMargin}}"
+        next-margin="{{swiper.previousMargin}}" class="_swiper data-v-55d73c99">
+        <swiper-item wx:key="item" key="{{item}}" wx:for="{{bannersList}}" wx:for-index="index" wx:for-item="item" class="_swiper-item data-v-55d73c99">
+          <image src="{{item.imageUrl}}" mode="widthFix" class="_image data-v-55d73c99"></image>
+        </swiper-item>
+      </swiper>
+    </view>
+    <view class="_view data-v-55d73c99 page-title">
+      <text class="_text data-v-55d73c99 themeColor">推</text>荐歌单</view>
+    <scroll-view class="_scroll-view data-v-55d73c99 scroll-view_H" scroll-x style="width: 100%">
+      <view class="_view data-v-55d73c99 personalizedList">
+        <view class="_view data-v-55d73c99 item" wx:key="item" key="{{item}}" wx:if="{{index<=10}}" wx:for="{{personalizedList}}" wx:for-index="index" wx:for-item="item">
+          <image src="{{item.picUrl}}" mode="widthFix" class="_image data-v-55d73c99"></image>
+          <text class="_text data-v-55d73c99 name">{{item.name}}</text>
+        </view>
+      </view>
+    </scroll-view>
+    <view class="_view data-v-55d73c99 page-title">
+      <text class="_text data-v-55d73c99 themeColor">M</text>V排行</view>
+    <scroll-view class="_scroll-view data-v-55d73c99 scroll-view_H" scroll-x style="width: 100%">
+      <view class="_view data-v-55d73c99 topMvList">
+        <view class="_view data-v-55d73c99 item" wx:key="item" key="{{item}}" bindtap="handleProxy" data-eventid="{{'ieU-0-'+index}}" data-comkey="{{$k}}" wx:for="{{topMvList}}" wx:for-index="index" wx:for-item="item">
+          <image src="{{item.cover}}" mode="widthFix" class="_image data-v-55d73c99"></image>
+          <text class="_text data-v-55d73c99 name">{{item.name}}</text>
+          <view class="_view data-v-55d73c99 btn">
+            <view class="_view data-v-55d73c99 icon"></view>
+          </view>
+        </view>
+      </view>
+    </scroll-view>
+    <view class="_view data-v-55d73c99 page-title">
+      <text class="_text data-v-55d73c99 themeColor">歌</text>手榜</view>
+    <scroll-view class="_scroll-view data-v-55d73c99 scroll-view_H" scroll-x style="width: 100%">
+      <view class="_view data-v-55d73c99 toplistArtistList">
+        <view class="_view data-v-55d73c99 item" wx:key="item" key="{{item}}" wx:if="{{index<=20}}" wx:for="{{toplistArtistList}}" wx:for-index="index" wx:for-item="item">
+          <image src="{{item.img1v1Url}}" mode="widthFix" class="_image data-v-55d73c99"></image>
+          <text class="_text data-v-55d73c99 name">{{item.name}}</text>
+        </view>
+      </view>
+    </scroll-view>
+    <view class="_view data-v-55d73c99 page-title">
+      <text class="_text data-v-55d73c99 themeColor">推</text>荐电台</view>
+    <view class="_view data-v-55d73c99 djRecommendList">
+      <view class="_view data-v-55d73c99 item" wx:key="item" key="{{item}}" wx:if="{{index<=10}}" wx:for="{{djRecommendList}}" wx:for-index="index" wx:for-item="item">
+        <image src="{{item.picUrl}}" mode="widthFix" class="_image data-v-55d73c99"></image>
+        <view class="_view data-v-55d73c99 content">
+          <view class="_view data-v-55d73c99 name">{{item.name}}</view>
+          <view class="_view data-v-55d73c99 rcmdtext">{{item.rcmdtext}}</view>
+          <view class="_view data-v-55d73c99 info">
+            <text class="_text data-v-55d73c99">播放 : {{item.subCount}}次</text>
+            <text class="_text data-v-55d73c99 category">类型 : {{item.category}}</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

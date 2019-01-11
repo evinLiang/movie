@@ -96,6 +96,7 @@
 					},
 					success: (res) => {
 						uni.hideLoading();
+						//console.log(res.data.data);
 						if (res.data.code == 200) {
 							_this.mvUrl = res.data.data.url;
 						} else {

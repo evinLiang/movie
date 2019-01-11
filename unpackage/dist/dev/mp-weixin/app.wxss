@@ -1,3 +1,4 @@
+@import "common/vendor.wxss";
 
 .ease-row {
   display: -webkit-box;

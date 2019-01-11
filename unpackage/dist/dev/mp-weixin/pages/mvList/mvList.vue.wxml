@@ -1,0 +1,13 @@
+<template name="2ebe5178">
+  <view class="_view data-v-0525c253 page-panel">
+    <view class="_view data-v-0525c253 mvList">
+      <view class="_view data-v-0525c253 item" wx:key="item.index" key="{{item.index}}" bindtap="handleProxy" data-eventid="{{'ElG-0-'+index}}" data-comkey="{{$k}}" wx:for="{{mvList}}" wx:for-index="index" wx:for-item="item">
+        <image src="{{item.cover}}" mode="widthFix" class="_image data-v-0525c253"></image>
+        <text class="_text data-v-0525c253 name">{{item.name}}</text>
+        <view class="_view data-v-0525c253 playBtn">
+          <view class="_view data-v-0525c253 icon"></view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

@@ -4,7 +4,7 @@
 			<swiper :indicator-dots="swiper.indicatorDots" :autoplay="swiper.autoplay" :interval="swiper.interval" :duration="swiper.duration"
 			 :circular="swiper.circular" :indicator-active-color="swiper.indicatorActiveColor" :previous-margin="swiper.previousMargin"
 			 :next-margin="swiper.previousMargin">
-				<swiper-item v-for="item in bannersList" :key="item.id">
+				<swiper-item v-for="item in bannersList" :key="item.index">
 					<image :src="item.imageUrl" mode="widthFix"></image>
 				</swiper-item>
 			</swiper>
@@ -12,16 +12,16 @@
 		<view class="page-title" @tap="openPersonalizedList()"><text class="themeColor">推</text>荐歌单</view>
 		<scroll-view class="scroll-view_H" scroll-x style="width: 100%">
 			<view class="personalizedList">
-				<view class="item" v-for="(item,index) in personalizedList" :key="item.id" v-if='index<=10' @tap="openPersonalizedDetail(item.id)">
+				<view class="item" v-for="(item,index) in personalizedList" :key="item.index" v-if='index<=10' @tap="openPersonalizedDetail(item.id)">
 					<image :src="item.picUrl" mode="widthFix"></image>
 					<text class="name">{{item.name}}</text>
 				</view>
 			</view>
 		</scroll-view>
-		<view class="page-title"><text class="themeColor">M</text>V排行</view>
+		<view class="page-title" @tap="openMvList()"><text class="themeColor">M</text>V排行</view>
 		<scroll-view class="scroll-view_H" scroll-x style="width: 100%">
 			<view class="topMvList">
-				<view class="item" v-for="item in topMvList" :key="item.id" @tap="openMvDetail(item.id)">
+				<view class="item" v-for="item in topMvList" :key="item.index" @tap="openMvDetail(item.id)">
 					<image :src="item.cover" mode="widthFix"></image>
 					<text class="name">{{item.name}}</text>
 					<view class="playBtn">
@@ -33,32 +33,19 @@
 		<view class="page-title"><text class="themeColor">歌</text>手榜</view>
 		<scroll-view class="scroll-view_H" scroll-x style="width: 100%">
 			<view class="toplistArtistList">
-				<view class="item" v-for="(item,index) in toplistArtistList" :key="item.id" v-if='index<=20'>
+				<view class="item" v-for="(item,index) in toplistArtistList" :key="item.index" v-if='index<=20'>
 					<image :src="item.img1v1Url" mode="widthFix"></image>
 					<text class="name">{{item.name}}</text>
 				</view>
 			</view>
 		</scroll-view>
-		<view class="page-title"><text class="themeColor">推</text>荐电台</view>
-		<view class="djRecommendList">
-			<view class="item" v-for="(item,index) in djRecommendList" :key="item.id" v-if='index<=10'>
-				<view class="pic">
-					<image :src="item.picUrl" mode="widthFix"></image>
-					<view class="playBtn">
-						<view class="icon"></view>
-					</view>
-				</view>
-				<view class="content">
-					<view class="name">{{item.name}}</view>
-					<view class="rcmdtext">{{item.rcmdtext}}</view>
-					<view class="info"><text>播放 : {{item.subCount}}次</text><text class="category">类型 : {{item.category}}</text></view>
-				</view>
-			</view>
-		</view>
+		<view class="page-title" @tap="openDjList()"><text class="themeColor">推</text>荐电台</view>
+		<djRecommendList :djRecommendList="djRecommendList" :djListNumber="djListNumber"></djRecommendList>
 	</view>
 </template>
 
 <script>
+	import djRecommendList from '@/components/djRecommendList.vue';
 	export default {
 		data() {
 			return {
@@ -75,8 +62,12 @@
 				personalizedList: '',
 				topMvList: '',
 				toplistArtistList: '',
-				djRecommendList: ''
+				djRecommendList: '',
+				djListNumber:'5'
 			}
+		},
+		components: {
+		    djRecommendList
 		},
 		onLoad() {
 			this.getBannerList(); //获取banner
@@ -261,10 +252,17 @@
 				})
 			},
 			openMvDetail(mvid){
+				
 				//跳转mv详情
 				var mvid = mvid;
 				uni.navigateTo({
 					url: '../mvDetail/mvDetail?mvid='+mvid
+				});
+			},
+			openDjList(){
+				//跳转mv详情
+				uni.navigateTo({
+					url: '../djList/djList'
 				});
 			},
 			openPersonalizedDetail(id){
@@ -280,6 +278,13 @@
 				//跳转推荐歌单列表
 				uni.navigateTo({
 					url: '../personalizedList/personalizedList'
+				});
+			},
+			openMvList(){
+				
+				//跳转推荐歌单列表
+				uni.navigateTo({
+					url: '../mvList/mvList'
 				});
 			}
 		}
@@ -393,63 +398,5 @@
 		color: #fff;
 		border-radius: 50%;
 		font-size: 10px;
-	}
-
-	.djRecommendList .item {
-		display: flex;
-		margin-bottom: 40upx;
-	}
-
-	.djRecommendList .item .pic {
-		position: relative;
-		z-index: 1;
-		margin-right: 40upx;
-	}
-	
-	.djRecommendList .item .pic .playBtn {
-		left: inherit;
-		top: inherit;
-		right: 20upx;
-		bottom: 30upx;
-		width: 50upx;
-		height: 50upx;
-	}
-	
-	.djRecommendList .item .pic .playBtn .icon {
-		margin: 16upx 0upx 0upx 18upx;
-		border-top: 10upx solid transparent;
-		border-bottom: 10upx solid transparent;
-		border-left: 20upx solid #e91e63;
-	}
-	
-	.djRecommendList .item .pic image {
-		width: 180upx;
-		height: 180upx;
-		border-radius: 10upx;
-		box-shadow: 0 0 10px hsla(0, 0%, 51%, .3);
-	}
-
-	.djRecommendList .item .content {
-		flex: 1;
-	}
-
-	.djRecommendList .item .content .name {
-		font-size: 38upx;
-		font-weight: bold;
-	}
-
-	.djRecommendList .item .content .rcmdtext {
-		margin-top: 10upx;
-		font-size: 28upx;
-	}
-
-	.djRecommendList .item .content .info {
-		margin-top: 30upx;
-		font-size: 20upx;
-		color: #999;
-	}
-	
-	.djRecommendList .item .content .category {
-		margin-left: 40upx;
 	}
 </style>

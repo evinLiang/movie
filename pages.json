@@ -22,7 +22,19 @@
         {
             "path" : "pages/personalizedList/personalizedList",
             "style" : {
-				"navigationBarTitleText" : "歌单"
+                "navigationBarTitleText" : "歌单"
+            }
+        },
+        {
+            "path" : "pages/mvList/mvList",
+            "style" : {
+                "navigationBarTitleText" : "mv列表"
+            }
+        },
+        {
+            "path" : "pages/djList/djList",
+            "style" : {
+				"navigationBarTitleText" : "电台列表"
 			}
         }
     ],

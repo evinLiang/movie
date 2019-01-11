@@ -3,26 +3,26 @@
     <view class="_view data-v-55d73c99 banner">
       <swiper indicator-dots="{{swiper.indicatorDots}}" autoplay="{{swiper.autoplay}}" interval="{{swiper.interval}}" duration="{{swiper.duration}}" circular="{{swiper.circular}}" indicator-active-color="{{swiper.indicatorActiveColor}}" previous-margin="{{swiper.previousMargin}}"
         next-margin="{{swiper.previousMargin}}" class="_swiper data-v-55d73c99">
-        <swiper-item wx:key="item.id" key="{{item.id}}" wx:for="{{bannersList}}" wx:for-index="index" wx:for-item="item" class="_swiper-item data-v-55d73c99">
+        <swiper-item wx:key="item.index" key="{{item.index}}" wx:for="{{bannersList}}" wx:for-index="index" wx:for-item="item" class="_swiper-item data-v-55d73c99">
           <image src="{{item.imageUrl}}" mode="widthFix" class="_image data-v-55d73c99"></image>
         </swiper-item>
       </swiper>
     </view>
-    <view class="_view data-v-55d73c99 page-title" bindtap="handleProxy" data-eventid="{{'5i9-0'}}" data-comkey="{{$k}}">
+    <view class="_view data-v-55d73c99 page-title" bindtap="handleProxy" data-eventid="{{'JcE-0'}}" data-comkey="{{$k}}">
       <text class="_text data-v-55d73c99 themeColor">推</text>荐歌单</view>
     <scroll-view class="_scroll-view data-v-55d73c99 scroll-view_H" scroll-x style="width: 100%">
       <view class="_view data-v-55d73c99 personalizedList">
-        <view class="_view data-v-55d73c99 item" wx:key="item.id" key="{{item.id}}" wx:if="{{index<=10}}" bindtap="handleProxy" data-eventid="{{'yGk-1-'+index}}" data-comkey="{{$k}}" wx:for="{{personalizedList}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-55d73c99 item" wx:key="item.index" key="{{item.index}}" wx:if="{{index<=10}}" bindtap="handleProxy" data-eventid="{{'iPy-1-'+index}}" data-comkey="{{$k}}" wx:for="{{personalizedList}}" wx:for-index="index" wx:for-item="item">
           <image src="{{item.picUrl}}" mode="widthFix" class="_image data-v-55d73c99"></image>
           <text class="_text data-v-55d73c99 name">{{item.name}}</text>
         </view>
       </view>
     </scroll-view>
-    <view class="_view data-v-55d73c99 page-title">
+    <view class="_view data-v-55d73c99 page-title" bindtap="handleProxy" data-eventid="{{'Fuc-2'}}" data-comkey="{{$k}}">
       <text class="_text data-v-55d73c99 themeColor">M</text>V排行</view>
     <scroll-view class="_scroll-view data-v-55d73c99 scroll-view_H" scroll-x style="width: 100%">
       <view class="_view data-v-55d73c99 topMvList">
-        <view class="_view data-v-55d73c99 item" wx:key="item.id" key="{{item.id}}" bindtap="handleProxy" data-eventid="{{'ECP-2-'+index}}" data-comkey="{{$k}}" wx:for="{{topMvList}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-55d73c99 item" wx:key="item.index" key="{{item.index}}" bindtap="handleProxy" data-eventid="{{'FQF-3-'+index}}" data-comkey="{{$k}}" wx:for="{{topMvList}}" wx:for-index="index" wx:for-item="item">
           <image src="{{item.cover}}" mode="widthFix" class="_image data-v-55d73c99"></image>
           <text class="_text data-v-55d73c99 name">{{item.name}}</text>
           <view class="_view data-v-55d73c99 playBtn">
@@ -35,7 +35,7 @@
       <text class="_text data-v-55d73c99 themeColor">歌</text>手榜</view>
     <scroll-view class="_scroll-view data-v-55d73c99 scroll-view_H" scroll-x style="width: 100%">
       <view class="_view data-v-55d73c99 toplistArtistList">
-        <view class="_view data-v-55d73c99 item" wx:key="item.id" key="{{item.id}}" wx:if="{{index<=20}}" wx:for="{{toplistArtistList}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-55d73c99 item" wx:key="item.index" key="{{item.index}}" wx:if="{{index<=20}}" wx:for="{{toplistArtistList}}" wx:for-index="index" wx:for-item="item">
           <image src="{{item.img1v1Url}}" mode="widthFix" class="_image data-v-55d73c99"></image>
           <text class="_text data-v-55d73c99 name">{{item.name}}</text>
         </view>
@@ -44,7 +44,7 @@
     <view class="_view data-v-55d73c99 page-title">
       <text class="_text data-v-55d73c99 themeColor">推</text>荐电台</view>
     <view class="_view data-v-55d73c99 djRecommendList">
-      <view class="_view data-v-55d73c99 item" wx:key="item.id" key="{{item.id}}" wx:if="{{index<=10}}" wx:for="{{djRecommendList}}" wx:for-index="index" wx:for-item="item">
+      <view class="_view data-v-55d73c99 item" wx:key="item.index" key="{{item.index}}" wx:if="{{index<=10}}" wx:for="{{djRecommendList}}" wx:for-index="index" wx:for-item="item">
         <view class="_view data-v-55d73c99 pic">
           <image src="{{item.picUrl}}" mode="widthFix" class="_image data-v-55d73c99"></image>
           <view class="_view data-v-55d73c99 playBtn">

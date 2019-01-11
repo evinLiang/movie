@@ -1,0 +1,22 @@
+<template name="7281f9c4">
+  <view class="_view data-v-2accf31c">
+    <view class="_view data-v-2accf31c djRecommendList">
+      <view class="_view data-v-2accf31c item" wx:key="item.index" key="{{item.index}}" wx:if="{{index<=djListNumber}}" wx:for="{{djRecommendList}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-2accf31c pic">
+          <image src="{{item.picUrl}}" mode="widthFix" class="_image data-v-2accf31c"></image>
+          <view class="_view data-v-2accf31c playBtn">
+            <view class="_view data-v-2accf31c icon"></view>
+          </view>
+        </view>
+        <view class="_view data-v-2accf31c content">
+          <view class="_view data-v-2accf31c name">{{item.name}}</view>
+          <view class="_view data-v-2accf31c rcmdtext">{{item.rcmdtext}}</view>
+          <view class="_view data-v-2accf31c info">
+            <text class="_text data-v-2accf31c">播放 : {{item.subCount}}次</text>
+            <text class="_text data-v-2accf31c category">类型 : {{item.category}}</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

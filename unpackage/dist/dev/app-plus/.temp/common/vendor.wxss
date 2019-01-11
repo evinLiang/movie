@@ -1,0 +1,53 @@
+
+.djRecommendList .item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  margin-bottom: 40rpx;
+}
+.djRecommendList .item .pic {
+  position: relative;
+  z-index: 1;
+  margin-right: 40rpx;
+}
+.djRecommendList .item .pic .playBtn {
+  left: inherit;
+  top: inherit;
+  right: 20rpx;
+  bottom: 30rpx;
+  width: 50rpx;
+  height: 50rpx;
+}
+.djRecommendList .item .pic .playBtn .icon {
+  margin: 16rpx 0rpx 0rpx 18rpx;
+  border-top: 10rpx solid transparent;
+  border-bottom: 10rpx solid transparent;
+  border-left: 20rpx solid #e91e63;
+}
+.djRecommendList .item .pic image {
+  width: 180rpx;
+  height: 180rpx;
+  border-radius: 10rpx;
+  box-shadow: 0 0 10px hsla(0, 0%, 51%, .3);
+}
+.djRecommendList .item .content {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+}
+.djRecommendList .item .content .name {
+  font-size: 38rpx;
+  font-weight: bold;
+}
+.djRecommendList .item .content .rcmdtext {
+  margin-top: 10rpx;
+  font-size: 28rpx;
+}
+.djRecommendList .item .content .info {
+  margin-top: 30rpx;
+  font-size: 20rpx;
+  color: #999;
+}
+.djRecommendList .item .content .category {
+  margin-left: 40rpx;
+}

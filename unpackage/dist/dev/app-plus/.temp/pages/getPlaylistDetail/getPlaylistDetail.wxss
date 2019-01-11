@@ -1,3 +1,4 @@
+@import "../../common/vendor.wxss";
 
 .coverImgUrls {
   height: 212rpx;

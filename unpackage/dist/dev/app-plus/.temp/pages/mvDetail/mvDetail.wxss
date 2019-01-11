@@ -1,3 +1,4 @@
+@import "../../common/vendor.wxss";
 
 page {
   background: rgb(251, 251, 251);

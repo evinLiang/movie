@@ -51,7 +51,7 @@
 						id: _this.id
 					},
 					success: (res) => {
-						//console.log(res.data);
+						console.log(res.data);
 						if (res.data.code == 200) {
 							_this.playlist = res.data.playlist;
 							uni.hideLoading();

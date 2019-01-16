@@ -9,4 +9,8 @@ Vue.prototype.MusicApi = MusicApi;	//定义api全局变量
 const app = new Vue({
     ...App
 })
-app.$mount()
+app.$mount();
+
+Vue.prototype.globalData = {
+	bgAudioMannager: uni.getBackgroundAudioManager()  //全局播放器管理
+}

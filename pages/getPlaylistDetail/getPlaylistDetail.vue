@@ -10,7 +10,7 @@
 			</view>
 		</view>
 		<view class="privileges">
-			<view class="item" v-for="(item,index) in playlist.tracks" :key="item.index">
+			<view class="item" v-for="(item,index) in playlist.tracks" :key="item.index" @tap="toPlay(item.id)">
 				<view class="index">{{index+1}}</view>
 				<view class="info">
 					<view class="name">{{item.name}}</view>
@@ -51,7 +51,7 @@
 						id: _this.id
 					},
 					success: (res) => {
-						console.log(res.data);
+						//console.log(res.data);
 						if (res.data.code == 200) {
 							_this.playlist = res.data.playlist;
 							uni.hideLoading();
@@ -74,6 +74,13 @@
 						});
 					}
 				})
+			},
+			toPlay(id){
+				//跳到音乐播放页面
+				var id = id;
+				uni.navigateTo({
+					url: '../play/play?id='+id
+				});
 			}
 		}
 	}

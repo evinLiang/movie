@@ -6,10 +6,12 @@ module.exports = {
 		personalized: "personalized",			//说明 : 调用此接口 , 可获取推荐歌单
 		topMv: "top/mv",						//说明 : 调用此接口 , 可获取 mv 排行 , 可选参数 : limit: 取出数量 , 默认为 30 
 		toplistArtist: "toplist/artist",		//说明 : 调用此接口 , 可获取排行榜中的歌手榜 
-		djRecommend: "dj/recommend",			//说明 : 登陆后调用此接口 , 可获得推荐电台 
+		djRecommend: "dj/recommend",			//说明 : 调用此接口 , 可获得推荐电台 
 		mvDetail: "mv/detail",					//说明 : 调用此接口 , 传入 mvid ( 在搜索音乐的时候传 type=1004 获得 ) , 可获取对应 MV 数据 , 数据包含 mv 名字 , 歌手 , 发布时间 , mv 视频地址等数据 , 其中 mv 视频 网易做了防盗链处理 , 可能不能直接播放 , 需要播放的话需要调用 ' mv 地址' 接口
 		mvUrl: "mv/url",                        //说明 : 调用此接口 , 传入 mv id,可获取 mv 播放地址
 		simiMv: "simi/mv",						//说明 : 调用此接口 , 传入 mvid 可获取相似 mv
-		playlistDetail: "playlist/detail"		//说明 : 歌单能看到歌单名字 , 但看不到具体歌单内容 , 调用此接口 , 传入歌单 id, 可 以获取对应歌单内的所有的音乐
+		playlistDetail: "playlist/detail",		//说明 : 调用此接口 , 传入歌单 id, 可 以获取对应歌单内的所有的音乐
+		songDetail: "song/detail",				//说明 : 调用此接口 , 传入音乐 id(支持多个 id, 用 , 隔开), 可获得歌曲详情(注意:歌曲封面现在需要通过专辑内容接口获取) 必选参数 : ids: 音乐 id, 如 ids=347230
+		songUrl: "song/url",					//说明 : 调用此接口 , 传入的音乐 id( 可多个 , 用逗号隔开 ), 可以获取对应的音乐的 url( 不需要登录 ) 必选参数 : ids : 音乐 id
 	}
 }

@@ -12,5 +12,8 @@ const app = new Vue({
 app.$mount();
 
 Vue.prototype.globalData = {
+	// #ifndef H5
 	bgAudioMannager: uni.getBackgroundAudioManager()  //全局播放器管理
+	// #endif
+	
 }

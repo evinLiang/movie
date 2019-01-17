@@ -34,8 +34,12 @@
         {
             "path" : "pages/djList/djList",
             "style" : {
-				"navigationBarTitleText" : "电台列表"
-			}
+                "navigationBarTitleText" : "电台列表"
+            }
+        },
+        {
+            "path" : "pages/play/play",
+            "style" : {}
         }
     ],
     "globalStyle" : {

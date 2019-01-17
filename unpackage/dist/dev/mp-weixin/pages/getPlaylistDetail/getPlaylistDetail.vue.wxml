@@ -10,7 +10,7 @@
       </view>
     </view>
     <view class="_view data-v-3aad9327 privileges">
-      <view class="_view data-v-3aad9327 item" wx:key="item.index" key="{{item.index}}" wx:for="{{playlist.tracks}}" wx:for-index="index" wx:for-item="item">
+      <view class="_view data-v-3aad9327 item" wx:key="item.index" key="{{item.index}}" bindtap="handleProxy" data-eventid="{{'M5h-0-'+index}}" data-comkey="{{$k}}" wx:for="{{playlist.tracks}}" wx:for-index="index" wx:for-item="item">
         <view class="_view data-v-3aad9327 index">{{index+1}}</view>
         <view class="_view data-v-3aad9327 info">
           <view class="_view data-v-3aad9327 name">{{item.name}}</view>

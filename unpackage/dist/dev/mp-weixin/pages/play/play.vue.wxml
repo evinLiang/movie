@@ -1,0 +1,26 @@
+<template name="26c52eb8">
+  <view class="_view data-v-3c291a73 page-panel">
+    <view class="_view data-v-3c291a73 picUrl">
+      <image class="_image data-v-3c291a73 cover" src="{{musicDetail.picUrl}}"></image>
+      <image class="_image data-v-3c291a73 bg" src="../../static/images/record.png" mode="widthFix"></image>
+    </view>
+    <view class="_view data-v-3c291a73 musicInfo">
+      <view class="_view data-v-3c291a73 musicName">{{musicDetail.name}}</view>
+      <view class="_view data-v-3c291a73 musicAuthor">{{musicDetail.author}}</view>
+    </view>
+    <view class="_view data-v-3c291a73 musicBtns">
+      <view class="_view data-v-3c291a73 item">
+        <image src="../../static/images/prev.png" class="_image data-v-3c291a73"></image>
+      </view>
+      <view class="_view data-v-3c291a73 item" bindtap="handleProxy" data-eventid="{{'0zd-0'}}" data-comkey="{{$k}}">
+        <image src="../../static/images/stop.png" class="_image data-v-3c291a73"></image>
+      </view>
+      <view class="_view data-v-3c291a73 item" bindtap="handleProxy" data-eventid="{{'SKL-1'}}" data-comkey="{{$k}}">
+        <image src="../../static/images/play.png" class="_image data-v-3c291a73"></image>
+      </view>
+      <view class="_view data-v-3c291a73 item">
+        <image src="../../static/images/next.png" class="_image data-v-3c291a73"></image>
+      </view>
+    </view>
+  </view>
+</template>

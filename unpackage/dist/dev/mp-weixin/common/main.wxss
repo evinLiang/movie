@@ -1,18 +1,18 @@
-<script>
-export default {
-	onLaunch: function() {
-		console.log('App Launch');
-	},
-	onShow: function() {
-		console.log('App Show');
-	},
-	onHide: function() {
-		console.log('App Hide');
-	}
-};
-</script>
 
-<style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* flexbox:flexbox系统
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .ease-row {
@@ -34,69 +34,63 @@ export default {
 	-webkit-align-items: flex-start;
 	align-items: flex-start;
 }
-
 .ease-row .ease-col-2-1 {
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 	width: 50%;
-	width: calc((100% - 24upx) / 2);
+	width: calc((100% - 24rpx) / 2);
 }
 .ease-row .ease-col-3-1 {
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 	width: 33.3333%;
-	width: calc((100% - 48upx) / 3);
+	width: calc((100% - 48rpx) / 3);
 }
 .ease-row .ease-col-3-2 {
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 	width: 33.3333%;
-	width: calc(100% - ((100% - 48upx) / 3) - 24upx);
+	width: calc(100% - ((100% - 48rpx) / 3) - 24rpx);
 }
-
 .page-panel {
-	padding: 32upx;
+	padding: 32rpx;
 }
-
 .page-title {
-	font-size: 36upx;
-	padding: 25upx 0upx;
+	font-size: 36rpx;
+	padding: 25rpx 0rpx;
 	font-weight: bold;
 	color: rbga(72, 88, 162, 0.3);
 }
-
 .themeColor {
 	color: #e91e63;
-	font-size: 46upx;
+	font-size: 46rpx;
 }
-
 image {
 	vertical-align: middle;
 }
-
 .mt30 {
-	margin-top: 30upx;
+	margin-top: 30rpx;
 }
-
 .playBtn {
 	position: absolute;
 	z-index: 99;
-	left: 30upx;
-	top: 30upx;
-	width: 80upx;
-	height: 80upx;
+	left: 30rpx;
+	top: 30rpx;
+	width: 80rpx;
+	height: 80rpx;
 	background: rgba(255, 255, 255, 0.8);
 	border-radius: 50%;
 }
-
 .playBtn .icon {
-	margin: 26upx 0upx 0upx 30upx;
+	margin: 26rpx 0rpx 0rpx 30rpx;
 	width: 0;
 	height: 0;
-	border-top: 14upx solid transparent;
-	border-bottom: 14upx solid transparent;
-	border-left: 28upx solid #e91e63;
-	border-radius: 5upx;
+	border-top: 14rpx solid transparent;
+	border-bottom: 14rpx solid transparent;
+	border-left: 28rpx solid #e91e63;
+	border-radius: 5rpx;
 }
-
 .font-w-b {
 	font-weight: bold;
 }
-</style>
+

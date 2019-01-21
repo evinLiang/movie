@@ -1,6 +1,0 @@
-<template name="6678a978">
-  <view class="_view data-v-3e556b7c bottomMusci">
-    <view class="_view data-v-3e556b7c bottomMusicPanel">bottomMusicPanel</view>
-    <view class="_view data-v-3e556b7c bottomMusicSeat"></view>
-  </view>
-</template>

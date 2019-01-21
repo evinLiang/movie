@@ -1,5 +1,6 @@
 <template>
 	<view class="page-panel">
+		<nowPlay></nowPlay>
 		<view class="playlistDetail ease-row">
 			<view class="ease-col-3-1 coverImgUrls">
 				<image :src="playlist.coverImgUrl" mode="widthFix"></image>
@@ -25,6 +26,7 @@
 </template>
 
 <script>
+	import nowPlay from '@/components/nowPlay.vue';
 	export default {
 		data() {
 			return {
@@ -32,6 +34,9 @@
 				playlist: '',
 				playlistDetailSwith: false
 			}
+		},
+		components: {
+			nowPlay
 		},
 		onLoad: function(e) {
 			//console.log(e);

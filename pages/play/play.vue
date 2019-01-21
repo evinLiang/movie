@@ -1,23 +1,30 @@
 <template>
 	<view class="page-panel">
 		<view class="picUrl">
-			<image class="cover" :src="musicDetail.picUrl"></image>
+			<image class="cover" :src="musicInfo.picUrl"></image>
 			<image class="bg" src="../../static/images/record.png" mode="widthFix"></image>
 		</view>
 		<view class="musicInfo">
-			<view class="musicName">{{musicDetail.name}}</view>
-			<view class="musicAuthor">{{musicDetail.author}}</view>
+			<view class="musicName">{{musicInfo.name}}</view>
+			<view class="musicAuthor">{{musicInfo.author}}</view>
 		</view>
 		<view class="musicBtns">
-			<view class="item"><image src="../../static/images/prev.png"></image></view>
-			<view class="item" @tap="bgAudioMannager.pause()"><image src="../../static/images/stop.png"></image></view>
-			<view class="item" @tap="bgAudioMannager.play()"><image src="../../static/images/play.png"></image></view>
-			<view class="item"><image src="../../static/images/next.png"></image></view>
+			<!-- <view class="item"><image src="../../static/images/prev.png"></image></view> -->
+			<template v-if="isMusicStop">
+				<view class="item" @tap="bgAudioMannager.play()"><image src="../../static/images/play.png"></image></view>
+				<view class="item" @tap="bgAudioMannager.pause()"><image src="../../static/images/pause.png"></image></view>
+			</template>
+			<template v-if="!isMusicStop">
+				<view class="item" @tap="againPlay()"><image src="../../static/images/play.png"></image></view>
+			</template>
+			<view class="item" @tap="musicStop()"><image src="../../static/images/stop.png"></image></view>
+			<!-- <view class="item"><image src="../../static/images/next.png"></image></view> -->
 		</view>
 	</view>
 </template>
 
 <script>
+import { mapState, mapMutations } from 'vuex';	
 export default {
 	data() {
 		return {
@@ -28,18 +35,46 @@ export default {
 				picUrl: '',
 				author: ''
 			},
+			isMusicStop: true,
 			musicSwith: 0,
 			musicSwithNum: 2,
 			bgAudioMannager: ''
 		};
 	},
+	computed:{
+	   ...mapState(['isMusicStart','musicInfo'])
+	},
 	onLoad(e) {
 		this.musicDetail.id = e.id;
 		this.bgAudioMannager = this.globalData.bgAudioMannager;
-		this.getMusicUrl();
-		this.getMusicInfo();
+		this.bgAudioMannagerFunc();
+		
+		//判断是否不是从音乐组件跳转进来
+		if(this.musicDetail.id !== 'playing'){
+			this.getMusicUrl();
+			this.getMusicInfo();
+		}
+		
 	},
 	methods: {
+		...mapMutations(['musicStart','setMusicInfo']),
+		bgAudioMannagerFunc(){
+			this.bgAudioMannager.onPlay(() => {
+			    console.log('录音播放中');
+			})
+			this.bgAudioMannager.onStop(() => {
+			    console.log('录音停止');
+				//this.isMusicStop = false;
+			})
+			this.bgAudioMannager.onTimeUpdate(() => {
+			    //console.log(this.bgAudioMannager.currentTime);
+			})
+		},
+		againPlay(){
+			//重新播放
+			this.isMusicStop = true;
+			this.playMusic();
+		},
 		getMusicUrl() {
 			//或者音乐url
 			var _this = this;
@@ -123,13 +158,19 @@ export default {
 				}
 			});
 		},
+		musicStop(){
+			this.musicStart('false');
+			//this.bgAudioMannager.stop();
+		},
 		playMusic() {
 			// #ifndef H5
+			this.musicStart('true');	//显示播放组件
+			this.setMusicInfo(this.musicDetail);
 			this.bgAudioMannager.stop();
-			this.bgAudioMannager.title = this.musicDetail.name;
-			this.bgAudioMannager.singer = this.musicDetail.author;
-			this.bgAudioMannager.coverImgUrl = this.musicDetail.picUrl;
-			this.bgAudioMannager.src = this.musicDetail.url;
+			this.bgAudioMannager.title = this.musicInfo.name;
+			this.bgAudioMannager.singer = this.musicInfo.author;
+			this.bgAudioMannager.coverImgUrl = this.musicInfo.picUrl;
+			this.bgAudioMannager.src = this.musicInfo.url;
 			this.bgAudioMannager.play();
 			// #endif
 		}

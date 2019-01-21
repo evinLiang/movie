@@ -1,50 +1,53 @@
-@import "../../common/vendor.wxss";
 
 .picUrl {
-  position: relative;
-  z-index: 1;
-  width: 510rpx;
-  height: 346.8rpx;
-  margin: 60rpx auto;
+	position: relative;
+	z-index: 1;
+	width: 510rpx;
+	height: 346.8rpx;
+	margin: 60rpx auto;
 }
 .picUrl .bg {
-  width: 510rpx;
-  height: 346.8rpx;
+	width: 510rpx;
+	height: 346.8rpx;
 }
 .picUrl .cover {
-  position: absolute;
-  z-index: 2;
-  top: 0;
-  left: 0;
-  width: 346.8rpx;
-  height: 348rpx;
-  border-radius: 2px;
-  box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.1);
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	width: 346.8rpx;
+	height: 348rpx;
+	border-radius: 2px;
+	-webkit-box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.1);
+	        box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.1);
 }
 .musicInfo {
-  text-align: center;
+	text-align: center;
 }
 .musicInfo .musicName {
-  font-size: 48rpx;
-  margin-bottom: 20rpx;
+	font-size: 48rpx;
+	margin-bottom: 20rpx;
 }
 .musicInfo .musicAuthor {
-  font-size: 26rpx;
-  color: #999;
+	font-size: 26rpx;
+	color: #999;
 }
-.musicBtns {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: flex;
+.musicBtns { 
+	display: -webkit-box; 
+	display: -webkit-flex; 
+	display: -ms-flexbox; 
+	display: flex;
 }
 .musicBtns .item {
-  margin-top: 100rpx;
-  text-align: center;
-  -webkit-box-flex: 1;
-  -webkit-flex: 1;
-  flex: 1;
+	margin-top: 100rpx;
+	text-align: center;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
 }
 .musicBtns .item image {
-  width: 100rpx;
-  height: 100rpx;
+	width: 100rpx;
+	height: 100rpx;
 }
+

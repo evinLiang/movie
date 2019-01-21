@@ -1,13 +1,18 @@
 import Vue from 'vue'
-import vuex from 'vuex'
-Vue.use(vuex);
-
-import plan_store from './plan.js';  //引入计划对象
-import card_store from './card.js';  //引入计划对象
-
-export default new vuex.Store({
-    modules: {
-        plan: plan_store,
-        card: card_store,
+import Vuex from 'vuex'
+Vue.use(Vuex)
+const store = new Vuex.Store({
+    state: {
+        isMusicStart: false,
+		musicInfo: ''
+    },
+    mutations: {
+        setMusicInfo(state, provider) {
+            state.musicInfo = provider;
+        },
+        musicStart(state, provider) {
+            state.isMusicStart = provider;
+        }
     }
 })
+export default store

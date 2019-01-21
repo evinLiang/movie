@@ -1,5 +1,6 @@
 <template>
 	<view class="page-panel">
+		<nowPlay></nowPlay>
 		<view class="personalizedList ease-row">
 			<view class="item ease-col-2-1" v-for="(item,index) in personalizedList" :key="item.id" @tap="openPersonalizedDetail(item.id)">
 				<image :src="item.picUrl" mode="widthFix"></image>
@@ -10,11 +11,15 @@
 </template>
 
 <script>
+	import nowPlay from '@/components/nowPlay.vue';
 	export default {
 		data() {
 			return {
 				personalizedList:''
 			};
+		},
+		components: {
+			nowPlay
 		},
 		onLoad() {
 			this.getPersonalizedList()

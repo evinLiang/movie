@@ -1,5 +1,6 @@
 <template>
 	<view class="page-panel">
+		<nowPlay></nowPlay>
 		<view class="banner">
 			<swiper :indicator-dots="swiper.indicatorDots" :autoplay="swiper.autoplay" :interval="swiper.interval" :duration="swiper.duration"
 			 :circular="swiper.circular" :indicator-active-color="swiper.indicatorActiveColor" :previous-margin="swiper.previousMargin"
@@ -41,13 +42,12 @@
 		</scroll-view>
 		<view class="page-title" @tap="openDjList()"><text class="themeColor">推</text>荐电台</view>
 		<djRecommendList :djRecommendList="djRecommendList" :djListNumber="djListNumber"></djRecommendList>
-		<bottomMusic></bottomMusic>
 	</view>
 </template>
 
 <script>
 	import djRecommendList from '@/components/djRecommendList.vue';
-	import bottomMusic from '@/components/bottomMusic.vue';
+	import nowPlay from '@/components/nowPlay.vue';
 	export default {
 		data() {
 			return {
@@ -70,7 +70,7 @@
 		},
 		components: {
 		    djRecommendList,
-			bottomMusic
+			nowPlay
 		},
 		onLoad() {
 			this.getBannerList(); //获取banner

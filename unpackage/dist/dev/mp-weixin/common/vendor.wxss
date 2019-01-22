@@ -29,8 +29,8 @@
 	width: 180rpx;
 	height: 180rpx;
 	border-radius: 10rpx;
-	-webkit-box-shadow: 0 0 10px hsla(0, 0%, 51%, .3);
-	        box-shadow: 0 0 10px hsla(0, 0%, 51%, .3);
+	-webkit-box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.3);
+	        box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.3);
 }
 .djRecommendList .item .content {
 	-webkit-box-flex: 1;
@@ -62,12 +62,10 @@
 .nowPlay-panel {
 	position: fixed;
 	z-index: 999;
-
+	
 	top: 0rpx;
-
-
-
-
+	
+	
 	left: 0rpx;
 	width: 100%;
 	display: -webkit-box;
@@ -76,12 +74,12 @@
 	display: flex;
 	line-height: 62rpx;
 	overflow: hidden;
-	padding:20rpx 32rpx;
+	padding: 20rpx 32rpx;
 	-webkit-box-sizing: border-box;
 	        box-sizing: border-box;
 	background: #fff;
-	-webkit-box-shadow: 0 0 10px hsla(0, 0%, 51%, .1);
-	        box-shadow: 0 0 10px hsla(0, 0%, 51%, .1);
+	-webkit-box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.1);
+	        box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.1);
 }
 .nowPlayIcom {
 	width: 60rpx;
@@ -90,8 +88,8 @@
 }
 .nowPlayIcomP {
 	border-radius: 50%;
-	-webkit-box-shadow: 0 0 10px hsla(0, 0%, 51%, .1);
-	        box-shadow: 0 0 10px hsla(0, 0%, 51%, .1);
+	-webkit-box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.1);
+	        box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.1);
 	width: 56rpx;
 	height: 56rpx;
 	margin-left: 10rpx;
@@ -106,8 +104,8 @@
 	font-size: 34rpx;
 	color: #666;
 	overflow: hidden;
-	-o-text-overflow:ellipsis;
-	   text-overflow:ellipsis;
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis;
 	white-space: nowrap;
 	-webkit-box-flex: 1;
 	-webkit-flex: 1;

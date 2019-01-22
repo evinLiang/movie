@@ -102,6 +102,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
+
+
 var _djRecommendList = _interopRequireDefault(__webpack_require__(/*! @/components/djRecommendList.vue */ "../../../../work/1-ME/muiapp/movie/components/djRecommendList.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}var _default =
 {
   data: function data() {
@@ -128,7 +131,7 @@ var _djRecommendList = _interopRequireDefault(__webpack_require__(/*! @/componen
           if (res.data.code == 200) {
             _this.djRecommendList = res.data.djRadios;
           } else {
-            console.error("数据获取失败");
+            console.error('数据获取失败');
             uni.showToast({
               title: 'banner数据获取失败',
               duration: 5000,

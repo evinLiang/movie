@@ -32,10 +32,10 @@
 	font-size: 26rpx;
 	color: #999;
 }
-.musicBtns { 
-	display: -webkit-box; 
-	display: -webkit-flex; 
-	display: -ms-flexbox; 
+.musicBtns {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
 	display: flex;
 }
 .musicBtns .item {

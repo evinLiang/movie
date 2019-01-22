@@ -13,5 +13,10 @@ module.exports = {
 		playlistDetail: "playlist/detail",		//说明 : 调用此接口 , 传入歌单 id, 可 以获取对应歌单内的所有的音乐
 		songDetail: "song/detail",				//说明 : 调用此接口 , 传入音乐 id(支持多个 id, 用 , 隔开), 可获得歌曲详情(注意:歌曲封面现在需要通过专辑内容接口获取) 必选参数 : ids: 音乐 id, 如 ids=347230
 		songUrl: "song/url",					//说明 : 调用此接口 , 传入的音乐 id( 可多个 , 用逗号隔开 ), 可以获取对应的音乐的 url( 不需要登录 ) 必选参数 : ids : 音乐 id
+		topList: "top/list",					//说明 : 调用此接口 , 传入数字 idx, 可获取不同排行榜
+		programRecommend: "program/recommend",	//说明 : 调用此接口 , 可获取推荐电台
+		artistDesc: "artist/desc",				//说明 : 调用此接口 , 传入歌手 id, 可获得歌手描述,必选参数 : id: 歌手 id
+		artistSong: "artists",					//说明 : 调用此接口 , 传入歌手 id, 可获得歌手部分信息和热门歌曲 必选参数 : id: 歌手 id, 可由搜索接口获得
+		artistMv: "artist/mv",					//说明 : 调用此接口 , 传入歌手 id, 可获得歌手 mv 信息
 	}
 }

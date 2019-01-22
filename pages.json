@@ -40,6 +40,26 @@
         {
             "path" : "pages/play/play",
             "style" : {}
+        },
+        {
+            "path" : "pages/ranking/ranking",
+            "style" : {
+                "navigationBarTitleText" : "排行榜"
+            }
+        },
+        {
+            "path" : "pages/mv/mv",
+            "style" : {
+                "navigationBarTitleText" : "MV"
+            }
+        },
+        {
+            "path" : "pages/rankingList/rankingList",
+            "style" : {}
+        },
+        {
+            "path" : "pages/singerInfo/singerInfo",
+            "style" : {}
         }
     ],
     "globalStyle" : {
@@ -47,5 +67,32 @@
         "navigationBarTitleText" : "音乐",
         "navigationBarBackgroundColor" : "#e91e63",
         "backgroundColor" : "#e91e63"
+    },
+    "tabBar" : {
+        //底部选项卡
+        "color" : "#333333",
+        "selectedColor" : "#e91e63",
+        "borderStyle" : "black",
+        "list" : [
+            //tab选项
+            {
+                "text" : "首页",
+                "pagePath" : "pages/index/index",
+                "iconPath" : "static/images/index-d.png",
+                "selectedIconPath" : "static/images/index-a.png"
+            },
+            {
+                "text" : "牌行榜",
+                "pagePath" : "pages/ranking/ranking",
+                "iconPath" : "static/images/ranking-d.png",
+                "selectedIconPath" : "static/images/ranking-a.png"
+            },
+            {
+                "text" : "MV",
+                "pagePath" : "pages/mv/mv",
+                "iconPath" : "static/images/mv-d.png",
+                "selectedIconPath" : "static/images/mv-a.png"
+            }
+        ]
     }
 }

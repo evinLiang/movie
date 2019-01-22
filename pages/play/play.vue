@@ -5,26 +5,34 @@
 			<image class="bg" src="../../static/images/record.png" mode="widthFix"></image>
 		</view>
 		<view class="musicInfo">
-			<view class="musicName">{{musicInfo.name}}</view>
-			<view class="musicAuthor">{{musicInfo.author}}</view>
+			<view class="musicName">{{ musicInfo.name }}</view>
+			<view class="musicAuthor">{{ musicInfo.author }}</view>
 		</view>
 		<view class="musicBtns">
 			<!-- <view class="item"><image src="../../static/images/prev.png"></image></view> -->
 			<template v-if="isMusicStop">
-				<view class="item" @tap="bgAudioMannager.play()"><image src="../../static/images/play.png"></image></view>
-				<view class="item" @tap="bgAudioMannager.pause()"><image src="../../static/images/pause.png"></image></view>
+				<view class="item" @tap="bgAudioMannager.play()"
+					><image src="../../static/images/play.png"></image
+				></view>
+				<view class="item" @tap="bgAudioMannager.pause()"
+					><image src="../../static/images/pause.png"></image
+				></view>
 			</template>
 			<template v-if="!isMusicStop">
-				<view class="item" @tap="againPlay()"><image src="../../static/images/play.png"></image></view>
+				<view class="item" @tap="againPlay()"
+					><image src="../../static/images/play.png"></image
+				></view>
 			</template>
-			<view class="item" @tap="musicStop()"><image src="../../static/images/stop.png"></image></view>
+			<view class="item" @tap="musicStop()"
+				><image src="../../static/images/stop.png"></image
+			></view>
 			<!-- <view class="item"><image src="../../static/images/next.png"></image></view> -->
 		</view>
 	</view>
 </template>
 
 <script>
-import { mapState, mapMutations } from 'vuex';	
+import { mapState, mapMutations } from 'vuex';
 export default {
 	data() {
 		return {
@@ -41,36 +49,35 @@ export default {
 			bgAudioMannager: ''
 		};
 	},
-	computed:{
-	   ...mapState(['isMusicStart','musicInfo'])
+	computed: {
+		...mapState(['isMusicStart', 'musicInfo'])
 	},
 	onLoad(e) {
 		this.musicDetail.id = e.id;
 		this.bgAudioMannager = this.globalData.bgAudioMannager;
 		this.bgAudioMannagerFunc();
-		
+
 		//判断是否不是从音乐组件跳转进来
-		if(this.musicDetail.id !== 'playing'){
+		if (this.musicDetail.id !== 'playing') {
 			this.getMusicUrl();
 			this.getMusicInfo();
 		}
-		
 	},
 	methods: {
-		...mapMutations(['musicStart','setMusicInfo']),
-		bgAudioMannagerFunc(){
+		...mapMutations(['musicStart', 'setMusicInfo']),
+		bgAudioMannagerFunc() {
 			this.bgAudioMannager.onPlay(() => {
-			    console.log('录音播放中');
-			})
+				console.log('录音播放中');
+			});
 			this.bgAudioMannager.onStop(() => {
-			    console.log('录音停止');
+				console.log('录音停止');
 				//this.isMusicStop = false;
-			})
+			});
 			this.bgAudioMannager.onTimeUpdate(() => {
-			    //console.log(this.bgAudioMannager.currentTime);
-			})
+				//console.log(this.bgAudioMannager.currentTime);
+			});
 		},
-		againPlay(){
+		againPlay() {
 			//重新播放
 			this.isMusicStop = true;
 			this.playMusic();
@@ -113,7 +120,7 @@ export default {
 			});
 		},
 		getMusicInfo() {
-			//或者音乐url
+			//或者音乐信息
 			var _this = this;
 			uni.showLoading({
 				title: '加载中'
@@ -158,13 +165,13 @@ export default {
 				}
 			});
 		},
-		musicStop(){
+		musicStop() {
 			this.musicStart('false');
 			//this.bgAudioMannager.stop();
 		},
 		playMusic() {
 			// #ifndef H5
-			this.musicStart('true');	//显示播放组件
+			this.musicStart('true'); //显示播放组件
 			this.setMusicInfo(this.musicDetail);
 			this.bgAudioMannager.stop();
 			this.bgAudioMannager.title = this.musicInfo.name;
@@ -177,7 +184,7 @@ export default {
 	},
 	watch: {
 		musicSwith(val, oldVal) {
-			if(val == this.musicSwithNum){
+			if (val == this.musicSwithNum) {
 				this.playMusic();
 			}
 		}
@@ -218,7 +225,7 @@ export default {
 	font-size: 26upx;
 	color: #999;
 }
-.musicBtns { 
+.musicBtns {
 	display: flex;
 }
 .musicBtns .item {

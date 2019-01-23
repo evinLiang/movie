@@ -207,7 +207,7 @@ export default {
 			//重新播放音乐
 			this.isStop = false;
 			this.isPlay = true;
-			this.musicDetail = this.musicInfo;
+			//this.musicDetail = this.musicInfo;
 			this.playMusic();
 		}
 	},

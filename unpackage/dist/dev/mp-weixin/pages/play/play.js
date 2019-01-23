@@ -322,7 +322,7 @@ var _vuex = __webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm.j
       //重新播放音乐
       this.isStop = false;
       this.isPlay = true;
-      this.musicDetail = this.musicInfo;
+      //this.musicDetail = this.musicInfo;
       this.playMusic();
     } }),
 

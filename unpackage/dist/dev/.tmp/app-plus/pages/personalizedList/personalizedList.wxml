@@ -1,0 +1,2 @@
+<import src="./personalizedList.vue.wxml" />
+    <template is="e837adb8" data="{{ ...$root['0'], $root }}"/>

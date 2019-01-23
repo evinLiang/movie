@@ -5,6 +5,7 @@
 	},
 	"setting": {
 		"urlCheck": false,
+		"minified": true,
 		"newFeature": true
 	},
 	"compileType": "miniprogram",

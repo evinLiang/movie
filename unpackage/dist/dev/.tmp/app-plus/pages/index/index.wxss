@@ -1,0 +1,168 @@
+
+.djRecommendList .item {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	margin-bottom: 40rpx;
+}
+.djRecommendList .item .pic {
+	position: relative;
+	z-index: 1;
+	margin-right: 40rpx;
+}
+.djRecommendList .item .pic .playBtn {
+	left: inherit;
+	top: inherit;
+	right: 20rpx;
+	bottom: 30rpx;
+	width: 50rpx;
+	height: 50rpx;
+}
+.djRecommendList .item .pic .playBtn .icon {
+	margin: 16rpx 0rpx 0rpx 18rpx;
+	border-top: 10rpx solid transparent;
+	border-bottom: 10rpx solid transparent;
+	border-left: 20rpx solid #e91e63;
+}
+.djRecommendList .item .pic image {
+	width: 180rpx;
+	height: 180rpx;
+	border-radius: 10rpx;
+	-webkit-box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.3);
+	        box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.3);
+}
+.djRecommendList .item .content {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+}
+.djRecommendList .item .content .name {
+	font-size: 32rpx;
+	font-weight: bold;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+}
+.djRecommendList .item .content .rcmdtext {
+	margin-top: 10rpx;
+	font-size: 28rpx;
+}
+.djRecommendList .item .content .info {
+	margin-top: 10rpx;
+	font-size: 20rpx;
+	color: #999;
+}
+.djRecommendList .item .content .category {
+	margin-left: 40rpx;
+}
+
+
+.banner swiper {
+	height: 236rpx;
+	border-radius: 10rpx;
+	overflow: hidden;
+}
+.banner swiper swiper-item {
+	padding: 0rpx 5rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.banner image {
+	width: 100%;
+	height: 236rpx;
+	border-radius: 10rpx;
+	-webkit-box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.1);
+	        box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.1);
+}
+.personalizedList,
+.topMvList,
+.toplistArtistList {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.personalizedList .item {
+	position: relative;
+	z-index: 1;
+	width: 240rpx;
+	height: 240rpx;
+	margin-right: 12rpx;
+}
+.personalizedList .item .name {
+	position: absolute;
+	z-index: 2;
+	color: #fff;
+	left: 0rpx;
+	bottom: 0rpx;
+	font-size: 20rpx;
+	padding: 10rpx;
+	background: rgba(0, 0, 0, 0.3);
+	width: 100%;
+	min-height: 76rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	border-radius: 0rpx 0rpx 10rpx 10rpx;
+}
+.personalizedList .item image,
+.topMvList .item image {
+	max-width: 100%;
+	height: 240rpx;
+	border-radius: 10rpx;
+	-webkit-box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.1);
+	        box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.1);
+}
+.topMvList .item {
+	position: relative;
+	z-index: 1;
+	width: 426rpx;
+	height: 240rpx;
+	margin-right: 12rpx;
+}
+.topMvList .item .name {
+	position: absolute;
+	z-index: 2;
+	color: #fff;
+	left: 0rpx;
+	bottom: 0rpx;
+	font-size: 10px;
+	padding: 15rpx;
+	background: rgba(0, 0, 0, 0.3);
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	border-radius: 0rpx 0rpx 10rpx 10rpx;
+}
+.toplistArtistList .item {
+	position: relative;
+	z-index: 1;
+	width: 150rpx;
+	height: 150rpx;
+	line-height: 142rpx;
+	text-align: center;
+	margin-right: 20rpx;
+}
+.toplistArtistList .item image {
+	max-width: 100%;
+	height: 150rpx;
+	border-radius: 50%;
+	-webkit-box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.1);
+	        box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.1);
+	vertical-align: middle;
+}
+.toplistArtistList .item .name {
+	position: absolute;
+	z-index: 2;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.3);
+	color: #fff;
+	border-radius: 50%;
+	font-size: 10px;
+}
+

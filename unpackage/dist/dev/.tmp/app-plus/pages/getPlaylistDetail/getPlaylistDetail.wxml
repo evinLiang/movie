@@ -1,0 +1,2 @@
+<import src="./getPlaylistDetail.vue.wxml" />
+    <template is="70817a50" data="{{ ...$root['0'], $root }}"/>

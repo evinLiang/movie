@@ -1,6 +1,0 @@
-<import src="/components/djRecommendList.vue.wxml" />
-<template name="13f116b8">
-  <view class="_view data-v-128c5fb3 page-panel">
-    <template data="{{...$root['0'], ...$root[$kk+'PLH-0'],$root}}" is="7281f9c4"></template>
-  </view>
-</template>

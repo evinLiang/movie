@@ -1,0 +1,115 @@
+
+.djRecommendList .item {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	margin-bottom: 40rpx;
+}
+.djRecommendList .item .pic {
+	position: relative;
+	z-index: 1;
+	margin-right: 40rpx;
+}
+.djRecommendList .item .pic .playBtn {
+	left: inherit;
+	top: inherit;
+	right: 20rpx;
+	bottom: 30rpx;
+	width: 50rpx;
+	height: 50rpx;
+}
+.djRecommendList .item .pic .playBtn .icon {
+	margin: 16rpx 0rpx 0rpx 18rpx;
+	border-top: 10rpx solid transparent;
+	border-bottom: 10rpx solid transparent;
+	border-left: 20rpx solid #e91e63;
+}
+.djRecommendList .item .pic image {
+	width: 180rpx;
+	height: 180rpx;
+	border-radius: 10rpx;
+	-webkit-box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.3);
+	        box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.3);
+}
+.djRecommendList .item .content {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+}
+.djRecommendList .item .content .name {
+	font-size: 38rpx;
+	font-weight: bold;
+}
+.djRecommendList .item .content .rcmdtext {
+	margin-top: 10rpx;
+	font-size: 28rpx;
+}
+.djRecommendList .item .content .info {
+	margin-top: 30rpx;
+	font-size: 20rpx;
+	color: #999;
+}
+.djRecommendList .item .content .category {
+	margin-left: 40rpx;
+}
+
+
+.nowPlay-seat {
+	height: 100rpx;
+}
+.nowPlay-panel {
+	position: fixed;
+	z-index: 999;
+	
+	top: 0rpx;
+	
+	
+	left: 0rpx;
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	line-height: 62rpx;
+	overflow: hidden;
+	padding: 20rpx 32rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	background: #fff;
+	-webkit-box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.1);
+	        box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.1);
+}
+.nowPlayIcom {
+	width: 60rpx;
+	height: 60rpx;
+	margin-right: 10rpx;
+}
+.nowPlayIcomP {
+	border-radius: 50%;
+	-webkit-box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.1);
+	        box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.1);
+	width: 56rpx;
+	height: 56rpx;
+	margin-left: 10rpx;
+	margin-top: 2rpx;
+}
+.nowPlayInfo {
+	font-size: 34rpx;
+	color: #e91e63;
+	margin-right: 12rpx;
+}
+.nowPlayName {
+	font-size: 34rpx;
+	color: #666;
+	overflow: hidden;
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis;
+	white-space: nowrap;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+}
+

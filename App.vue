@@ -50,7 +50,14 @@ export default {
 	width: 33.3333%;
 	width: calc(100% - ((100% - 48upx) / 3) - 24upx);
 }
-
+.ease-row .ease-col-4-1 {
+	box-sizing: border-box;
+	width: calc((100% - 24upx) / 4);
+}
+.ease-row .ease-col-4-3 {
+	box-sizing: border-box;
+	width: calc((100% - 24upx) / 4 * 3);
+}
 .page-panel {
 	padding: 32upx;
 }

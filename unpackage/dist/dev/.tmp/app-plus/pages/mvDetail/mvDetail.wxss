@@ -1,0 +1,29 @@
+
+page {
+	background: rgb(251, 251, 251);
+}
+.video ._video {
+	width: 100%;
+}
+.videoInfo {
+	padding-bottom: 40rpx;
+}
+.videoInfo .name {
+	font-weight: bold;
+	font-size: 34rpx;
+}
+.videoInfo .tips {
+	margin-top: 20rpx;
+	font-size: 22rpx;
+	color: #999;
+}
+.videoInfo .tips .artistName {
+	margin-left: 40rpx;
+}
+.videoInfo .desc {
+	margin-top: 20rpx;
+	font-size: 26rpx;
+	color: #666;
+	line-height: 40rpx;
+}
+

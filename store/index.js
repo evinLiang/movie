@@ -4,7 +4,9 @@ Vue.use(Vuex)
 const store = new Vuex.Store({
 	state: {
 		isMusicStart: false,
-		musicInfo: ''
+		isMusicPlay: true,
+		musicInfo: '',
+		playTime:''
 	},
 	mutations: {
 		setMusicInfo(state, provider) {
@@ -12,6 +14,12 @@ const store = new Vuex.Store({
 		},
 		musicStart(state, provider) {
 			state.isMusicStart = provider;
+		},
+		setMusicPlay(state, provider) {
+			state.isMusicPlay = provider;
+		},
+		setPlayTime(state, provider) {
+			state.playTime = provider;
 		}
 	}
 })

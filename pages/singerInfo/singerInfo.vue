@@ -13,9 +13,9 @@
 				<view class="item" :class="tabNum == 2 ? 'active' : ''" @tap="tabNum = 2"
 					>单曲</view
 				>
-				<view class="item" :class="tabNum == 3 ? 'active' : ''" @tap="tabNum = 3"
+				<!-- 				<view class="item" :class="tabNum == 3 ? 'active' : ''" @tap="tabNum = 3"
 					>专辑</view
-				>
+				> -->
 				<view class="item" :class="tabNum == 4 ? 'active' : ''" @tap="tabNum = 4">MV</view>
 			</view>
 			<view class="tab-content">
@@ -25,7 +25,7 @@
 				<view class="item" v-if="tabNum == 2"
 					><songList :singerHotSongs="singerHotSongs"></songList
 				></view>
-				<view class="item" v-if="tabNum == 3">专辑...</view>
+				<!-- <view class="item" v-if="tabNum == 3">专辑...</view> -->
 				<view class="item" v-if="tabNum == 4"
 					><mvList :singerMvs="singerMvs"></mvList
 				></view>

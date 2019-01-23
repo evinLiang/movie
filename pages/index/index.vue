@@ -12,7 +12,11 @@
 				:previous-margin="swiper.previousMargin"
 				:next-margin="swiper.previousMargin"
 			>
-				<swiper-item v-for="item in bannersList" :key="item.index">
+				<swiper-item
+					v-for="(item, index) in bannersList"
+					:key="item.index"
+					@tap="toRankingList(index)"
+				>
 					<image :src="item.imageUrl" mode="widthFix"></image>
 				</swiper-item>
 			</swiper>
@@ -346,6 +350,12 @@ export default {
 			data = JSON.stringify(data);
 			uni.navigateTo({
 				url: '../singerInfo/singerInfo?data=' + data
+			});
+		},
+		toRankingList(e) {
+			//因为对banner做太多的处理，先跳到一个榜单
+			uni.navigateTo({
+				url: '../rankingList/rankingList?id=' + e
 			});
 		},
 		openMvList() {

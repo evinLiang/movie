@@ -534,22 +534,8 @@ var render = function() {
             "view",
             {
               staticClass: "item",
-              class: _vm.tabNum == 3 ? "active" : "",
-              attrs: { eventid: "27728038-2" },
-              on: {
-                tap: function($event) {
-                  _vm.tabNum = 3
-                }
-              }
-            },
-            [_vm._v("专辑")]
-          ),
-          _c(
-            "view",
-            {
-              staticClass: "item",
               class: _vm.tabNum == 4 ? "active" : "",
-              attrs: { eventid: "27728038-3" },
+              attrs: { eventid: "27728038-2" },
               on: {
                 tap: function($event) {
                   _vm.tabNum = 4
@@ -581,9 +567,6 @@ var render = function() {
                 ],
                 1
               )
-            : _vm._e(),
-          _vm.tabNum == 3
-            ? _c("view", { staticClass: "item" }, [_vm._v("专辑...")])
             : _vm._e(),
           _vm.tabNum == 4
             ? _c(

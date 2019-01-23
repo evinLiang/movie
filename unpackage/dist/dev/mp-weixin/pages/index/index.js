@@ -331,6 +331,10 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
+
+
+
 var _djRecommendList = _interopRequireDefault(__webpack_require__(/*! @/components/djRecommendList.vue */ "../../../../work/1-ME/muiapp/movie/components/djRecommendList.vue"));
 var _nowPlay = _interopRequireDefault(__webpack_require__(/*! @/components/nowPlay.vue */ "../../../../work/1-ME/muiapp/movie/components/nowPlay.vue"));
 var _programsList = _interopRequireDefault(__webpack_require__(/*! @/components/programsList.vue */ "../../../../work/1-ME/muiapp/movie/components/programsList.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}var _default =
@@ -608,6 +612,12 @@ var _programsList = _interopRequireDefault(__webpack_require__(/*! @/components/
         url: '../singerInfo/singerInfo?data=' + data });
 
     },
+    toRankingList: function toRankingList(e) {
+      //因为对banner做太多的处理，先跳到一个榜单
+      uni.navigateTo({
+        url: '../rankingList/rankingList?id=' + e });
+
+    },
     openMvList: function openMvList() {
       //跳转推荐歌单列表
       uni.navigateTo({
@@ -758,7 +768,18 @@ var render = function() {
             _vm._l(_vm.bannersList, function(item, index) {
               return _c(
                 "swiper-item",
-                { key: item.index, attrs: { mpcomid: "62f6004a-1-" + index } },
+                {
+                  key: item.index,
+                  attrs: {
+                    eventid: "62f6004a-0-" + index,
+                    mpcomid: "62f6004a-1-" + index
+                  },
+                  on: {
+                    tap: function($event) {
+                      _vm.toRankingList(index)
+                    }
+                  }
+                },
                 [
                   _c("image", {
                     attrs: { src: item.imageUrl, mode: "widthFix" }
@@ -774,7 +795,7 @@ var render = function() {
         "view",
         {
           staticClass: "page-title",
-          attrs: { eventid: "62f6004a-0" },
+          attrs: { eventid: "62f6004a-1" },
           on: {
             tap: function($event) {
               _vm.openPersonalizedList()
@@ -804,7 +825,7 @@ var render = function() {
                     {
                       key: item.index,
                       staticClass: "item",
-                      attrs: { eventid: "62f6004a-1-" + index },
+                      attrs: { eventid: "62f6004a-2-" + index },
                       on: {
                         tap: function($event) {
                           _vm.openPersonalizedDetail(item.id)
@@ -843,7 +864,7 @@ var render = function() {
                 {
                   key: item.index,
                   staticClass: "item",
-                  attrs: { eventid: "62f6004a-2-" + index },
+                  attrs: { eventid: "62f6004a-3-" + index },
                   on: {
                     tap: function($event) {
                       _vm.openMvDetail(item.id)
@@ -883,7 +904,7 @@ var render = function() {
                     {
                       key: item.index,
                       staticClass: "item",
-                      attrs: { eventid: "62f6004a-3-" + index },
+                      attrs: { eventid: "62f6004a-4-" + index },
                       on: {
                         tap: function($event) {
                           _vm.toSingerInfo(index)

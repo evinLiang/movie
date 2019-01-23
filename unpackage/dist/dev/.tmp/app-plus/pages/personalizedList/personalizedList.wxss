@@ -1,0 +1,31 @@
+
+.personalizedList .item {
+	position: relative;
+	z-index: 1;
+	margin-bottom: 24rpx;
+	height: 332rpx;
+}
+.personalizedList .item .name {
+	position: absolute;
+	z-index: 2;
+	display: inline-block;
+	bottom: 0rpx;
+	left: 0rpx;
+	color: #fff;
+	background: rgba(0, 0, 0, 0.3);
+	border-radius: 0rpx 0rpx 10rpx 10rpx;
+	padding: 15rpx;
+	font-size: 24rpx;
+	min-height: 98rpx;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.personalizedList .item image {
+	max-width: 100%;
+	height: 332rpx;
+	border-radius: 10rpx;
+	-webkit-box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.3);
+	        box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.3);
+}
+

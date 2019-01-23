@@ -1,0 +1,28 @@
+
+.mvList .item {
+	position: relative;
+	z-index: 1;
+	margin-bottom: 32rpx;
+}
+.mvList .item image {
+	width: 100%;
+	border-radius: 10rpx;
+	-webkit-box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.3);
+	        box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.3);
+}
+.mvList .item .name {
+	position: absolute;
+	z-index: 2;
+	left: 0rpx;
+	bottom: 0rpx;
+	color: #fff;
+	background: rgba(0, 0, 0, 0.5);
+	display: inline-block;
+	width: 100%;
+	padding: 25rpx 20rpx;
+	font-size: 30rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	border-radius: 0rpx 0rpx 10rpx 10rpx;
+}
+

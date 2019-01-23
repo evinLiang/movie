@@ -1,0 +1,1 @@
+<import src="/components/djRecommendList.vue.wxml" /><template name="c17f1bb8"><view class="_view c17f1bb8 page-panel"><template data="{{...$root['0'], ...$root[$kk+'c17f1bb8-0'],$root}}" is="57c5724a"></template></view></template>

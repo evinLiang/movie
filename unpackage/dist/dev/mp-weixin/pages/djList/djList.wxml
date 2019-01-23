@@ -1,2 +1,2 @@
 <import src="./djList.vue.wxml" />
-    <template is="c17f1bb8" data="{{ ...$root['0'], $root }}"/>
+    <template is="9049520c" data="{{ ...$root['0'], $root }}"/>

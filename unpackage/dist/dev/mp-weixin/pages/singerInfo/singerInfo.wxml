@@ -1,2 +1,2 @@
 <import src="./singerInfo.vue.wxml" />
-    <template is="27728038" data="{{ ...$root['0'], $root }}"/>
+    <template is="a21b228c" data="{{ ...$root['0'], $root }}"/>

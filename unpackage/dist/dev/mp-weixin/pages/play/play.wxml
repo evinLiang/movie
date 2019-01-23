@@ -1,2 +1,2 @@
 <import src="./play.vue.wxml" />
-    <template is="80408d38" data="{{ ...$root['0'], $root }}"/>
+    <template is="7e2a793a" data="{{ ...$root['0'], $root }}"/>

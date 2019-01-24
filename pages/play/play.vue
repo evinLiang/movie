@@ -83,6 +83,8 @@ export default {
 		if (this.musicDetail.id !== 'playing') {
 			this.getMusicUrl();
 			this.getMusicInfo();
+			this.isStop: false;
+			this.isPlay: true;
 		} else {
 			this.musicDetail = this.musicInfo;
 			this.musicTime = this.playTime;

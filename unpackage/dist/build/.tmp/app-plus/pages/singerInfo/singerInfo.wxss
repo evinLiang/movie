@@ -1,0 +1,62 @@
+
+.singerInfo .panel {
+	position: relative;
+	z-index: 1;
+	width: 300rpx;
+	height: 300rpx;
+	text-align: center;
+	margin: 20rpx auto;
+	font-weight: bold;
+	border-radius: 50%;
+	overflow: hidden;
+	color: #fff;
+	-webkit-box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.3);
+	        box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.3);
+}
+.singerInfo .panel image {
+	width: 300rpx;
+	height: 300rpx;
+}
+.singerInfo .panel .name {
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	width: 300rpx;
+	height: 300rpx;
+	line-height: 300rpx;
+	background: rgba(0, 0, 0, 0.3);
+}
+.tab-title {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	text-align: center;
+	font-size: 28rpx;
+}
+.tab-title .item {
+	padding: 20rpx;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+	border-bottom: 3px solid #fff;
+}
+.tab-title .item.active {
+	border-color: #e91e63;
+}
+.tab-content .item {
+	margin-top: 40rpx;
+}
+.SingerDesc {
+	color: #666;
+	font-size: 28rpx;
+	line-height: 1.8;
+	text-indent: 2em;
+	border-radius: 10rpx;
+	padding: 20rpx 30rpx;
+	-webkit-box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.1);
+	        box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.1);
+}
+

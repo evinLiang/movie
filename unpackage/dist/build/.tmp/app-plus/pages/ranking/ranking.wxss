@@ -1,0 +1,32 @@
+
+.ranking-panel .item.data-v-96697022 {
+	position: relative;
+	z-index: 1;
+	margin-bottom: 32rpx;
+}
+.ranking-panel .item .ranking-name.data-v-96697022 {
+	position: absolute;
+	z-index: 2;
+	bottom: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.3);
+	border-radius: 0rpx 0rpx 10rpx 10rpx;
+	padding: 15rpx;
+	font-size: 22rpx;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	color: #fff;
+	overflow: hidden;
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.ranking-panel .item .ranking-pic.data-v-96697022 {
+	max-width: 100%;
+	border-radius: 10rpx;
+	-webkit-box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.3);
+	        box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.3);
+	height: 212rpx;
+}
+

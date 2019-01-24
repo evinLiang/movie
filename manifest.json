@@ -1,13 +1,15 @@
 {
-    "name" : "movie",
+    "name" : "音乐",
     "appid" : "__UNI__8B7B6A8",
-    "description" : "",
+    "description" : "听听音乐",
     "versionName" : "1.0.0",
     "versionCode" : "100",
     "transformPx" : false,
     "app-plus" : {
         /* 5+App特有相关 */
-        "modules" : {},
+        "modules" : {
+            "VideoPlayer" : {}
+        },
         /* 模块配置 */
         "distribute" : {
             /* 应用发布信息 */
@@ -38,12 +40,14 @@
                     "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>"
                 ]
             },
-            "ios" : {},
+            "ios" : {
+                "UIBackgroundModes" : [ "audio" ]
+            },
             /* ios打包配置 */
             "sdkConfigs" : {},
             "icons" : {
                 "ios" : {
-                    "appstore" : "C:/Users/Administrator/Desktop/启动图/music.png",
+                    "appstore" : "G:/work/1-ME/muiapp/music启动图/music.png",
                     "ipad" : {
                         "app" : "unpackage/res/icons/76x76.png",
                         "app@2x" : "unpackage/res/icons/152x152.png",
@@ -77,9 +81,38 @@
             },
             "splashscreen" : {
                 "android" : {
-                    "hdpi" : "C:/Users/Administrator/Desktop/启动图/安卓/480_762.png",
-                    "xhdpi" : "C:/Users/Administrator/Desktop/启动图/安卓/720_1242.png",
-                    "xxhdpi" : "C:/Users/Administrator/Desktop/启动图/安卓/1080_1882.png"
+                    "hdpi" : "G:/work/1-ME/muiapp/music启动图/安卓/480_762.png",
+                    "xhdpi" : "G:/work/1-ME/muiapp/music启动图/安卓/720_1242.png",
+                    "xxhdpi" : "G:/work/1-ME/muiapp/music启动图/安卓/1080_1882.png"
+                },
+                "ios" : {
+                    "iphone" : {
+                        "retina35" : "G:/work/1-ME/muiapp/music启动图/ios/640_960.png",
+                        "retina40" : "G:/work/1-ME/muiapp/music启动图/ios/640_1136.png",
+                        "retina40l" : "G:/work/1-ME/muiapp/music启动图/ios/1136_640.png",
+                        "retina47" : "G:/work/1-ME/muiapp/music启动图/ios/750_1334.png",
+                        "retina47l" : "G:/work/1-ME/muiapp/music启动图/ios/1334_750.png",
+                        "retina55" : "G:/work/1-ME/muiapp/music启动图/ios/1242_2008.png",
+                        "retina55l" : "G:/work/1-ME/muiapp/music启动图/ios/2008_1242.png",
+                        "iphonex" : "G:/work/1-ME/muiapp/music启动图/ios/1125_2436.png",
+                        "iphonexl" : "G:/work/1-ME/muiapp/music启动图/ios/2436_1125.png",
+                        "portrait-896h@2x" : "G:/work/1-ME/muiapp/music启动图/ios/828_1792.png",
+                        "landscape-896h@2x" : "G:/work/1-ME/muiapp/music启动图/ios/1792_828.png",
+                        "portrait-896h@3x" : "G:/work/1-ME/muiapp/music启动图/ios/1242_2688.png",
+                        "landscape-896h@3x" : "G:/work/1-ME/muiapp/music启动图/ios/2688_1242.png"
+                    },
+                    "ipad" : {
+                        "portrait7" : "G:/work/1-ME/muiapp/music启动图/ipad/768_1024.png",
+                        "portrait-retina7" : "G:/work/1-ME/muiapp/music启动图/ipad/1536_2048.png",
+                        "landscape7" : "G:/work/1-ME/muiapp/music启动图/ipad/1024_768.png",
+                        "landscape-retina7" : "G:/work/1-ME/muiapp/music启动图/ipad/2048_1536.png",
+                        "portrait-1112h@2x" : "G:/work/1-ME/muiapp/music启动图/ipad/1688_2224.png",
+                        "landscape-1112h@2x" : "G:/work/1-ME/muiapp/music启动图/ipad/2224_1688_.png",
+                        "portrait-1194h@2" : "G:/work/1-ME/muiapp/music启动图/ipad/1688_2388.png",
+                        "landscape-1194h@2x" : "G:/work/1-ME/muiapp/music启动图/ipad/2388_1688_.png",
+                        "portrait-1366h@2x" : "G:/work/1-ME/muiapp/music启动图/ipad/2018_2732.png",
+                        "landscape-1366h@2x" : "G:/work/1-ME/muiapp/music启动图/ipad/2732_2018_.png"
+                    }
                 }
             }
         }
@@ -92,7 +125,17 @@
         "appid" : "wxb336948de506ff5e",
         "setting" : {
             "urlCheck" : false,
-            "minified" : true
+            "minified" : true,
+            "es6" : true,
+            "postcss" : true
         }
+    },
+    "h5" : {
+        "title" : "音乐",
+        "domain" : "",
+        "router" : {
+            "mode" : "hash"
+        },
+        "template" : ""
     }
 }

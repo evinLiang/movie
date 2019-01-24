@@ -3,8 +3,10 @@
 		<div class="nowPlay-panel" @tap="toPlaying()">
 			<image class="nowPlayIcom" src="../../static/images/nowPlay.png" mode=""></image>
 			<view class="nowPlayInfo">正在播放 :</view>
+			<template  v-if="musicInfo != ''">
 			<view class="nowPlayName">{{ musicInfo.name }}--{{ musicInfo.author }}</view>
 			<image class="nowPlayIcomP" :src="musicInfo.picUrl" mode=""></image>
+			</template>
 		</div>
 		<div class="nowPlay-seat"></div>
 	</view>

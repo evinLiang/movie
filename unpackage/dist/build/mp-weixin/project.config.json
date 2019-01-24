@@ -4,7 +4,7 @@
 		"ignore": []
 	},
 	"setting": {
-		"urlCheck": false,
+		"urlCheck": true,
 		"es6": true,
 		"postcss": true,
 		"minified": true,
@@ -14,7 +14,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "",
 	"appid": "wxb336948de506ff5e",
-	"projectname": "%E9%9F%B3%E4%B9%90",
+	"projectname": "音乐",
 	"condition": {
 		"search": {
 			"current": -1,

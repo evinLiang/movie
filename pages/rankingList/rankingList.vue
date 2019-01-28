@@ -1,5 +1,5 @@
 <template>
-	<view class="page-panel">
+	<view class="page-panel" v-if="!playlist== ''">
 		<nowPlay></nowPlay>
 		<view class="playlistDetail ease-row">
 			<view class="ease-col-3-1 coverImgUrls">

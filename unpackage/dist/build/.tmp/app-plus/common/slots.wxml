@@ -1,6 +1,6 @@
 <import src="/components/nowPlay.vue.wxml" />
-<import src="/components/programsList.vue.wxml" />
 <import src="/components/songList.vue.wxml" />
+<import src="/components/programsList.vue.wxml" />
 <import src="/components/djRecommendList.vue.wxml" />
 <import src="/components/mvListT.vue.wxml" />
 <import src="/components/mvList.vue.wxml" />

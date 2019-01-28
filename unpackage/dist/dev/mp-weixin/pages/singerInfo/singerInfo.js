@@ -261,6 +261,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
+
 var _songList = _interopRequireDefault(__webpack_require__(/*! @/components/songList.vue */ "../../../../work/1-ME/muiapp/movie/components/songList.vue"));
 var _nowPlay = _interopRequireDefault(__webpack_require__(/*! @/components/nowPlay.vue */ "../../../../work/1-ME/muiapp/movie/components/nowPlay.vue"));
 var _mvList = _interopRequireDefault(__webpack_require__(/*! @/components/mvList.vue */ "../../../../work/1-ME/muiapp/movie/components/mvList.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}var _default =
@@ -285,7 +287,9 @@ var _mvList = _interopRequireDefault(__webpack_require__(/*! @/components/mvList
     this.singerInfo.picUrl = decodeURIComponent(this.singerInfo.picUrl);
     this.getSingerDesc(); //获取歌手描述
     this.getSingerSong(); //获取歌手单曲
-    this.getSingerMv(); //获取歌手MV
+
+
+
   },
   methods: {
     getSingerDesc: function getSingerDesc() {
@@ -529,20 +533,6 @@ var render = function() {
               }
             },
             [_vm._v("单曲")]
-          ),
-          _c(
-            "view",
-            {
-              staticClass: "item",
-              class: _vm.tabNum == 4 ? "active" : "",
-              attrs: { eventid: "27728038-2" },
-              on: {
-                tap: function($event) {
-                  _vm.tabNum = 4
-                }
-              }
-            },
-            [_vm._v("MV")]
           )
         ]),
         _c("view", { staticClass: "tab-content" }, [

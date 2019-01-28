@@ -283,15 +283,24 @@ var _mvListT = _interopRequireDefault(__webpack_require__(/*! @/components/mvLis
 
   },
   onLoad: function onLoad() {
-    this.getMvFirstList(); //获取最新MV
-    this.getTopMvList(); //获取mv排行
-    this.getPersonalizedMvList(); //获取推荐mv
+    this.getDataList(); //请求所有数据
+  },
+  onPullDownRefresh: function onPullDownRefresh() {
+    //下拉请求所有数据
+    this.getDataList(); //请求所有数据
+    uni.stopPullDownRefresh();
   },
   components: {
     nowPlay: _nowPlay.default,
     mvListT: _mvListT.default },
 
   methods: {
+    getDataList: function getDataList() {
+      //获取所有数据
+      this.getMvFirstList(); //获取最新MV
+      this.getTopMvList(); //获取mv排行
+      this.getPersonalizedMvList(); //获取推荐mv
+    },
     getMvFirstList: function getMvFirstList() {
       //获取最新MV
       var _this = this;

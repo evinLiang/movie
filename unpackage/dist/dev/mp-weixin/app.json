@@ -35,12 +35,6 @@
         "pagePath": "pages/ranking/ranking",
         "iconPath": "static/images/ranking-d.png",
         "selectedIconPath": "static/images/ranking-a.png"
-      },
-      {
-        "text": "MV",
-        "pagePath": "pages/mv/mv",
-        "iconPath": "static/images/mv-d.png",
-        "selectedIconPath": "static/images/mv-a.png"
       }
     ]
   }

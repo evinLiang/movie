@@ -223,32 +223,37 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c(
-    "view",
-    { staticClass: "page-panel" },
-    [
-      _c("nowPlay", { attrs: { mpcomid: "70817a50-0" } }),
-      _c("view", { staticClass: "playlistDetail ease-row" }, [
-        _c("view", { staticClass: "ease-col-3-1 coverImgUrls" }, [
-          _c("image", {
-            attrs: { src: _vm.playlist.coverImgUrl, mode: "widthFix" }
-          })
-        ]),
-        _c("view", { staticClass: "ease-col-3-2 playlistInfo" }, [
-          _c("view", { staticClass: "name" }, [
-            _vm._v(_vm._s(_vm.playlist.name))
+  return !_vm.playlist == ""
+    ? _c(
+        "view",
+        { staticClass: "page-panel" },
+        [
+          _c("nowPlay", { attrs: { mpcomid: "70817a50-0" } }),
+          _c("view", { staticClass: "playlistDetail ease-row" }, [
+            _c("view", { staticClass: "ease-col-3-1 coverImgUrls" }, [
+              _c("image", {
+                attrs: { src: _vm.playlist.coverImgUrl, mode: "widthFix" }
+              })
+            ]),
+            _c("view", { staticClass: "ease-col-3-2 playlistInfo" }, [
+              _c("view", { staticClass: "name" }, [
+                _vm._v(_vm._s(_vm.playlist.name))
+              ]),
+              _c("view", { staticClass: "description" }, [
+                _vm._v(_vm._s(_vm.playlist.description))
+              ])
+            ])
           ]),
-          _c("view", { staticClass: "description" }, [
-            _vm._v(_vm._s(_vm.playlist.description))
-          ])
-        ])
-      ]),
-      _c("songList", {
-        attrs: { singerHotSongs: _vm.playlist.tracks, mpcomid: "70817a50-1" }
-      })
-    ],
-    1
-  )
+          _c("songList", {
+            attrs: {
+              singerHotSongs: _vm.playlist.tracks,
+              mpcomid: "70817a50-1"
+            }
+          })
+        ],
+        1
+      )
+    : _vm._e()
 }
 var staticRenderFns = []
 render._withStripped = true

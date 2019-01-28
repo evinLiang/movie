@@ -198,6 +198,8 @@ var _vuex = __webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm.j
     if (this.musicDetail.id !== 'playing') {
       this.getMusicUrl();
       this.getMusicInfo();
+      this.isStop = false;
+      this.isPlay = true;
     } else {
       this.musicDetail = this.musicInfo;
       this.musicTime = this.playTime;
@@ -435,84 +437,86 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("view", { staticClass: "page-panel-h" }, [
-    _c("view", { staticClass: "music-name" }, [
-      _vm._v(_vm._s(_vm.musicDetail.name))
-    ]),
-    _c("view", { staticClass: "music-author" }, [
-      _vm._v(_vm._s(_vm.musicDetail.author))
-    ]),
-    _c("view", { staticClass: "music-pic" }, [
-      _c("image", { attrs: { src: _vm.musicDetail.picUrl } })
-    ]),
-    _c("view", { staticClass: "player-panel" }, [
-      _c("view", { staticClass: "time" }, [
-        _c("view", { staticClass: "item" }, [
-          _vm._v(_vm._s(_vm.musicTime.currentTime))
+  return !_vm.musicDetail.name == ""
+    ? _c("view", { staticClass: "page-panel-h" }, [
+        _c("view", { staticClass: "music-name" }, [
+          _vm._v(_vm._s(_vm.musicDetail.name))
         ]),
-        _c("view", { staticClass: "item" }, [
-          _vm._v(_vm._s(_vm.musicTime.duration))
+        _c("view", { staticClass: "music-author" }, [
+          _vm._v(_vm._s(_vm.musicDetail.author))
+        ]),
+        _c("view", { staticClass: "music-pic" }, [
+          _c("image", { attrs: { src: _vm.musicDetail.picUrl } })
+        ]),
+        _c("view", { staticClass: "player-panel" }, [
+          _c("view", { staticClass: "time" }, [
+            _c("view", { staticClass: "item" }, [
+              _vm._v(_vm._s(_vm.musicTime.currentTime))
+            ]),
+            _c("view", { staticClass: "item" }, [
+              _vm._v(_vm._s(_vm.musicTime.duration))
+            ])
+          ]),
+          _c("slider", {
+            attrs: {
+              value: _vm.musicTime.currentTime,
+              step: "0.01",
+              min: "0",
+              max: _vm.musicTime.duration,
+              "block-size": "12",
+              activeColor: "#E91E63",
+              eventid: "80408d38-0"
+            },
+            on: { changing: _vm.sliderChange }
+          }),
+          _c("view", { staticClass: "player-btn" }, [
+            _vm._m(0),
+            _vm.isStop
+              ? _c(
+                  "view",
+                  {
+                    staticClass: "playStop",
+                    attrs: { eventid: "80408d38-1" },
+                    on: {
+                      tap: function($event) {
+                        _vm.toAgain()
+                      }
+                    }
+                  },
+                  [
+                    _c("image", {
+                      attrs: { src: "../../static/images/again.png", mode: "" }
+                    })
+                  ]
+                )
+              : _vm._e(),
+            !_vm.isStop
+              ? _c(
+                  "view",
+                  {
+                    staticClass: "playStop",
+                    attrs: { eventid: "80408d38-2" },
+                    on: {
+                      tap: function($event) {
+                        _vm.toPausePlay()
+                      }
+                    }
+                  },
+                  [
+                    _c("image", {
+                      attrs: {
+                        src: _vm.isPlay ? _vm.playIcon : _vm.pauseIcon,
+                        mode: ""
+                      }
+                    })
+                  ]
+                )
+              : _vm._e(),
+            _vm._m(1)
+          ])
         ])
-      ]),
-      _c("slider", {
-        attrs: {
-          value: _vm.musicTime.currentTime,
-          step: "0.01",
-          min: "0",
-          max: _vm.musicTime.duration,
-          "block-size": "12",
-          activeColor: "#E91E63",
-          eventid: "80408d38-0"
-        },
-        on: { changing: _vm.sliderChange }
-      }),
-      _c("view", { staticClass: "player-btn" }, [
-        _vm._m(0),
-        _vm.isStop
-          ? _c(
-              "view",
-              {
-                staticClass: "playStop",
-                attrs: { eventid: "80408d38-1" },
-                on: {
-                  tap: function($event) {
-                    _vm.toAgain()
-                  }
-                }
-              },
-              [
-                _c("image", {
-                  attrs: { src: "../../static/images/again.png", mode: "" }
-                })
-              ]
-            )
-          : _vm._e(),
-        !_vm.isStop
-          ? _c(
-              "view",
-              {
-                staticClass: "playStop",
-                attrs: { eventid: "80408d38-2" },
-                on: {
-                  tap: function($event) {
-                    _vm.toPausePlay()
-                  }
-                }
-              },
-              [
-                _c("image", {
-                  attrs: {
-                    src: _vm.isPlay ? _vm.playIcon : _vm.pauseIcon,
-                    mode: ""
-                  }
-                })
-              ]
-            )
-          : _vm._e(),
-        _vm._m(1)
       ])
-    ])
-  ])
+    : _vm._e()
 }
 var staticRenderFns = [
   function() {

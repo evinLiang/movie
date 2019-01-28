@@ -16,7 +16,9 @@
 				<!-- 				<view class="item" :class="tabNum == 3 ? 'active' : ''" @tap="tabNum = 3"
 					>专辑</view
 				> -->
+				<!-- #ifndef MP-WEIXIN -->
 				<view class="item" :class="tabNum == 4 ? 'active' : ''" @tap="tabNum = 4">MV</view>
+				<!-- #endif -->
 			</view>
 			<view class="tab-content">
 				<view class="item" v-if="tabNum == 1">
@@ -59,7 +61,9 @@ export default {
 		this.singerInfo.picUrl = decodeURIComponent(this.singerInfo.picUrl);
 		this.getSingerDesc(); //获取歌手描述
 		this.getSingerSong(); //获取歌手单曲
+		// #ifndef MP-WEIXIN
 		this.getSingerMv(); //获取歌手MV
+		// #endif
 	},
 	methods: {
 		getSingerDesc() {

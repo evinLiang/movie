@@ -1,5 +1,5 @@
 <template>
-	<view class="page-panel-h">
+	<view class="page-panel-h" v-if="!musicDetail.name == ''">
 		<view class="music-name">{{ musicDetail.name }}</view>
 		<view class="music-author">{{ musicDetail.author }}</view>
 		<view class="music-pic"> <image :src="musicDetail.picUrl"></image> </view>
@@ -58,7 +58,7 @@ export default {
 			musicSwith: 0, //获取歌曲url和详情是两条异步接口,用来监听接口是否都获取数据成功
 			musicSwithNum: 2, //得到播放音乐条件步骤
 			bgAudioMannager: '', //赋值等同于全局的背景音乐组件bgAudioMannager，方便本页面控制背景音乐组件
-			innerAudioContext: ''//赋值等同于全局的背景音乐组件innerAudioContext，方便本页面控制背景音乐组件
+			innerAudioContext: '' //赋值等同于全局的背景音乐组件innerAudioContext，方便本页面控制背景音乐组件
 		};
 	},
 	computed: {
@@ -83,8 +83,8 @@ export default {
 		if (this.musicDetail.id !== 'playing') {
 			this.getMusicUrl();
 			this.getMusicInfo();
-			this.isStop: false;
-			this.isPlay: true;
+			this.isStop = false;
+			this.isPlay = true;
 		} else {
 			this.musicDetail = this.musicInfo;
 			this.musicTime = this.playTime;
@@ -97,7 +97,10 @@ export default {
 			}
 			// #endif
 			// #ifdef H5
-			if (this.globalData.innerAudioContext.currentTime == this.globalData.innerAudioContext.duration) {
+			if (
+				this.globalData.innerAudioContext.currentTime ==
+				this.globalData.innerAudioContext.duration
+			) {
 				this.isStop = true;
 			} else {
 				this.isStop = false;
@@ -137,7 +140,7 @@ export default {
 				this.musicTime.duration = this.innerAudioContext.duration / 60;
 				this.musicTime.currentTime = this.musicTime.currentTime.toFixed(2);
 				this.musicTime.duration = this.musicTime.duration.toFixed(2);
-			
+
 				//当前播放时间等于歌曲时间，那么状态为暂停
 				if (
 					this.globalData.innerAudioContext.currentTime ==
@@ -250,7 +253,7 @@ export default {
 		},
 		toPausePlay() {
 			//播放和暂停按钮
-			
+
 			if (this.isPlay) {
 				// #ifndef H5
 				this.bgAudioMannager.pause();

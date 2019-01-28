@@ -38,6 +38,7 @@
 				</view>
 			</view>
 		</scroll-view>
+		<!-- #ifndef MP-WEIXIN -->
 		<view class="page-title"><text class="themeColor">M</text>V排行</view>
 		<scroll-view class="scroll-view_H" scroll-x style="width: 100%">
 			<view class="topMvList">
@@ -53,6 +54,7 @@
 				</view>
 			</view>
 		</scroll-view>
+		<!-- #endif -->
 		<view class="page-title"><text class="themeColor">歌</text>手榜</view>
 		<scroll-view class="scroll-view_H" scroll-x style="width: 100%">
 			<view class="toplistArtistList">
@@ -105,14 +107,24 @@ export default {
 		programsList
 	},
 	onLoad() {
-		this.getBannerList(); //获取banner
-		this.getPersonalizedList(); //获取推荐歌单
-		this.getTopMvList(); //获取mv排行
-		this.getToplistArtistList(); //获取歌手榜单
-		//this.getDjRecommendList(); //获取推荐电台
-		this.getProgramRecommendList(); //获取推荐节目
+		this.getDataList(); //请求所有数据
+	},
+	onPullDownRefresh() {
+		//下拉请求所有数据
+		this.getDataList(); //请求所有数据
+		uni.stopPullDownRefresh();
 	},
 	methods: {
+		getDataList(){
+			this.getBannerList(); //获取banner
+			this.getPersonalizedList(); //获取推荐歌单
+			// #ifndef MP-WEIXIN
+			this.getTopMvList(); //获取mv排行
+			// #endif
+			this.getToplistArtistList(); //获取歌手榜单
+			//this.getDjRecommendList(); //获取推荐电台
+			this.getProgramRecommendList(); //获取推荐节目
+		},
 		getBannerList() {
 			//获取banner
 			var _this = this;

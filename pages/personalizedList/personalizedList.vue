@@ -1,5 +1,5 @@
 <template>
-	<view class="page-panel">
+	<view class="page-panel" v-if="!personalizedList== ''">
 		<nowPlay></nowPlay>
 		<view class="personalizedList ease-row">
 			<view

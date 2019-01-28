@@ -237,69 +237,73 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c(
-    "view",
-    { staticClass: "page-panel" },
-    [
-      _c("nowPlay", { attrs: { mpcomid: "3fe561ce-0" } }),
-      _c("view", { staticClass: "playlistDetail ease-row" }, [
-        _c("view", { staticClass: "ease-col-3-1 coverImgUrls" }, [
-          _c("image", {
-            attrs: { src: _vm.playlist.coverImgUrl, mode: "widthFix" }
-          })
-        ]),
-        _c("view", { staticClass: "ease-col-3-2 playlistInfo" }, [
-          _c("view", { staticClass: "name" }, [
-            _vm._v(_vm._s(_vm.playlist.name))
-          ]),
-          _c("view", { staticClass: "description" }, [
-            _vm._v(_vm._s(_vm.playlist.description))
-          ])
-        ])
-      ]),
-      _c(
+  return !_vm.playlist == ""
+    ? _c(
         "view",
-        { staticClass: "privileges" },
-        _vm._l(_vm.playlist.tracks, function(item, index) {
-          return _c(
+        { staticClass: "page-panel" },
+        [
+          _c("nowPlay", { attrs: { mpcomid: "3fe561ce-0" } }),
+          _c("view", { staticClass: "playlistDetail ease-row" }, [
+            _c("view", { staticClass: "ease-col-3-1 coverImgUrls" }, [
+              _c("image", {
+                attrs: { src: _vm.playlist.coverImgUrl, mode: "widthFix" }
+              })
+            ]),
+            _c("view", { staticClass: "ease-col-3-2 playlistInfo" }, [
+              _c("view", { staticClass: "name" }, [
+                _vm._v(_vm._s(_vm.playlist.name))
+              ]),
+              _c("view", { staticClass: "description" }, [
+                _vm._v(_vm._s(_vm.playlist.description))
+              ])
+            ])
+          ]),
+          _c(
             "view",
-            {
-              key: item.index,
-              staticClass: "item",
-              attrs: { eventid: "3fe561ce-0-" + index },
-              on: {
-                tap: function($event) {
-                  _vm.toPlay(item.id)
-                }
-              }
-            },
-            [
-              _c("view", { staticClass: "index" }, [_vm._v(_vm._s(index + 1))]),
-              _c(
+            { staticClass: "privileges" },
+            _vm._l(_vm.playlist.tracks, function(item, index) {
+              return _c(
                 "view",
-                { staticClass: "info" },
+                {
+                  key: item.index,
+                  staticClass: "item",
+                  attrs: { eventid: "3fe561ce-0-" + index },
+                  on: {
+                    tap: function($event) {
+                      _vm.toPlay(item.id)
+                    }
+                  }
+                },
                 [
-                  _c("view", { staticClass: "name" }, [
-                    _vm._v(_vm._s(item.name))
+                  _c("view", { staticClass: "index" }, [
+                    _vm._v(_vm._s(index + 1))
                   ]),
-                  _vm._l(item.ar, function(childItem, i) {
-                    return _c(
-                      "text",
-                      { key: childItem.i, staticClass: "arName" },
-                      [_vm._v(_vm._s(childItem.name))]
-                    )
-                  })
-                ],
-                2
-              ),
-              _vm._m(0, true)
-            ]
+                  _c(
+                    "view",
+                    { staticClass: "info" },
+                    [
+                      _c("view", { staticClass: "name" }, [
+                        _vm._v(_vm._s(item.name))
+                      ]),
+                      _vm._l(item.ar, function(childItem, i) {
+                        return _c(
+                          "text",
+                          { key: childItem.i, staticClass: "arName" },
+                          [_vm._v(_vm._s(childItem.name))]
+                        )
+                      })
+                    ],
+                    2
+                  ),
+                  _vm._m(0, true)
+                ]
+              )
+            })
           )
-        })
+        ],
+        1
       )
-    ],
-    1
-  )
+    : _vm._e()
 }
 var staticRenderFns = [
   function() {

@@ -1,5 +1,5 @@
 <template>
-	<view>
+	<view v-if="!mvDetail== ''">
 		<view class="video">
 			<video
 				id="myVideo"

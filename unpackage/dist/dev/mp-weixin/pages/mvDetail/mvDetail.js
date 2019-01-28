@@ -320,68 +320,76 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("view", [
-    _c("view", { staticClass: "video" }, [
-      _c("video", {
-        attrs: {
-          id: "myVideo",
-          src: _vm.mvUrl,
-          controls: "",
-          poster: _vm.mvDetail.cover,
-          eventid: "a87eecb8-0"
-        },
-        on: { error: _vm.videoErrorCallback }
-      })
-    ]),
-    _c("view", { staticClass: "page-panel" }, [
-      _c("view", { staticClass: "videoInfo" }, [
-        _c("view", { staticClass: "name" }, [
-          _vm._v(_vm._s(_vm.mvDetail.name))
-        ]),
-        _c("view", { staticClass: "tips" }, [
-          _c("text", [_vm._v("发布 : " + _vm._s(_vm.mvDetail.publishTime))]),
-          _c("text", { staticClass: "artistName" }, [
-            _vm._v("演唱 : " + _vm._s(_vm.mvDetail.artistName))
-          ])
-        ]),
-        _c("view", { staticClass: "desc" }, [_vm._v(_vm._s(_vm.mvDetail.desc))])
-      ]),
-      _vm._m(0),
-      _c(
-        "view",
-        { staticClass: "simiMvList" },
-        _vm._l(_vm.simiMvList, function(item, index) {
-          return _c(
-            "view",
-            {
-              key: item.id,
-              staticClass: "item",
-              attrs: { eventid: "a87eecb8-1-" + index },
-              on: {
-                tap: function($event) {
-                  _vm.toMvDetail(item.id)
-                }
-              }
+  return !_vm.mvDetail == ""
+    ? _c("view", [
+        _c("view", { staticClass: "video" }, [
+          _c("video", {
+            attrs: {
+              id: "myVideo",
+              src: _vm.mvUrl,
+              controls: "",
+              poster: _vm.mvDetail.cover,
+              eventid: "a87eecb8-0"
             },
-            [
-              _c("view", { staticClass: "pic" }, [
-                _c("image", { attrs: { src: item.cover, mode: "aspectFill" } })
+            on: { error: _vm.videoErrorCallback }
+          })
+        ]),
+        _c("view", { staticClass: "page-panel" }, [
+          _c("view", { staticClass: "videoInfo" }, [
+            _c("view", { staticClass: "name" }, [
+              _vm._v(_vm._s(_vm.mvDetail.name))
+            ]),
+            _c("view", { staticClass: "tips" }, [
+              _c("text", [
+                _vm._v("发布 : " + _vm._s(_vm.mvDetail.publishTime))
               ]),
-              _c("view", { staticClass: "info" }, [
-                _c("view", { staticClass: "name" }, [
-                  _vm._v(_vm._s(item.name))
-                ]),
-                _c("view", { staticClass: "artistName" }, [
-                  _vm._v(_vm._s(item.artistName))
-                ])
-              ]),
-              _vm._m(1, true)
-            ]
+              _c("text", { staticClass: "artistName" }, [
+                _vm._v("演唱 : " + _vm._s(_vm.mvDetail.artistName))
+              ])
+            ]),
+            _c("view", { staticClass: "desc" }, [
+              _vm._v(_vm._s(_vm.mvDetail.desc))
+            ])
+          ]),
+          _vm._m(0),
+          _c(
+            "view",
+            { staticClass: "simiMvList" },
+            _vm._l(_vm.simiMvList, function(item, index) {
+              return _c(
+                "view",
+                {
+                  key: item.id,
+                  staticClass: "item",
+                  attrs: { eventid: "a87eecb8-1-" + index },
+                  on: {
+                    tap: function($event) {
+                      _vm.toMvDetail(item.id)
+                    }
+                  }
+                },
+                [
+                  _c("view", { staticClass: "pic" }, [
+                    _c("image", {
+                      attrs: { src: item.cover, mode: "aspectFill" }
+                    })
+                  ]),
+                  _c("view", { staticClass: "info" }, [
+                    _c("view", { staticClass: "name" }, [
+                      _vm._v(_vm._s(item.name))
+                    ]),
+                    _c("view", { staticClass: "artistName" }, [
+                      _vm._v(_vm._s(item.artistName))
+                    ])
+                  ]),
+                  _vm._m(1, true)
+                ]
+              )
+            })
           )
-        })
-      )
-    ])
-  ])
+        ])
+      ])
+    : _vm._e()
 }
 var staticRenderFns = [
   function() {

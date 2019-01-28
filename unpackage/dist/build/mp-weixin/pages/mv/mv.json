@@ -1,3 +1,4 @@
 {
-  "navigationBarTitleText": "MV"
+  "navigationBarTitleText": "MV",
+  "enablePullDownRefresh": true
 }

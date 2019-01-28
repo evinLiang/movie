@@ -37,15 +37,24 @@ export default {
 		};
 	},
 	onLoad() {
-		this.getMvFirstList(); //获取最新MV
-		this.getTopMvList(); //获取mv排行
-		this.getPersonalizedMvList(); //获取推荐mv
+		this.getDataList();	//请求所有数据
+	},
+	onPullDownRefresh() {
+		//下拉请求所有数据
+		this.getDataList(); //请求所有数据
+		uni.stopPullDownRefresh();
 	},
 	components: {
 		nowPlay,
 		mvListT
 	},
 	methods: {
+		getDataList(){
+			//获取所有数据
+			this.getMvFirstList(); //获取最新MV
+			this.getTopMvList(); //获取mv排行
+			this.getPersonalizedMvList(); //获取推荐mv
+		},
 		getMvFirstList() {
 			//获取最新MV
 			var _this = this;

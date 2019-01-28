@@ -214,37 +214,43 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c(
-    "view",
-    { staticClass: "page-panel" },
-    [
-      _c("nowPlay", { attrs: { mpcomid: "e837adb8-0" } }),
-      _c(
+  return !_vm.personalizedList == ""
+    ? _c(
         "view",
-        { staticClass: "personalizedList ease-row" },
-        _vm._l(_vm.personalizedList, function(item, index) {
-          return _c(
+        { staticClass: "page-panel" },
+        [
+          _c("nowPlay", { attrs: { mpcomid: "e837adb8-0" } }),
+          _c(
             "view",
-            {
-              key: item.id,
-              staticClass: "item ease-col-2-1",
-              attrs: { eventid: "e837adb8-0-" + index },
-              on: {
-                tap: function($event) {
-                  _vm.openPersonalizedDetail(item.id)
-                }
-              }
-            },
-            [
-              _c("image", { attrs: { src: item.picUrl, mode: "widthFix" } }),
-              _c("text", { staticClass: "name" }, [_vm._v(_vm._s(item.name))])
-            ]
+            { staticClass: "personalizedList ease-row" },
+            _vm._l(_vm.personalizedList, function(item, index) {
+              return _c(
+                "view",
+                {
+                  key: item.id,
+                  staticClass: "item ease-col-2-1",
+                  attrs: { eventid: "e837adb8-0-" + index },
+                  on: {
+                    tap: function($event) {
+                      _vm.openPersonalizedDetail(item.id)
+                    }
+                  }
+                },
+                [
+                  _c("image", {
+                    attrs: { src: item.picUrl, mode: "widthFix" }
+                  }),
+                  _c("text", { staticClass: "name" }, [
+                    _vm._v(_vm._s(item.name))
+                  ])
+                ]
+              )
+            })
           )
-        })
+        ],
+        1
       )
-    ],
-    1
-  )
+    : _vm._e()
 }
 var staticRenderFns = []
 render._withStripped = true

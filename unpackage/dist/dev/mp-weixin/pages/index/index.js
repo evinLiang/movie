@@ -335,6 +335,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
+
 var _djRecommendList = _interopRequireDefault(__webpack_require__(/*! @/components/djRecommendList.vue */ "../../../../work/1-ME/muiapp/movie/components/djRecommendList.vue"));
 var _nowPlay = _interopRequireDefault(__webpack_require__(/*! @/components/nowPlay.vue */ "../../../../work/1-ME/muiapp/movie/components/nowPlay.vue"));
 var _programsList = _interopRequireDefault(__webpack_require__(/*! @/components/programsList.vue */ "../../../../work/1-ME/muiapp/movie/components/programsList.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}var _default =
@@ -365,14 +367,24 @@ var _programsList = _interopRequireDefault(__webpack_require__(/*! @/components/
     programsList: _programsList.default },
 
   onLoad: function onLoad() {
-    this.getBannerList(); //获取banner
-    this.getPersonalizedList(); //获取推荐歌单
-    this.getTopMvList(); //获取mv排行
-    this.getToplistArtistList(); //获取歌手榜单
-    //this.getDjRecommendList(); //获取推荐电台
-    this.getProgramRecommendList(); //获取推荐节目
+    this.getDataList(); //请求所有数据
+  },
+  onPullDownRefresh: function onPullDownRefresh() {
+    //下拉请求所有数据
+    this.getDataList(); //请求所有数据
+    uni.stopPullDownRefresh();
   },
   methods: {
+    getDataList: function getDataList() {
+      this.getBannerList(); //获取banner
+      this.getPersonalizedList(); //获取推荐歌单
+
+
+
+      this.getToplistArtistList(); //获取歌手榜单
+      //this.getDjRecommendList(); //获取推荐电台
+      this.getProgramRecommendList(); //获取推荐节目
+    },
     getBannerList: function getBannerList() {
       //获取banner
       var _this = this;
@@ -857,45 +869,6 @@ var render = function() {
         [
           _c(
             "view",
-            { staticClass: "topMvList" },
-            _vm._l(_vm.topMvList, function(item, index) {
-              return _c(
-                "view",
-                {
-                  key: item.index,
-                  staticClass: "item",
-                  attrs: { eventid: "62f6004a-3-" + index },
-                  on: {
-                    tap: function($event) {
-                      _vm.openMvDetail(item.id)
-                    }
-                  }
-                },
-                [
-                  _c("image", { attrs: { src: item.cover, mode: "widthFix" } }),
-                  _c("text", { staticClass: "name" }, [
-                    _vm._v(_vm._s(item.name))
-                  ]),
-                  _c("view", { staticClass: "playBtn" }, [
-                    _c("view", { staticClass: "icon" })
-                  ])
-                ]
-              )
-            })
-          )
-        ]
-      ),
-      _vm._m(1),
-      _c(
-        "scroll-view",
-        {
-          staticClass: "scroll-view_H",
-          staticStyle: { width: "100%" },
-          attrs: { "scroll-x": "" }
-        },
-        [
-          _c(
-            "view",
             { staticClass: "toplistArtistList" },
             _vm._l(_vm.toplistArtistList, function(item, index) {
               return index <= 20
@@ -904,7 +877,7 @@ var render = function() {
                     {
                       key: item.index,
                       staticClass: "item",
-                      attrs: { eventid: "62f6004a-4-" + index },
+                      attrs: { eventid: "62f6004a-3-" + index },
                       on: {
                         tap: function($event) {
                           _vm.toSingerInfo(index)
@@ -925,7 +898,7 @@ var render = function() {
           )
         ]
       ),
-      _vm._m(2),
+      _vm._m(1),
       _c("programsList", {
         attrs: { programsList: _vm.programsList, mpcomid: "62f6004a-2" }
       })
@@ -934,15 +907,6 @@ var render = function() {
   )
 }
 var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("view", { staticClass: "page-title" }, [
-      _c("text", { staticClass: "themeColor" }, [_vm._v("M")]),
-      _vm._v("V排行")
-    ])
-  },
   function() {
     var _vm = this
     var _h = _vm.$createElement

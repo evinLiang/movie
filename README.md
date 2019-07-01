@@ -4,6 +4,14 @@
 ### github有apk安装包
 
 ### h5地址
-[http://musicapp.evinweb.com](http://musicapp.evinweb.com)
+[http://music.vincc.cn/](http://music.vincc.cn/)
 ### 小程序码（已发布）
-![Image text](http://musicapp.evinweb.com/images/xcx.png)
+![Image text](https://github.com/evinLiang/movie/blob/master/xcx.png)
+
+
+### 下次开发
+#### 歌词
+#### 收藏
+#### 上一首/下一首
+#### 歌单列表
+#### 注册登陆

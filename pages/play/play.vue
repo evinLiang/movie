@@ -18,18 +18,18 @@
 				activeColor="#E91E63"
 			/>
 			<view class="player-btn">
-				<view class="nextPrev">
+				<!-- <view class="nextPrev">
 					<image src="../../static/images/prev.png" mode=""></image>
-				</view>
+				</view> -->
 				<view class="playStop" v-if="isStop" @tap="toAgain()">
 					<image src="../../static/images/again.png" mode=""></image>
 				</view>
 				<view class="playStop" v-if="!isStop" @tap="toPausePlay()">
 					<image :src="isPlay ? playIcon : pauseIcon" mode=""></image>
 				</view>
-				<view class="nextPrev">
+				<!-- <view class="nextPrev">
 					<image src="../../static/images/next.png" mode=""></image>
-				</view>
+				</view> -->
 			</view>
 		</view>
 	</view>

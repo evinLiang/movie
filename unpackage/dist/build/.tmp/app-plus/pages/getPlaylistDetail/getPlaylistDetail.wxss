@@ -5,7 +5,8 @@
 .coverImgUrls image {
 	width: 100%;
 	height: 212rpx;
-	border-radius: 10rpx;
+	-webkit-border-radius: 10rpx;
+	        border-radius: 10rpx;
 	-webkit-box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.3);
 	        box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.3);
 }

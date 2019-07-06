@@ -3,10 +3,13 @@
 
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <script>
+      var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') || CSS.supports('top: constant(a)'))
+      document.write('<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' + (coverSupport ? ', viewport-fit=cover' : '') + '" />')
+    </script>
     <title></title>
     <style>
-      html,
+        html,
         body {
             margin: 0;
             padding: 0;
@@ -163,6 +166,10 @@
             overflow: hidden;
 			border-top: 1px solid #d3d3d3;
 			overflow-y: scroll;
+            padding-bottom: 0;
+            padding-bottom: constant(safe-area-inset-bottom);
+            padding-bottom: env(safe-area-inset-bottom);
+            -webkit-overflow-scrolling: touch;
         }
 
         .poi-list ul {
@@ -300,7 +307,6 @@
       var serviceWebview;
       var back = function() {
         var webview = plus.webview.currentWebview()
-        console.log('webview.__uniapp_statusbar_style:::' + webview.__uniapp_statusbar_style)
         if (webview.__uniapp_statusbar_style === 'dark') {
           plus.navigator.setStatusBarStyle('dark')
         }
@@ -437,16 +443,12 @@
                 return;
               }
             }
-            console.log('onstatuschanged:centerPoint', centerPoint, evt
-              .center)
             centerPoint = evt.center
             if (nativeMarker) {
               nativeMarker.setPoint(centerPoint);
             }
             reverseGeocode(centerPoint);
           };
-
-          plus.webview.currentWebview().append(nativeMap);
 
           var searchPoi = new plus.maps.Search(nativeMap);
           var searchNearbyPoi = new plus.maps.Search(nativeMap);
@@ -546,10 +548,6 @@
             } else {
               showSuggestionPoiNoResults();
             }
-            console.log(JSON.stringify({
-              state:state,
-              res:res
-            }));
           };
 
           searchNearbyPoi.onPoiSearchComplete = function(state, res) {
@@ -562,14 +560,12 @@
             } else {
               showNearbyPoiNoResults();
             }
-            console.log(state, res);
           };
 
           var getSuggestion = debounce(function(q) {
             if (q.trim()) {
               searchPoi.poiSearchNearBy(q, centerPoint, 50000)
             } else {
-              console.log('清空')
             }
           }, 10);
 

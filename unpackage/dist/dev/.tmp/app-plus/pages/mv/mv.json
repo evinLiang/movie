@@ -1,3 +1,5 @@
 {
-  "navigationBarTitleText": "MV"
+  "usingComponents": {},
+  "navigationBarTitleText": "MV",
+  "enablePullDownRefresh": true
 }

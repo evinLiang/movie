@@ -1055,7 +1055,6 @@ if(typeof(global.defines)==='undefined')global.defines={};d_=global.defines;
 var f_={}
 if(typeof(global.modules)==='undefined')global.modules={};f_=global.modules || {};
 var p_={}
-var cs
 __WXML_GLOBAL__.ops_cached = __WXML_GLOBAL__.ops_cached || {}
 __WXML_GLOBAL__.ops_set = __WXML_GLOBAL__.ops_set || {};
 __WXML_GLOBAL__.ops_init = __WXML_GLOBAL__.ops_init || {};
@@ -1070,31 +1069,31 @@ function gz$gwx_2(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_2)return __WXML_GLOBAL__.ops_cached.$gwx_2
 __WXML_GLOBAL__.ops_cached.$gwx_2=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'57c5724a'])
-Z([3,'_view 57c5724a'])
-Z([3,'_view 57c5724a djRecommendList'])
+Z([3,'1c756545'])
+Z([3,'_view M1c756545'])
+Z([3,'_view M1c756545 djRecommendList'])
 Z([3,'index'])
 Z([3,'item'])
 Z([[7],[3,'djRecommendList']])
 Z([3,'item.index'])
 Z([[2,'<='],[[7],[3,'index']],[[7],[3,'djListNumber']]])
-Z([3,'_view 57c5724a item'])
+Z([3,'_view M1c756545 item'])
 Z([[6],[[7],[3,'item']],[3,'index']])
-Z([3,'_view 57c5724a pic'])
-Z([3,'_image 57c5724a'])
+Z([3,'_view M1c756545 pic'])
+Z([3,'_image M1c756545'])
 Z([3,'widthFix'])
 Z([[6],[[7],[3,'item']],[3,'picUrl']])
-Z([3,'_view 57c5724a playBtn'])
-Z([3,'_view 57c5724a icon'])
-Z([3,'_view 57c5724a content'])
-Z([3,'_view 57c5724a name'])
+Z([3,'_view M1c756545 playBtn'])
+Z([3,'_view M1c756545 icon'])
+Z([3,'_view M1c756545 content'])
+Z([3,'_view M1c756545 name'])
 Z([a,[[6],[[7],[3,'item']],[3,'name']]])
-Z([3,'_view 57c5724a rcmdtext'])
+Z([3,'_view M1c756545 rcmdtext'])
 Z([a,[[6],[[7],[3,'item']],[3,'rcmdtext']]])
-Z([3,'_view 57c5724a info'])
-Z([3,'_text 57c5724a'])
+Z([3,'_view M1c756545 info'])
+Z([3,'_text M1c756545'])
 Z([a,[3,'播放 : '],[[6],[[7],[3,'item']],[3,'subCount']],[3,'次']])
-Z([3,'_text 57c5724a category'])
+Z([3,'_text M1c756545 category'])
 Z([a,[3,'类型 : '],[[6],[[7],[3,'item']],[3,'category']]])
 })(__WXML_GLOBAL__.ops_cached.$gwx_2);return __WXML_GLOBAL__.ops_cached.$gwx_2
 }
@@ -1102,28 +1101,28 @@ function gz$gwx_3(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_3)return __WXML_GLOBAL__.ops_cached.$gwx_3
 __WXML_GLOBAL__.ops_cached.$gwx_3=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'e30cd080'])
-Z([3,'_view e30cd080 simiMvList'])
-Z([3,'index'])
+Z([3,'35d88bd4'])
+Z([3,'_view M35d88bd4 simiMvList'])
+Z([3,'index0'])
 Z([3,'item'])
 Z([[7],[3,'singerMvs']])
 Z([3,'item.id'])
 Z([3,'handleProxy'])
-Z([3,'_view e30cd080 item'])
+Z([3,'_view M35d88bd4 item'])
 Z([[7],[3,'$k']])
-Z([[2,'+'],[1,'e30cd080-0-'],[[7],[3,'index']]])
+Z([[2,'+'],[1,'35d88bd4-0-'],[[7],[3,'index0']]])
 Z([[6],[[7],[3,'item']],[3,'id']])
-Z([3,'_view e30cd080 pic'])
-Z([3,'_image e30cd080'])
+Z([3,'_view M35d88bd4 pic'])
+Z([3,'_image M35d88bd4'])
 Z([3,'aspectFill'])
 Z([[6],[[7],[3,'item']],[3,'imgurl16v9']])
-Z([3,'_view e30cd080 info'])
-Z([3,'_view e30cd080 name'])
+Z([3,'_view M35d88bd4 info'])
+Z([3,'_view M35d88bd4 name'])
 Z([a,[[6],[[7],[3,'item']],[3,'name']]])
-Z([3,'_view e30cd080 artistName'])
+Z([3,'_view M35d88bd4 artistName'])
 Z([a,[[6],[[7],[3,'item']],[3,'artistName']]])
-Z([3,'_view e30cd080 btn'])
-Z([3,'_text e30cd080'])
+Z([3,'_view M35d88bd4 btn'])
+Z([3,'_text M35d88bd4'])
 Z(z[21])
 Z(z[21])
 })(__WXML_GLOBAL__.ops_cached.$gwx_3);return __WXML_GLOBAL__.ops_cached.$gwx_3
@@ -1132,80 +1131,80 @@ function gz$gwx_4(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_4)return __WXML_GLOBAL__.ops_cached.$gwx_4
 __WXML_GLOBAL__.ops_cached.$gwx_4=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'40b96094'])
-Z([3,'_view 40b96094 ease-row mvListT'])
+Z([3,'8538ee04'])
+Z([3,'_view M8538ee04 ease-row mvListT'])
 Z([3,'index'])
 Z([3,'item'])
 Z([[7],[3,'data']])
 Z([3,'item.id'])
 Z([3,'handleProxy'])
-Z([3,'_view 40b96094 ease-col-2-1 item'])
+Z([3,'_view M8538ee04 ease-col-2-1 item'])
 Z([[7],[3,'$k']])
-Z([[2,'+'],[1,'40b96094-0-'],[[7],[3,'index']]])
+Z([[2,'+'],[1,'8538ee04-0-'],[[7],[3,'index']]])
 Z([[6],[[7],[3,'item']],[3,'id']])
-Z([3,'_image 40b96094'])
+Z([3,'_image M8538ee04'])
 Z([[2,'?:'],[[6],[[7],[3,'item']],[3,'cover']],[[6],[[7],[3,'item']],[3,'cover']],[[6],[[7],[3,'item']],[3,'picUrl']]])
-Z([3,'_text 40b96094 name'])
+Z([3,'_text M8538ee04 name'])
 Z([a,[[6],[[7],[3,'item']],[3,'name']]])
-Z([3,'_view 40b96094 playBtn'])
-Z([3,'_view 40b96094 icon'])
+Z([3,'_view M8538ee04 playBtn'])
+Z([3,'_view M8538ee04 icon'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_4);return __WXML_GLOBAL__.ops_cached.$gwx_4
 }
 function gz$gwx_5(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_5)return __WXML_GLOBAL__.ops_cached.$gwx_5
 __WXML_GLOBAL__.ops_cached.$gwx_5=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'6c002871'])
-Z([3,'_view 6c002871 nowPlay'])
+Z([3,'2eab5e4a'])
+Z([3,'_view M2eab5e4a nowPlay'])
 Z([[2,'!'],[[7],[3,'isMusicStart']]])
 Z([3,'handleProxy'])
-Z([3,'_div 6c002871 nowPlay-panel'])
+Z([3,'_div M2eab5e4a nowPlay-panel'])
 Z([[7],[3,'$k']])
-Z([1,'6c002871-0'])
-Z([3,'_image 6c002871 nowPlayIcom'])
+Z([1,'2eab5e4a-0'])
+Z([3,'_image M2eab5e4a nowPlayIcom'])
 Z([3,'../../static/images/nowPlay.png'])
-Z([3,'_view 6c002871 nowPlayInfo'])
+Z([3,'_view M2eab5e4a nowPlayInfo'])
 Z([3,'正在播放 :'])
 Z([[2,'!='],[[7],[3,'musicInfo']],[1,'']])
-Z([3,'_view 6c002871 nowPlayName'])
+Z([3,'_view M2eab5e4a nowPlayName'])
 Z([a,[[6],[[7],[3,'musicInfo']],[3,'name']],[3,'--'],[[6],[[7],[3,'musicInfo']],[3,'author']]])
-Z([3,'_image 6c002871 nowPlayIcomP'])
+Z([3,'_image M2eab5e4a nowPlayIcomP'])
 Z([[6],[[7],[3,'musicInfo']],[3,'picUrl']])
-Z([3,'_div 6c002871 nowPlay-seat'])
+Z([3,'_div M2eab5e4a nowPlay-seat'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_5);return __WXML_GLOBAL__.ops_cached.$gwx_5
 }
 function gz$gwx_6(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_6)return __WXML_GLOBAL__.ops_cached.$gwx_6
 __WXML_GLOBAL__.ops_cached.$gwx_6=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'14443a74'])
-Z([3,'_view 14443a74'])
-Z([3,'_view 14443a74 djRecommendList'])
+Z([3,'6ba326c8'])
+Z([3,'_view M6ba326c8'])
+Z([3,'_view M6ba326c8 djRecommendList'])
 Z([3,'index'])
 Z([3,'item'])
 Z([[7],[3,'programsList']])
 Z([3,'item.index'])
 Z([3,'handleProxy'])
-Z([3,'_view 14443a74 item'])
+Z([3,'_view M6ba326c8 item'])
 Z([[7],[3,'$k']])
-Z([[2,'+'],[1,'14443a74-0-'],[[7],[3,'index']]])
+Z([[2,'+'],[1,'6ba326c8-0-'],[[7],[3,'index']]])
 Z([[6],[[7],[3,'item']],[3,'index']])
-Z([3,'_view 14443a74 pic'])
-Z([3,'_image 14443a74'])
+Z([3,'_view M6ba326c8 pic'])
+Z([3,'_image M6ba326c8'])
 Z([3,'widthFix'])
 Z([[6],[[6],[[6],[[7],[3,'item']],[3,'mainSong']],[3,'album']],[3,'picUrl']])
-Z([3,'_view 14443a74 playBtn'])
-Z([3,'_view 14443a74 icon'])
-Z([3,'_view 14443a74 content'])
-Z([3,'_view 14443a74 name'])
+Z([3,'_view M6ba326c8 playBtn'])
+Z([3,'_view M6ba326c8 icon'])
+Z([3,'_view M6ba326c8 content'])
+Z([3,'_view M6ba326c8 name'])
 Z([a,[[6],[[7],[3,'item']],[3,'name']]])
-Z([3,'_view 14443a74 rcmdtext'])
+Z([3,'_view M6ba326c8 rcmdtext'])
 Z([a,[[6],[[7],[3,'item']],[3,'reason']]])
-Z([3,'_view 14443a74 info'])
-Z([3,'_text 14443a74'])
+Z([3,'_view M6ba326c8 info'])
+Z([3,'_text M6ba326c8'])
 Z([a,[3,'播放 : '],[[6],[[7],[3,'item']],[3,'listenerCount']],[3,'次']])
 Z([[2,'!=='],[[6],[[6],[[7],[3,'item']],[3,'channels']],[3,'length']],[1,0]])
-Z([3,'_text 14443a74 category'])
+Z([3,'_text M6ba326c8 category'])
 Z([a,[3,'类型 : '],[[6],[[6],[[7],[3,'item']],[3,'channels']],[1,0]]])
 })(__WXML_GLOBAL__.ops_cached.$gwx_6);return __WXML_GLOBAL__.ops_cached.$gwx_6
 }
@@ -1213,31 +1212,31 @@ function gz$gwx_7(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_7)return __WXML_GLOBAL__.ops_cached.$gwx_7
 __WXML_GLOBAL__.ops_cached.$gwx_7=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'0d44d6ec'])
-Z([3,'_view 0d44d6ec privileges'])
+Z([3,'25dfbbc2'])
+Z([3,'_view M25dfbbc2 privileges'])
 Z([3,'index'])
 Z([3,'item'])
 Z([[7],[3,'singerHotSongs']])
 Z([3,'item.index'])
 Z([3,'handleProxy'])
-Z([3,'_view 0d44d6ec item'])
+Z([3,'_view M25dfbbc2 item'])
 Z([[7],[3,'$k']])
-Z([[2,'+'],[1,'0d44d6ec-0-'],[[7],[3,'index']]])
+Z([[2,'+'],[1,'25dfbbc2-0-'],[[7],[3,'index']]])
 Z([[6],[[7],[3,'item']],[3,'index']])
-Z([3,'_view 0d44d6ec index'])
+Z([3,'_view M25dfbbc2 index'])
 Z([a,[[2,'+'],[[7],[3,'index']],[1,1]]])
-Z([3,'_view 0d44d6ec info'])
-Z([3,'_view 0d44d6ec name'])
+Z([3,'_view M25dfbbc2 info'])
+Z([3,'_view M25dfbbc2 name'])
 Z([a,[[6],[[7],[3,'item']],[3,'name']]])
 Z([3,'i'])
 Z([3,'childItem'])
 Z([[6],[[7],[3,'item']],[3,'ar']])
 Z([3,'childItem.i'])
-Z([3,'_text 0d44d6ec arName'])
+Z([3,'_text M25dfbbc2 arName'])
 Z([[6],[[7],[3,'childItem']],[3,'i']])
 Z([a,[[6],[[7],[3,'childItem']],[3,'name']]])
-Z([3,'_view 0d44d6ec btn'])
-Z([3,'_text 0d44d6ec'])
+Z([3,'_view M25dfbbc2 btn'])
+Z([3,'_text M25dfbbc2'])
 Z(z[24])
 Z(z[24])
 })(__WXML_GLOBAL__.ops_cached.$gwx_7);return __WXML_GLOBAL__.ops_cached.$gwx_7
@@ -1246,10 +1245,10 @@ function gz$gwx_8(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_8)return __WXML_GLOBAL__.ops_cached.$gwx_8
 __WXML_GLOBAL__.ops_cached.$gwx_8=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'c17f1bb8'])
-Z([3,'_view c17f1bb8 page-panel'])
-Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'c17f1bb8-0']]]]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'57c5724a'])
+Z([3,'9049520c'])
+Z([3,'_view M9049520c page-panel'])
+Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'9049520c-0']]]]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'1c756545'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_8);return __WXML_GLOBAL__.ops_cached.$gwx_8
 }
 function gz$gwx_9(){
@@ -1257,29 +1256,30 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_9)return __WXML_GLOBAL__.ops_cached.$gwx_9
 __WXML_GLOBAL__.ops_cached.$gwx_9=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'c17f1bb8'])
+Z([3,'9049520c'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_9);return __WXML_GLOBAL__.ops_cached.$gwx_9
 }
 function gz$gwx_10(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_10)return __WXML_GLOBAL__.ops_cached.$gwx_10
 __WXML_GLOBAL__.ops_cached.$gwx_10=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'70817a50'])
-Z([3,'_view 70817a50 page-panel'])
-Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'70817a50-0']]]]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'6c002871'])
-Z([3,'_view 70817a50 playlistDetail ease-row'])
-Z([3,'_view 70817a50 ease-col-3-1 coverImgUrls'])
-Z([3,'_image 70817a50'])
+Z([3,'42cd432e'])
+Z([[2,'=='],[[2,'!'],[[7],[3,'playlist']]],[1,'']])
+Z([3,'_view M42cd432e page-panel'])
+Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'42cd432e-0']]]]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'2eab5e4a'])
+Z([3,'_view M42cd432e playlistDetail ease-row'])
+Z([3,'_view M42cd432e ease-col-3-1 coverImgUrls'])
+Z([3,'_image M42cd432e'])
 Z([3,'widthFix'])
 Z([[6],[[7],[3,'playlist']],[3,'coverImgUrl']])
-Z([3,'_view 70817a50 ease-col-3-2 playlistInfo'])
-Z([3,'_view 70817a50 name'])
+Z([3,'_view M42cd432e ease-col-3-2 playlistInfo'])
+Z([3,'_view M42cd432e name'])
 Z([a,[[6],[[7],[3,'playlist']],[3,'name']]])
-Z([3,'_view 70817a50 description'])
+Z([3,'_view M42cd432e description'])
 Z([a,[[6],[[7],[3,'playlist']],[3,'description']]])
-Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'70817a50-1']]]]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'0d44d6ec'])
+Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'42cd432e-1']]]]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'25dfbbc2'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_10);return __WXML_GLOBAL__.ops_cached.$gwx_10
 }
 function gz$gwx_11(){
@@ -1287,21 +1287,21 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_11)return __WXML_GLOBAL__.ops_cached.$gwx_11
 __WXML_GLOBAL__.ops_cached.$gwx_11=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'70817a50'])
+Z([3,'42cd432e'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_11);return __WXML_GLOBAL__.ops_cached.$gwx_11
 }
 function gz$gwx_12(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_12)return __WXML_GLOBAL__.ops_cached.$gwx_12
 __WXML_GLOBAL__.ops_cached.$gwx_12=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'62f6004a'])
-Z([3,'_view 62f6004a page-panel'])
-Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'62f6004a-0']]]]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'6c002871'])
-Z([3,'_view 62f6004a banner'])
+Z([3,'8cdfbac0'])
+Z([3,'_view M8cdfbac0 page-panel'])
+Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'8cdfbac0-0']]]]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'2eab5e4a'])
+Z([3,'_view M8cdfbac0 banner'])
 Z([[6],[[7],[3,'swiper']],[3,'autoplay']])
 Z([[6],[[7],[3,'swiper']],[3,'circular']])
-Z([3,'_swiper 62f6004a'])
+Z([3,'_swiper M8cdfbac0'])
 Z([[6],[[7],[3,'swiper']],[3,'duration']])
 Z([[6],[[7],[3,'swiper']],[3,'indicatorActiveColor']])
 Z([[6],[[7],[3,'swiper']],[3,'indicatorDots']])
@@ -1313,37 +1313,37 @@ Z([3,'item'])
 Z([[7],[3,'bannersList']])
 Z([3,'item.index'])
 Z([3,'handleProxy'])
-Z([3,'_swiper-item 62f6004a'])
+Z([3,'_swiper-item M8cdfbac0'])
 Z([[7],[3,'$k']])
-Z([[2,'+'],[1,'62f6004a-0-'],[[7],[3,'index']]])
+Z([[2,'+'],[1,'8cdfbac0-0-'],[[7],[3,'index']]])
 Z([[6],[[7],[3,'item']],[3,'index']])
-Z([3,'_image 62f6004a'])
+Z([3,'_image M8cdfbac0'])
 Z([3,'widthFix'])
 Z([[6],[[7],[3,'item']],[3,'imageUrl']])
 Z(z[18])
-Z([3,'_view 62f6004a page-title'])
+Z([3,'_view M8cdfbac0 page-title'])
 Z(z[20])
-Z([1,'62f6004a-1'])
-Z([3,'_text 62f6004a themeColor'])
+Z([1,'8cdfbac0-1'])
+Z([3,'_text M8cdfbac0 themeColor'])
 Z([3,'推'])
 Z([3,'荐歌单'])
-Z([3,'_scroll-view 62f6004a scroll-view_H'])
+Z([3,'_scroll-view M8cdfbac0 scroll-view_H'])
 Z([3,'width: 100%'])
-Z([3,'_view 62f6004a personalizedList'])
+Z([3,'_view M8cdfbac0 personalizedList'])
 Z(z[14])
 Z(z[15])
 Z([[7],[3,'personalizedList']])
 Z(z[17])
 Z([[2,'<='],[[7],[3,'index']],[1,10]])
 Z(z[18])
-Z([3,'_view 62f6004a item'])
+Z([3,'_view M8cdfbac0 item'])
 Z(z[20])
-Z([[2,'+'],[1,'62f6004a-2-'],[[7],[3,'index']]])
+Z([[2,'+'],[1,'8cdfbac0-2-'],[[7],[3,'index']]])
 Z(z[22])
 Z(z[23])
 Z(z[24])
 Z([[6],[[7],[3,'item']],[3,'picUrl']])
-Z([3,'_text 62f6004a name'])
+Z([3,'_text M8cdfbac0 name'])
 Z([a,[[6],[[7],[3,'item']],[3,'name']]])
 Z(z[27])
 Z(z[30])
@@ -1351,30 +1351,30 @@ Z([3,'M'])
 Z([3,'V排行'])
 Z(z[33])
 Z(z[34])
-Z([3,'_view 62f6004a topMvList'])
-Z(z[14])
+Z([3,'_view M8cdfbac0 topMvList'])
+Z([3,'index0'])
 Z(z[15])
 Z([[7],[3,'topMvList']])
 Z(z[17])
 Z(z[18])
 Z(z[42])
 Z(z[20])
-Z([[2,'+'],[1,'62f6004a-3-'],[[7],[3,'index']]])
+Z([[2,'+'],[1,'8cdfbac0-3-'],[[7],[3,'index0']]])
 Z(z[22])
 Z(z[23])
 Z(z[24])
 Z([[6],[[7],[3,'item']],[3,'cover']])
 Z(z[49])
 Z([a,z[50][1]])
-Z([3,'_view 62f6004a playBtn'])
-Z([3,'_view 62f6004a icon'])
+Z([3,'_view M8cdfbac0 playBtn'])
+Z([3,'_view M8cdfbac0 icon'])
 Z(z[27])
 Z(z[30])
 Z([3,'歌'])
 Z([3,'手榜'])
 Z(z[33])
 Z(z[34])
-Z([3,'_view 62f6004a toplistArtistList'])
+Z([3,'_view M8cdfbac0 toplistArtistList'])
 Z(z[14])
 Z(z[15])
 Z([[7],[3,'toplistArtistList']])
@@ -1383,7 +1383,7 @@ Z([[2,'<='],[[7],[3,'index']],[1,20]])
 Z(z[18])
 Z(z[42])
 Z(z[20])
-Z([[2,'+'],[1,'62f6004a-4-'],[[7],[3,'index']]])
+Z([[2,'+'],[1,'8cdfbac0-4-'],[[7],[3,'index']]])
 Z(z[22])
 Z(z[23])
 Z(z[24])
@@ -1394,8 +1394,8 @@ Z(z[27])
 Z(z[30])
 Z(z[31])
 Z([3,'荐节目'])
-Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'62f6004a-2']]]]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'14443a74'])
+Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'8cdfbac0-2']]]]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'6ba326c8'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_12);return __WXML_GLOBAL__.ops_cached.$gwx_12
 }
 function gz$gwx_13(){
@@ -1403,46 +1403,46 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_13)return __WXML_GLOBAL__.ops_cached.$gwx_13
 __WXML_GLOBAL__.ops_cached.$gwx_13=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'62f6004a'])
+Z([3,'8cdfbac0'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_13);return __WXML_GLOBAL__.ops_cached.$gwx_13
 }
 function gz$gwx_14(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_14)return __WXML_GLOBAL__.ops_cached.$gwx_14
 __WXML_GLOBAL__.ops_cached.$gwx_14=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'2b334e84'])
-Z([3,'_view 2b334e84 page-panel'])
-Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'2b334e84-0']]]]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'6c002871'])
-Z([3,'_view 2b334e84 left-tab'])
-Z([3,'_view 2b334e84 tab-title'])
+Z([3,'7f53695a'])
+Z([3,'_view M7f53695a page-panel'])
+Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'7f53695a-0']]]]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'2eab5e4a'])
+Z([3,'_view M7f53695a left-tab'])
+Z([3,'_view M7f53695a tab-title'])
 Z([3,'handleProxy'])
-Z([a,[3,'_text 2b334e84 item '],[[2,'?:'],[[2,'=='],[[7],[3,'tabNum']],[1,1]],[1,'active'],[1,'']]])
+Z([a,[3,'_text M7f53695a item '],[[2,'?:'],[[2,'=='],[[7],[3,'tabNum']],[1,1]],[1,'active'],[1,'']]])
 Z([[7],[3,'$k']])
-Z([1,'2b334e84-0'])
+Z([1,'7f53695a-0'])
 Z([3,'最新MV'])
 Z(z[6])
 Z([a,z[7][1],[[2,'?:'],[[2,'=='],[[7],[3,'tabNum']],[1,2]],[1,'active'],[1,'']]])
 Z(z[8])
-Z([1,'2b334e84-1'])
+Z([1,'7f53695a-1'])
 Z([3,'MV排行'])
 Z(z[6])
 Z([a,z[7][1],[[2,'?:'],[[2,'=='],[[7],[3,'tabNum']],[1,3]],[1,'active'],[1,'']]])
 Z(z[8])
-Z([1,'2b334e84-2'])
+Z([1,'7f53695a-2'])
 Z([3,'推荐MV'])
-Z([3,'_view 2b334e84 tab-content'])
+Z([3,'_view M7f53695a tab-content'])
 Z([[2,'=='],[[7],[3,'tabNum']],[1,1]])
-Z([3,'_view 2b334e84 item'])
-Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'2b334e84-1']]]]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'40b96094'])
+Z([3,'_view M7f53695a item'])
+Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'7f53695a-1']]]]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'8538ee04'])
 Z([[2,'=='],[[7],[3,'tabNum']],[1,2]])
 Z(z[23])
-Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'2b334e84-2']]]]],[[8],'$root',[[7],[3,'$root']]]])
+Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'7f53695a-2']]]]],[[8],'$root',[[7],[3,'$root']]]])
 Z(z[25])
 Z([[2,'=='],[[7],[3,'tabNum']],[1,3]])
 Z(z[23])
-Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'2b334e84-3']]]]],[[8],'$root',[[7],[3,'$root']]]])
+Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'7f53695a-3']]]]],[[8],'$root',[[7],[3,'$root']]]])
 Z(z[25])
 })(__WXML_GLOBAL__.ops_cached.$gwx_14);return __WXML_GLOBAL__.ops_cached.$gwx_14
 }
@@ -1451,61 +1451,62 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_15)return __WXML_GLOBAL__.ops_cached.$gwx_15
 __WXML_GLOBAL__.ops_cached.$gwx_15=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'2b334e84'])
+Z([3,'7f53695a'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_15);return __WXML_GLOBAL__.ops_cached.$gwx_15
 }
 function gz$gwx_16(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_16)return __WXML_GLOBAL__.ops_cached.$gwx_16
 __WXML_GLOBAL__.ops_cached.$gwx_16=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'a87eecb8'])
-Z([3,'_view a87eecb8'])
-Z([3,'_view a87eecb8 video'])
+Z([3,'ffddd90c'])
+Z([[2,'=='],[[2,'!'],[[7],[3,'mvDetail']]],[1,'']])
+Z([3,'_view Mffddd90c'])
+Z([3,'_view Mffddd90c video'])
 Z([3,'handleProxy'])
-Z([3,'_video a87eecb8'])
+Z([3,'_video Mffddd90c'])
 Z([[7],[3,'$k']])
-Z([1,'a87eecb8-0'])
+Z([1,'ffddd90c-0'])
 Z([3,'myVideo'])
 Z([[6],[[7],[3,'mvDetail']],[3,'cover']])
 Z([[7],[3,'mvUrl']])
-Z([3,'_view a87eecb8 page-panel'])
-Z([3,'_view a87eecb8 videoInfo'])
-Z([3,'_view a87eecb8 name'])
+Z([3,'_view Mffddd90c page-panel'])
+Z([3,'_view Mffddd90c videoInfo'])
+Z([3,'_view Mffddd90c name'])
 Z([a,[[6],[[7],[3,'mvDetail']],[3,'name']]])
-Z([3,'_view a87eecb8 tips'])
-Z([3,'_text a87eecb8'])
+Z([3,'_view Mffddd90c tips'])
+Z([3,'_text Mffddd90c'])
 Z([a,[3,'发布 : '],[[6],[[7],[3,'mvDetail']],[3,'publishTime']]])
-Z([3,'_text a87eecb8 artistName'])
+Z([3,'_text Mffddd90c artistName'])
 Z([a,[3,'演唱 : '],[[6],[[7],[3,'mvDetail']],[3,'artistName']]])
-Z([3,'_view a87eecb8 desc'])
+Z([3,'_view Mffddd90c desc'])
 Z([a,[[6],[[7],[3,'mvDetail']],[3,'desc']]])
-Z([3,'_view a87eecb8 page-title'])
-Z([3,'_text a87eecb8 themeColor'])
+Z([3,'_view Mffddd90c page-title'])
+Z([3,'_text Mffddd90c themeColor'])
 Z([3,'类'])
 Z([3,'似MV'])
-Z([3,'_view a87eecb8 simiMvList'])
-Z([3,'index'])
+Z([3,'_view Mffddd90c simiMvList'])
+Z([3,'index0'])
 Z([3,'item'])
 Z([[7],[3,'simiMvList']])
 Z([3,'item.id'])
-Z(z[3])
-Z([3,'_view a87eecb8 item'])
-Z(z[5])
-Z([[2,'+'],[1,'a87eecb8-1-'],[[7],[3,'index']]])
+Z(z[4])
+Z([3,'_view Mffddd90c item'])
+Z(z[6])
+Z([[2,'+'],[1,'ffddd90c-1-'],[[7],[3,'index0']]])
 Z([[6],[[7],[3,'item']],[3,'id']])
-Z([3,'_view a87eecb8 pic'])
-Z([3,'_image a87eecb8'])
+Z([3,'_view Mffddd90c pic'])
+Z([3,'_image Mffddd90c'])
 Z([3,'aspectFill'])
 Z([[6],[[7],[3,'item']],[3,'cover']])
-Z([3,'_view a87eecb8 info'])
-Z(z[12])
+Z([3,'_view Mffddd90c info'])
+Z(z[13])
 Z([a,[[6],[[7],[3,'item']],[3,'name']]])
-Z([3,'_view a87eecb8 artistName'])
+Z([3,'_view Mffddd90c artistName'])
 Z([a,[[6],[[7],[3,'item']],[3,'artistName']]])
-Z([3,'_view a87eecb8 btn'])
-Z(z[15])
-Z(z[15])
-Z(z[15])
+Z([3,'_view Mffddd90c btn'])
+Z(z[16])
+Z(z[16])
+Z(z[16])
 })(__WXML_GLOBAL__.ops_cached.$gwx_16);return __WXML_GLOBAL__.ops_cached.$gwx_16
 }
 function gz$gwx_17(){
@@ -1513,32 +1514,32 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_17)return __WXML_GLOBAL__.ops_cached.$gwx_17
 __WXML_GLOBAL__.ops_cached.$gwx_17=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'a87eecb8'])
+Z([3,'ffddd90c'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_17);return __WXML_GLOBAL__.ops_cached.$gwx_17
 }
 function gz$gwx_18(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_18)return __WXML_GLOBAL__.ops_cached.$gwx_18
 __WXML_GLOBAL__.ops_cached.$gwx_18=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'6e3424c4'])
-Z([3,'_view 6e3424c4 page-panel'])
-Z([3,'_view 6e3424c4 mvList'])
+Z([3,'f261eccc'])
+Z([3,'_view Mf261eccc page-panel'])
+Z([3,'_view Mf261eccc mvList'])
 Z([3,'index'])
 Z([3,'item'])
 Z([[7],[3,'mvList']])
 Z([3,'item.index'])
 Z([3,'handleProxy'])
-Z([3,'_view 6e3424c4 item'])
+Z([3,'_view Mf261eccc item'])
 Z([[7],[3,'$k']])
-Z([[2,'+'],[1,'6e3424c4-0-'],[[7],[3,'index']]])
+Z([[2,'+'],[1,'f261eccc-0-'],[[7],[3,'index']]])
 Z([[6],[[7],[3,'item']],[3,'index']])
-Z([3,'_image 6e3424c4'])
+Z([3,'_image Mf261eccc'])
 Z([3,'widthFix'])
 Z([[6],[[7],[3,'item']],[3,'cover']])
-Z([3,'_text 6e3424c4 name'])
+Z([3,'_text Mf261eccc name'])
 Z([a,[[6],[[7],[3,'item']],[3,'name']]])
-Z([3,'_view 6e3424c4 playBtn'])
-Z([3,'_view 6e3424c4 icon'])
+Z([3,'_view Mf261eccc playBtn'])
+Z([3,'_view Mf261eccc icon'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_18);return __WXML_GLOBAL__.ops_cached.$gwx_18
 }
 function gz$gwx_19(){
@@ -1546,31 +1547,32 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_19)return __WXML_GLOBAL__.ops_cached.$gwx_19
 __WXML_GLOBAL__.ops_cached.$gwx_19=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'6e3424c4'])
+Z([3,'f261eccc'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_19);return __WXML_GLOBAL__.ops_cached.$gwx_19
 }
 function gz$gwx_20(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_20)return __WXML_GLOBAL__.ops_cached.$gwx_20
 __WXML_GLOBAL__.ops_cached.$gwx_20=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'e837adb8'])
-Z([3,'_view e837adb8 page-panel'])
-Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'e837adb8-0']]]]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'6c002871'])
-Z([3,'_view e837adb8 personalizedList ease-row'])
+Z([3,'160246fa'])
+Z([[2,'=='],[[2,'!'],[[7],[3,'personalizedList']]],[1,'']])
+Z([3,'_view M160246fa page-panel'])
+Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'160246fa-0']]]]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'2eab5e4a'])
+Z([3,'_view M160246fa personalizedList ease-row'])
 Z([3,'index'])
 Z([3,'item'])
 Z([[7],[3,'personalizedList']])
 Z([3,'item.id'])
 Z([3,'handleProxy'])
-Z([3,'_view e837adb8 item ease-col-2-1'])
+Z([3,'_view M160246fa item ease-col-2-1'])
 Z([[7],[3,'$k']])
-Z([[2,'+'],[1,'e837adb8-0-'],[[7],[3,'index']]])
+Z([[2,'+'],[1,'160246fa-0-'],[[7],[3,'index']]])
 Z([[6],[[7],[3,'item']],[3,'id']])
-Z([3,'_image e837adb8'])
+Z([3,'_image M160246fa'])
 Z([3,'widthFix'])
 Z([[6],[[7],[3,'item']],[3,'picUrl']])
-Z([3,'_text e837adb8 name'])
+Z([3,'_text M160246fa name'])
 Z([a,[[6],[[7],[3,'item']],[3,'name']]])
 })(__WXML_GLOBAL__.ops_cached.$gwx_20);return __WXML_GLOBAL__.ops_cached.$gwx_20
 }
@@ -1579,59 +1581,54 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_21)return __WXML_GLOBAL__.ops_cached.$gwx_21
 __WXML_GLOBAL__.ops_cached.$gwx_21=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'e837adb8'])
+Z([3,'160246fa'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_21);return __WXML_GLOBAL__.ops_cached.$gwx_21
 }
 function gz$gwx_22(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_22)return __WXML_GLOBAL__.ops_cached.$gwx_22
 __WXML_GLOBAL__.ops_cached.$gwx_22=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'80408d38'])
-Z([3,'_view data-v-11c0797e page-panel-h'])
-Z([3,'_view data-v-11c0797e music-name'])
+Z([3,'7e2a793a'])
+Z([[2,'=='],[[2,'!'],[[6],[[7],[3,'musicDetail']],[3,'name']]],[1,'']])
+Z([3,'_view data-v-31d2bec7 page-panel-h'])
+Z([3,'_view data-v-31d2bec7 music-name'])
 Z([a,[[6],[[7],[3,'musicDetail']],[3,'name']]])
-Z([3,'_view data-v-11c0797e music-author'])
+Z([3,'_view data-v-31d2bec7 music-author'])
 Z([a,[[6],[[7],[3,'musicDetail']],[3,'author']]])
-Z([3,'_view data-v-11c0797e music-pic'])
-Z([3,'_image data-v-11c0797e'])
+Z([3,'_view data-v-31d2bec7 music-pic'])
+Z([3,'_image data-v-31d2bec7'])
 Z([[6],[[7],[3,'musicDetail']],[3,'picUrl']])
-Z([3,'_view data-v-11c0797e player-panel'])
-Z([3,'_view data-v-11c0797e time'])
-Z([3,'_view data-v-11c0797e item'])
+Z([3,'_view data-v-31d2bec7 player-panel'])
+Z([3,'_view data-v-31d2bec7 time'])
+Z([3,'_view data-v-31d2bec7 item'])
 Z([a,[[6],[[7],[3,'musicTime']],[3,'currentTime']]])
-Z(z[11])
+Z(z[12])
 Z([a,[[6],[[7],[3,'musicTime']],[3,'duration']]])
 Z([3,'#E91E63'])
 Z([3,'handleProxy'])
 Z([3,'12'])
-Z([3,'_slider data-v-11c0797e'])
+Z([3,'_slider data-v-31d2bec7'])
 Z([[7],[3,'$k']])
-Z([1,'80408d38-0'])
+Z([1,'7e2a793a-0'])
 Z([[6],[[7],[3,'musicTime']],[3,'duration']])
 Z([3,'0'])
 Z([3,'0.01'])
 Z([[6],[[7],[3,'musicTime']],[3,'currentTime']])
-Z([3,'_view data-v-11c0797e player-btn'])
-Z([3,'_view data-v-11c0797e nextPrev'])
-Z(z[7])
-Z([3,'../../static/images/prev.png'])
+Z([3,'_view data-v-31d2bec7 player-btn'])
 Z([[7],[3,'isStop']])
-Z(z[16])
-Z([3,'_view data-v-11c0797e playStop'])
-Z(z[19])
-Z([1,'80408d38-1'])
-Z(z[7])
+Z(z[17])
+Z([3,'_view data-v-31d2bec7 playStop'])
+Z(z[20])
+Z([1,'7e2a793a-1'])
+Z(z[8])
 Z([3,'../../static/images/again.png'])
 Z([[2,'!'],[[7],[3,'isStop']]])
-Z(z[16])
-Z(z[31])
-Z(z[19])
-Z([1,'80408d38-2'])
-Z(z[7])
+Z(z[17])
+Z(z[29])
+Z(z[20])
+Z([1,'7e2a793a-2'])
+Z(z[8])
 Z([[2,'?:'],[[7],[3,'isPlay']],[[7],[3,'playIcon']],[[7],[3,'pauseIcon']]])
-Z(z[26])
-Z(z[7])
-Z([3,'../../static/images/next.png'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_22);return __WXML_GLOBAL__.ops_cached.$gwx_22
 }
 function gz$gwx_23(){
@@ -1639,31 +1636,31 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_23)return __WXML_GLOBAL__.ops_cached.$gwx_23
 __WXML_GLOBAL__.ops_cached.$gwx_23=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'80408d38'])
+Z([3,'7e2a793a'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_23);return __WXML_GLOBAL__.ops_cached.$gwx_23
 }
 function gz$gwx_24(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_24)return __WXML_GLOBAL__.ops_cached.$gwx_24
 __WXML_GLOBAL__.ops_cached.$gwx_24=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'9631e85c'])
-Z([3,'_view data-v-ef313222 page-panel'])
-Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'9631e85c-0']]]]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'6c002871'])
-Z([3,'_view data-v-ef313222 ranking-panel ease-row'])
+Z([3,'125c1328'])
+Z([3,'_view data-v-3b95b416 page-panel'])
+Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'125c1328-0']]]]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'2eab5e4a'])
+Z([3,'_view data-v-3b95b416 ranking-panel ease-row'])
 Z([3,'index'])
 Z([3,'item'])
 Z([[7],[3,'rankingList']])
 Z([3,'item.index'])
 Z([3,'handleProxy'])
-Z([3,'_div data-v-ef313222 item ease-col-3-1'])
+Z([3,'_div data-v-3b95b416 item ease-col-3-1'])
 Z([[7],[3,'$k']])
-Z([[2,'+'],[1,'9631e85c-0-'],[[7],[3,'index']]])
+Z([[2,'+'],[1,'125c1328-0-'],[[7],[3,'index']]])
 Z([[6],[[7],[3,'item']],[3,'index']])
-Z([3,'_image data-v-ef313222 ranking-pic'])
+Z([3,'_image data-v-3b95b416 ranking-pic'])
 Z([3,'widthFix'])
 Z([[6],[[7],[3,'item']],[3,'picUrl']])
-Z([3,'_view data-v-ef313222 ranking-name'])
+Z([3,'_view data-v-3b95b416 ranking-name'])
 Z([a,[[6],[[7],[3,'item']],[3,'name']]])
 })(__WXML_GLOBAL__.ops_cached.$gwx_24);return __WXML_GLOBAL__.ops_cached.$gwx_24
 }
@@ -1672,53 +1669,54 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_25)return __WXML_GLOBAL__.ops_cached.$gwx_25
 __WXML_GLOBAL__.ops_cached.$gwx_25=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'9631e85c'])
+Z([3,'125c1328'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_25);return __WXML_GLOBAL__.ops_cached.$gwx_25
 }
 function gz$gwx_26(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_26)return __WXML_GLOBAL__.ops_cached.$gwx_26
 __WXML_GLOBAL__.ops_cached.$gwx_26=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'3fe561ce'])
-Z([3,'_view 3fe561ce page-panel'])
-Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'3fe561ce-0']]]]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'6c002871'])
-Z([3,'_view 3fe561ce playlistDetail ease-row'])
-Z([3,'_view 3fe561ce ease-col-3-1 coverImgUrls'])
-Z([3,'_image 3fe561ce'])
+Z([3,'0660b324'])
+Z([[2,'=='],[[2,'!'],[[7],[3,'playlist']]],[1,'']])
+Z([3,'_view M0660b324 page-panel'])
+Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'0660b324-0']]]]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'2eab5e4a'])
+Z([3,'_view M0660b324 playlistDetail ease-row'])
+Z([3,'_view M0660b324 ease-col-3-1 coverImgUrls'])
+Z([3,'_image M0660b324'])
 Z([3,'widthFix'])
 Z([[6],[[7],[3,'playlist']],[3,'coverImgUrl']])
-Z([3,'_view 3fe561ce ease-col-3-2 playlistInfo'])
-Z([3,'_view 3fe561ce name'])
+Z([3,'_view M0660b324 ease-col-3-2 playlistInfo'])
+Z([3,'_view M0660b324 name'])
 Z([a,[[6],[[7],[3,'playlist']],[3,'name']]])
-Z([3,'_view 3fe561ce description'])
+Z([3,'_view M0660b324 description'])
 Z([a,[[6],[[7],[3,'playlist']],[3,'description']]])
-Z([3,'_view 3fe561ce privileges'])
+Z([3,'_view M0660b324 privileges'])
 Z([3,'index'])
 Z([3,'item'])
 Z([[6],[[7],[3,'playlist']],[3,'tracks']])
 Z([3,'item.index'])
 Z([3,'handleProxy'])
-Z([3,'_view 3fe561ce item'])
+Z([3,'_view M0660b324 item'])
 Z([[7],[3,'$k']])
-Z([[2,'+'],[1,'3fe561ce-0-'],[[7],[3,'index']]])
+Z([[2,'+'],[1,'0660b324-0-'],[[7],[3,'index']]])
 Z([[6],[[7],[3,'item']],[3,'index']])
-Z([3,'_view 3fe561ce index'])
+Z([3,'_view M0660b324 index'])
 Z([a,[[2,'+'],[[7],[3,'index']],[1,1]]])
-Z([3,'_view 3fe561ce info'])
-Z(z[10])
+Z([3,'_view M0660b324 info'])
+Z(z[11])
 Z([a,[[6],[[7],[3,'item']],[3,'name']]])
 Z([3,'i'])
 Z([3,'childItem'])
 Z([[6],[[7],[3,'item']],[3,'ar']])
 Z([3,'childItem.i'])
-Z([3,'_text 3fe561ce arName'])
+Z([3,'_text M0660b324 arName'])
 Z([[6],[[7],[3,'childItem']],[3,'i']])
 Z([a,[[6],[[7],[3,'childItem']],[3,'name']]])
-Z([3,'_view 3fe561ce btn'])
-Z([3,'_text 3fe561ce'])
-Z(z[37])
-Z(z[37])
+Z([3,'_view M0660b324 btn'])
+Z([3,'_text M0660b324'])
+Z(z[38])
+Z(z[38])
 })(__WXML_GLOBAL__.ops_cached.$gwx_26);return __WXML_GLOBAL__.ops_cached.$gwx_26
 }
 function gz$gwx_27(){
@@ -1726,52 +1724,52 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_27)return __WXML_GLOBAL__.ops_cached.$gwx_27
 __WXML_GLOBAL__.ops_cached.$gwx_27=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'3fe561ce'])
+Z([3,'0660b324'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_27);return __WXML_GLOBAL__.ops_cached.$gwx_27
 }
 function gz$gwx_28(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_28)return __WXML_GLOBAL__.ops_cached.$gwx_28
 __WXML_GLOBAL__.ops_cached.$gwx_28=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'27728038'])
-Z([3,'_view 27728038 page-panel singerInfo'])
-Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'27728038-0']]]]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'6c002871'])
-Z([3,'_view 27728038 panel'])
-Z([3,'_image 27728038'])
+Z([3,'a21b228c'])
+Z([3,'_view Ma21b228c page-panel singerInfo'])
+Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'a21b228c-0']]]]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'2eab5e4a'])
+Z([3,'_view Ma21b228c panel'])
+Z([3,'_image Ma21b228c'])
 Z([[6],[[7],[3,'singerInfo']],[3,'picUrl']])
-Z([3,'_view 27728038 name'])
+Z([3,'_view Ma21b228c name'])
 Z([a,[[6],[[7],[3,'singerInfo']],[3,'name']]])
-Z([3,'_view 27728038 tab'])
-Z([3,'_view 27728038 tab-title'])
+Z([3,'_view Ma21b228c tab'])
+Z([3,'_view Ma21b228c tab-title'])
 Z([3,'handleProxy'])
-Z([a,[3,'_view 27728038 item '],[[2,'?:'],[[2,'=='],[[7],[3,'tabNum']],[1,1]],[1,'active'],[1,'']]])
+Z([a,[3,'_view Ma21b228c item '],[[2,'?:'],[[2,'=='],[[7],[3,'tabNum']],[1,1]],[1,'active'],[1,'']]])
 Z([[7],[3,'$k']])
-Z([1,'27728038-0'])
+Z([1,'a21b228c-0'])
 Z([3,'描述'])
 Z(z[11])
 Z([a,z[12][1],[[2,'?:'],[[2,'=='],[[7],[3,'tabNum']],[1,2]],[1,'active'],[1,'']]])
 Z(z[13])
-Z([1,'27728038-1'])
+Z([1,'a21b228c-1'])
 Z([3,'单曲'])
 Z(z[11])
 Z([a,z[12][1],[[2,'?:'],[[2,'=='],[[7],[3,'tabNum']],[1,4]],[1,'active'],[1,'']]])
 Z(z[13])
-Z([1,'27728038-2'])
+Z([1,'a21b228c-2'])
 Z([3,'MV'])
-Z([3,'_view 27728038 tab-content'])
+Z([3,'_view Ma21b228c tab-content'])
 Z([[2,'=='],[[7],[3,'tabNum']],[1,1]])
-Z([3,'_view 27728038 item'])
-Z([3,'_view 27728038 SingerDesc'])
+Z([3,'_view Ma21b228c item'])
+Z([3,'_view Ma21b228c SingerDesc'])
 Z([a,[[6],[[7],[3,'SingerDesc']],[3,'briefDesc']]])
 Z([[2,'=='],[[7],[3,'tabNum']],[1,2]])
 Z(z[28])
-Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'27728038-1']]]]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'0d44d6ec'])
+Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'a21b228c-1']]]]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'25dfbbc2'])
 Z([[2,'=='],[[7],[3,'tabNum']],[1,4]])
 Z(z[28])
-Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'27728038-2']]]]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'e30cd080'])
+Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'a21b228c-2']]]]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'35d88bd4'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_28);return __WXML_GLOBAL__.ops_cached.$gwx_28
 }
 function gz$gwx_29(){
@@ -1779,7 +1777,7 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_29)return __WXML_GLOBAL__.ops_cached.$gwx_29
 __WXML_GLOBAL__.ops_cached.$gwx_29=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'27728038'])
+Z([3,'a21b228c'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_29);return __WXML_GLOBAL__.ops_cached.$gwx_29
 }
 __WXML_GLOBAL__.ops_set.$gwx=z;
@@ -1806,100 +1804,70 @@ return r
 }
 e_[x[0]]={f:m0,j:[],i:[],ti:[x[1],x[2],x[3],x[4],x[5],x[6]],ic:[]}
 d_[x[7]]={}
-d_[x[7]]["57c5724a"]=function(e,s,r,gg){
+d_[x[7]]["1c756545"]=function(e,s,r,gg){
 var z=gz$gwx_2()
-var b=x[7]+':57c5724a'
+var b=x[7]+':1c756545'
 r.wxVkey=b
 gg.f=$gdc(f_["./components/djRecommendList.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[7]);return}
 p_[b]=true
 try{
-cs.push("./components/djRecommendList.vue.wxml:view:1:27")
 var oB=_n('view')
 _rz(z,oB,'class',1,e,s,gg)
-cs.push("./components/djRecommendList.vue.wxml:view:1:56")
 var xC=_n('view')
 _rz(z,xC,'class',2,e,s,gg)
 var oD=_v()
 _(xC,oD)
-cs.push("./components/djRecommendList.vue.wxml:view:1:101")
 var fE=function(hG,cF,oH,gg){
 var oJ=_v()
 _(oH,oJ)
 if(_oz(z,7,hG,cF,gg)){oJ.wxVkey=1
-cs.push("./components/djRecommendList.vue.wxml:view:1:101")
-cs.push("./components/djRecommendList.vue.wxml:view:1:101")
 var lK=_mz(z,'view',['class',8,'key',1],[],hG,cF,gg)
-cs.push("./components/djRecommendList.vue.wxml:view:1:279")
 var aL=_n('view')
 _rz(z,aL,'class',10,hG,cF,gg)
-cs.push("./components/djRecommendList.vue.wxml:image:1:312")
 var tM=_mz(z,'image',['class',11,'mode',1,'src',2],[],hG,cF,gg)
-cs.pop()
 _(aL,tM)
-cs.push("./components/djRecommendList.vue.wxml:view:1:389")
 var eN=_n('view')
 _rz(z,eN,'class',14,hG,cF,gg)
-cs.push("./components/djRecommendList.vue.wxml:view:1:426")
 var bO=_n('view')
 _rz(z,bO,'class',15,hG,cF,gg)
-cs.pop()
 _(eN,bO)
-cs.pop()
 _(aL,eN)
-cs.pop()
 _(lK,aL)
-cs.push("./components/djRecommendList.vue.wxml:view:1:481")
 var oP=_n('view')
 _rz(z,oP,'class',16,hG,cF,gg)
-cs.push("./components/djRecommendList.vue.wxml:view:1:518")
 var xQ=_n('view')
 _rz(z,xQ,'class',17,hG,cF,gg)
 var oR=_oz(z,18,hG,cF,gg)
 _(xQ,oR)
-cs.pop()
 _(oP,xQ)
-cs.push("./components/djRecommendList.vue.wxml:view:1:574")
 var fS=_n('view')
 _rz(z,fS,'class',19,hG,cF,gg)
 var cT=_oz(z,20,hG,cF,gg)
 _(fS,cT)
-cs.pop()
 _(oP,fS)
-cs.push("./components/djRecommendList.vue.wxml:view:1:638")
 var hU=_n('view')
 _rz(z,hU,'class',21,hG,cF,gg)
-cs.push("./components/djRecommendList.vue.wxml:text:1:672")
 var oV=_n('text')
 _rz(z,oV,'class',22,hG,cF,gg)
 var cW=_oz(z,23,hG,cF,gg)
 _(oV,cW)
-cs.pop()
 _(hU,oV)
-cs.push("./components/djRecommendList.vue.wxml:text:1:739")
 var oX=_n('text')
 _rz(z,oX,'class',24,hG,cF,gg)
 var lY=_oz(z,25,hG,cF,gg)
 _(oX,lY)
-cs.pop()
 _(hU,oX)
-cs.pop()
 _(oP,hU)
-cs.pop()
 _(lK,oP)
-cs.pop()
 _(oJ,lK)
-cs.pop()
 }
 oJ.wxXCkey=1
 return oH
 }
 oD.wxXCkey=2
 _2z(z,5,fE,e,s,gg,oD,'item','index','item.index')
-cs.pop()
-cs.pop()
 _(oB,xC)
-cs.pop()
 _(r,oB)
 }catch(err){
 p_[b]=false
@@ -1914,79 +1882,55 @@ return r
 }
 e_[x[7]]={f:m1,j:[],i:[],ti:[],ic:[]}
 d_[x[8]]={}
-d_[x[8]]["e30cd080"]=function(e,s,r,gg){
+d_[x[8]]["35d88bd4"]=function(e,s,r,gg){
 var z=gz$gwx_3()
-var b=x[8]+':e30cd080'
+var b=x[8]+':35d88bd4'
 r.wxVkey=b
 gg.f=$gdc(f_["./components/mvList.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[8]);return}
 p_[b]=true
 try{
-cs.push("./components/mvList.vue.wxml:view:1:27")
 var oB=_n('view')
 _rz(z,oB,'class',1,e,s,gg)
 var xC=_v()
 _(oB,xC)
-cs.push("./components/mvList.vue.wxml:view:1:67")
 var oD=function(cF,fE,hG,gg){
-cs.push("./components/mvList.vue.wxml:view:1:67")
 var cI=_mz(z,'view',['bindtap',6,'class',1,'data-comkey',2,'data-eventid',3,'key',4],[],cF,fE,gg)
-cs.push("./components/mvList.vue.wxml:view:1:281")
 var oJ=_n('view')
 _rz(z,oJ,'class',11,cF,fE,gg)
-cs.push("./components/mvList.vue.wxml:image:1:314")
 var lK=_mz(z,'image',['class',12,'mode',1,'src',2],[],cF,fE,gg)
-cs.pop()
 _(oJ,lK)
-cs.pop()
 _(cI,oJ)
-cs.push("./components/mvList.vue.wxml:view:1:404")
 var aL=_n('view')
 _rz(z,aL,'class',15,cF,fE,gg)
-cs.push("./components/mvList.vue.wxml:view:1:438")
 var tM=_n('view')
 _rz(z,tM,'class',16,cF,fE,gg)
 var eN=_oz(z,17,cF,fE,gg)
 _(tM,eN)
-cs.pop()
 _(aL,tM)
-cs.push("./components/mvList.vue.wxml:view:1:494")
 var bO=_n('view')
 _rz(z,bO,'class',18,cF,fE,gg)
 var oP=_oz(z,19,cF,fE,gg)
 _(bO,oP)
-cs.pop()
 _(aL,bO)
-cs.pop()
 _(cI,aL)
-cs.push("./components/mvList.vue.wxml:view:1:569")
 var xQ=_n('view')
 _rz(z,xQ,'class',20,cF,fE,gg)
-cs.push("./components/mvList.vue.wxml:text:1:602")
 var oR=_n('text')
 _rz(z,oR,'class',21,cF,fE,gg)
-cs.pop()
 _(xQ,oR)
-cs.push("./components/mvList.vue.wxml:text:1:638")
 var fS=_n('text')
 _rz(z,fS,'class',22,cF,fE,gg)
-cs.pop()
 _(xQ,fS)
-cs.push("./components/mvList.vue.wxml:text:1:674")
 var cT=_n('text')
 _rz(z,cT,'class',23,cF,fE,gg)
-cs.pop()
 _(xQ,cT)
-cs.pop()
 _(cI,xQ)
-cs.pop()
 _(hG,cI)
 return hG
 }
 xC.wxXCkey=2
-_2z(z,4,oD,e,s,gg,xC,'item','index','item.id')
-cs.pop()
-cs.pop()
+_2z(z,4,oD,e,s,gg,xC,'item','index0','item.id')
 _(r,oB)
 }catch(err){
 p_[b]=false
@@ -2001,52 +1945,38 @@ return r
 }
 e_[x[8]]={f:m2,j:[],i:[],ti:[],ic:[]}
 d_[x[9]]={}
-d_[x[9]]["40b96094"]=function(e,s,r,gg){
+d_[x[9]]["8538ee04"]=function(e,s,r,gg){
 var z=gz$gwx_4()
-var b=x[9]+':40b96094'
+var b=x[9]+':8538ee04'
 r.wxVkey=b
 gg.f=$gdc(f_["./components/mvListT.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[9]);return}
 p_[b]=true
 try{
-cs.push("./components/mvListT.vue.wxml:view:1:27")
 var oB=_n('view')
 _rz(z,oB,'class',1,e,s,gg)
 var xC=_v()
 _(oB,xC)
-cs.push("./components/mvListT.vue.wxml:view:1:73")
 var oD=function(cF,fE,hG,gg){
-cs.push("./components/mvListT.vue.wxml:view:1:73")
 var cI=_mz(z,'view',['bindtap',6,'class',1,'data-comkey',2,'data-eventid',3,'key',4],[],cF,fE,gg)
-cs.push("./components/mvListT.vue.wxml:image:1:295")
 var oJ=_mz(z,'image',['mode',-1,'class',11,'src',1],[],cF,fE,gg)
-cs.pop()
 _(cI,oJ)
-cs.push("./components/mvListT.vue.wxml:text:1:387")
 var lK=_n('text')
 _rz(z,lK,'class',13,cF,fE,gg)
 var aL=_oz(z,14,cF,fE,gg)
 _(lK,aL)
-cs.pop()
 _(cI,lK)
-cs.push("./components/mvListT.vue.wxml:view:1:443")
 var tM=_n('view')
 _rz(z,tM,'class',15,cF,fE,gg)
-cs.push("./components/mvListT.vue.wxml:view:1:480")
 var eN=_n('view')
 _rz(z,eN,'class',16,cF,fE,gg)
-cs.pop()
 _(tM,eN)
-cs.pop()
 _(cI,tM)
-cs.pop()
 _(hG,cI)
 return hG
 }
 xC.wxXCkey=2
 _2z(z,4,oD,e,s,gg,xC,'item','index','item.id')
-cs.pop()
-cs.pop()
 _(r,oB)
 }catch(err){
 p_[b]=false
@@ -2061,55 +1991,39 @@ return r
 }
 e_[x[9]]={f:m3,j:[],i:[],ti:[],ic:[]}
 d_[x[10]]={}
-d_[x[10]]["6c002871"]=function(e,s,r,gg){
+d_[x[10]]["2eab5e4a"]=function(e,s,r,gg){
 var z=gz$gwx_5()
-var b=x[10]+':6c002871'
+var b=x[10]+':2eab5e4a'
 r.wxVkey=b
 gg.f=$gdc(f_["./components/nowPlay.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[10]);return}
 p_[b]=true
 try{
-cs.push("./components/nowPlay.vue.wxml:view:1:27")
 var oB=_mz(z,'view',['class',1,'hidden',1],[],e,s,gg)
-cs.push("./components/nowPlay.vue.wxml:view:1:93")
 var xC=_mz(z,'view',['bindtap',3,'class',1,'data-comkey',2,'data-eventid',3],[],e,s,gg)
-cs.push("./components/nowPlay.vue.wxml:image:1:210")
 var fE=_mz(z,'image',['mode',-1,'class',7,'src',1],[],e,s,gg)
-cs.pop()
 _(xC,fE)
-cs.push("./components/nowPlay.vue.wxml:view:1:304")
 var cF=_n('view')
 _rz(z,cF,'class',9,e,s,gg)
 var hG=_oz(z,10,e,s,gg)
 _(cF,hG)
-cs.pop()
 _(xC,cF)
 var oD=_v()
 _(xC,oD)
 if(_oz(z,11,e,s,gg)){oD.wxVkey=1
-cs.push("./components/nowPlay.vue.wxml:block:1:366")
-cs.push("./components/nowPlay.vue.wxml:view:1:401")
 var oH=_n('view')
 _rz(z,oH,'class',12,e,s,gg)
 var cI=_oz(z,13,e,s,gg)
 _(oH,cI)
-cs.pop()
 _(oD,oH)
-cs.push("./components/nowPlay.vue.wxml:image:1:493")
 var oJ=_mz(z,'image',['mode',-1,'class',14,'src',1],[],e,s,gg)
-cs.pop()
 _(oD,oJ)
-cs.pop()
 }
 oD.wxXCkey=1
-cs.pop()
 _(oB,xC)
-cs.push("./components/nowPlay.vue.wxml:view:1:592")
 var lK=_n('view')
 _rz(z,lK,'class',16,e,s,gg)
-cs.pop()
 _(oB,lK)
-cs.pop()
 _(r,oB)
 }catch(err){
 p_[b]=false
@@ -2124,100 +2038,70 @@ return r
 }
 e_[x[10]]={f:m4,j:[],i:[],ti:[],ic:[]}
 d_[x[11]]={}
-d_[x[11]]["14443a74"]=function(e,s,r,gg){
+d_[x[11]]["6ba326c8"]=function(e,s,r,gg){
 var z=gz$gwx_6()
-var b=x[11]+':14443a74'
+var b=x[11]+':6ba326c8'
 r.wxVkey=b
 gg.f=$gdc(f_["./components/programsList.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[11]);return}
 p_[b]=true
 try{
-cs.push("./components/programsList.vue.wxml:view:1:27")
 var oB=_n('view')
 _rz(z,oB,'class',1,e,s,gg)
-cs.push("./components/programsList.vue.wxml:view:1:56")
 var xC=_n('view')
 _rz(z,xC,'class',2,e,s,gg)
 var oD=_v()
 _(xC,oD)
-cs.push("./components/programsList.vue.wxml:view:1:101")
 var fE=function(hG,cF,oH,gg){
-cs.push("./components/programsList.vue.wxml:view:1:101")
 var oJ=_mz(z,'view',['bindtap',7,'class',1,'data-comkey',2,'data-eventid',3,'key',4],[],hG,cF,gg)
-cs.push("./components/programsList.vue.wxml:view:1:324")
 var lK=_n('view')
 _rz(z,lK,'class',12,hG,cF,gg)
-cs.push("./components/programsList.vue.wxml:image:1:357")
 var aL=_mz(z,'image',['class',13,'mode',1,'src',2],[],hG,cF,gg)
-cs.pop()
 _(lK,aL)
-cs.push("./components/programsList.vue.wxml:view:1:449")
 var tM=_n('view')
 _rz(z,tM,'class',16,hG,cF,gg)
-cs.push("./components/programsList.vue.wxml:view:1:486")
 var eN=_n('view')
 _rz(z,eN,'class',17,hG,cF,gg)
-cs.pop()
 _(tM,eN)
-cs.pop()
 _(lK,tM)
-cs.pop()
 _(oJ,lK)
-cs.push("./components/programsList.vue.wxml:view:1:541")
 var bO=_n('view')
 _rz(z,bO,'class',18,hG,cF,gg)
-cs.push("./components/programsList.vue.wxml:view:1:578")
 var oP=_n('view')
 _rz(z,oP,'class',19,hG,cF,gg)
 var xQ=_oz(z,20,hG,cF,gg)
 _(oP,xQ)
-cs.pop()
 _(bO,oP)
-cs.push("./components/programsList.vue.wxml:view:1:634")
 var oR=_n('view')
 _rz(z,oR,'class',21,hG,cF,gg)
 var fS=_oz(z,22,hG,cF,gg)
 _(oR,fS)
-cs.pop()
 _(bO,oR)
-cs.push("./components/programsList.vue.wxml:view:1:696")
 var cT=_n('view')
 _rz(z,cT,'class',23,hG,cF,gg)
-cs.push("./components/programsList.vue.wxml:text:1:730")
 var oV=_n('text')
 _rz(z,oV,'class',24,hG,cF,gg)
 var cW=_oz(z,25,hG,cF,gg)
 _(oV,cW)
-cs.pop()
 _(cT,oV)
 var hU=_v()
 _(cT,hU)
 if(_oz(z,26,hG,cF,gg)){hU.wxVkey=1
-cs.push("./components/programsList.vue.wxml:text:1:802")
-cs.push("./components/programsList.vue.wxml:text:1:802")
 var oX=_n('text')
 _rz(z,oX,'class',27,hG,cF,gg)
 var lY=_oz(z,28,hG,cF,gg)
 _(oX,lY)
-cs.pop()
 _(hU,oX)
-cs.pop()
 }
 hU.wxXCkey=1
-cs.pop()
 _(bO,cT)
-cs.pop()
 _(oJ,bO)
-cs.pop()
 _(oH,oJ)
 return oH
 }
 oD.wxXCkey=2
 _2z(z,5,fE,e,s,gg,oD,'item','index','item.index')
-cs.pop()
-cs.pop()
 _(oB,xC)
-cs.pop()
 _(r,oB)
 }catch(err){
 p_[b]=false
@@ -2232,85 +2116,61 @@ return r
 }
 e_[x[11]]={f:m5,j:[],i:[],ti:[],ic:[]}
 d_[x[12]]={}
-d_[x[12]]["0d44d6ec"]=function(e,s,r,gg){
+d_[x[12]]["25dfbbc2"]=function(e,s,r,gg){
 var z=gz$gwx_7()
-var b=x[12]+':0d44d6ec'
+var b=x[12]+':25dfbbc2'
 r.wxVkey=b
 gg.f=$gdc(f_["./components/songList.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[12]);return}
 p_[b]=true
 try{
-cs.push("./components/songList.vue.wxml:view:1:27")
 var oB=_n('view')
 _rz(z,oB,'class',1,e,s,gg)
 var xC=_v()
 _(oB,xC)
-cs.push("./components/songList.vue.wxml:view:1:67")
 var oD=function(cF,fE,hG,gg){
-cs.push("./components/songList.vue.wxml:view:1:67")
 var cI=_mz(z,'view',['bindtap',6,'class',1,'data-comkey',2,'data-eventid',3,'key',4],[],cF,fE,gg)
-cs.push("./components/songList.vue.wxml:view:1:292")
 var oJ=_n('view')
 _rz(z,oJ,'class',11,cF,fE,gg)
 var lK=_oz(z,12,cF,fE,gg)
 _(oJ,lK)
-cs.pop()
 _(cI,oJ)
-cs.push("./components/songList.vue.wxml:view:1:349")
 var aL=_n('view')
 _rz(z,aL,'class',13,cF,fE,gg)
-cs.push("./components/songList.vue.wxml:view:1:383")
 var tM=_n('view')
 _rz(z,tM,'class',14,cF,fE,gg)
 var eN=_oz(z,15,cF,fE,gg)
 _(tM,eN)
-cs.pop()
 _(aL,tM)
 var bO=_v()
 _(aL,bO)
-cs.push("./components/songList.vue.wxml:text:1:439")
 var oP=function(oR,xQ,fS,gg){
-cs.push("./components/songList.vue.wxml:text:1:439")
 var hU=_mz(z,'text',['class',20,'key',1],[],oR,xQ,gg)
 var oV=_oz(z,22,oR,xQ,gg)
 _(hU,oV)
-cs.pop()
 _(fS,hU)
 return fS
 }
 bO.wxXCkey=2
 _2z(z,18,oP,cF,fE,gg,bO,'childItem','i','childItem.i')
-cs.pop()
-cs.pop()
 _(cI,aL)
-cs.push("./components/songList.vue.wxml:view:1:614")
 var cW=_n('view')
 _rz(z,cW,'class',23,cF,fE,gg)
-cs.push("./components/songList.vue.wxml:text:1:647")
 var oX=_n('text')
 _rz(z,oX,'class',24,cF,fE,gg)
-cs.pop()
 _(cW,oX)
-cs.push("./components/songList.vue.wxml:text:1:683")
 var lY=_n('text')
 _rz(z,lY,'class',25,cF,fE,gg)
-cs.pop()
 _(cW,lY)
-cs.push("./components/songList.vue.wxml:text:1:719")
 var aZ=_n('text')
 _rz(z,aZ,'class',26,cF,fE,gg)
-cs.pop()
 _(cW,aZ)
-cs.pop()
 _(cI,cW)
-cs.pop()
 _(hG,cI)
 return hG
 }
 xC.wxXCkey=2
 _2z(z,4,oD,e,s,gg,xC,'item','index','item.index')
-cs.pop()
-cs.pop()
 _(r,oB)
 }catch(err){
 p_[b]=false
@@ -2325,20 +2185,18 @@ return r
 }
 e_[x[12]]={f:m6,j:[],i:[],ti:[],ic:[]}
 d_[x[13]]={}
-d_[x[13]]["c17f1bb8"]=function(e,s,r,gg){
+d_[x[13]]["9049520c"]=function(e,s,r,gg){
 var z=gz$gwx_8()
-var b=x[13]+':c17f1bb8'
+var b=x[13]+':9049520c'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/djList/djList.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[13]);return}
 p_[b]=true
 try{
-cs.push("./pages/djList/djList.vue.wxml:view:1:80")
 var oB=_n('view')
 _rz(z,oB,'class',1,e,s,gg)
 var xC=_v()
 _(oB,xC)
-cs.push("./pages/djList/djList.vue.wxml:template:1:120")
 var oD=_oz(z,3,e,s,gg)
 var fE=_gd(x[13],oD,e_,d_)
 if(fE){
@@ -2348,9 +2206,7 @@ xC.wxXCkey=3
 fE(cF,cF,xC,gg)
 gg.f=cur_globalf
 }
-else _w(oD,x[13],1,191)
-cs.pop()
-cs.pop()
+else _w(oD,x[13],1,192)
 _(r,oB)
 }catch(err){
 p_[b]=false
@@ -2374,7 +2230,6 @@ var aL=e_[x[14]].i
 _ai(aL,x[15],e_,x[14],1,1)
 var tM=_v()
 _(r,tM)
-cs.push("./pages/djList/djList.wxml:template:2:6")
 var eN=_oz(z,1,e,s,gg)
 var bO=_gd(x[14],eN,e_,d_)
 if(bO){
@@ -2385,86 +2240,72 @@ bO(oP,oP,tM,gg)
 gg.f=cur_globalf
 }
 else _w(eN,x[14],2,18)
-cs.pop()
 aL.pop()
 return r
 }
 e_[x[14]]={f:m8,j:[],i:[],ti:[x[15]],ic:[]}
 d_[x[16]]={}
-d_[x[16]]["70817a50"]=function(e,s,r,gg){
+d_[x[16]]["42cd432e"]=function(e,s,r,gg){
 var z=gz$gwx_10()
-var b=x[16]+':70817a50'
+var b=x[16]+':42cd432e'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/getPlaylistDetail/getPlaylistDetail.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[16]);return}
 p_[b]=true
 try{
-cs.push("./pages/getPlaylistDetail/getPlaylistDetail.vue.wxml:view:1:118")
-var oB=_n('view')
-_rz(z,oB,'class',1,e,s,gg)
-var xC=_v()
-_(oB,xC)
-cs.push("./pages/getPlaylistDetail/getPlaylistDetail.vue.wxml:template:1:158")
-var oD=_oz(z,3,e,s,gg)
-var fE=_gd(x[16],oD,e_,d_)
-if(fE){
-var cF=_1z(z,2,e,s,gg) || {}
+var oB=_v()
+_(r,oB)
+if(_oz(z,1,e,s,gg)){oB.wxVkey=1
+var xC=_n('view')
+_rz(z,xC,'class',2,e,s,gg)
+var oD=_v()
+_(xC,oD)
+var fE=_oz(z,4,e,s,gg)
+var cF=_gd(x[16],fE,e_,d_)
+if(cF){
+var hG=_1z(z,3,e,s,gg) || {}
 var cur_globalf=gg.f
-xC.wxXCkey=3
-fE(cF,cF,xC,gg)
+oD.wxXCkey=3
+cF(hG,hG,oD,gg)
 gg.f=cur_globalf
 }
-else _w(oD,x[16],1,229)
-cs.pop()
-cs.push("./pages/getPlaylistDetail/getPlaylistDetail.vue.wxml:view:1:252")
-var hG=_n('view')
-_rz(z,hG,'class',4,e,s,gg)
-cs.push("./pages/getPlaylistDetail/getPlaylistDetail.vue.wxml:view:1:305")
+else _w(fE,x[16],1,257)
 var oH=_n('view')
 _rz(z,oH,'class',5,e,s,gg)
-cs.push("./pages/getPlaylistDetail/getPlaylistDetail.vue.wxml:image:1:360")
-var cI=_mz(z,'image',['class',6,'mode',1,'src',2],[],e,s,gg)
-cs.pop()
+var cI=_n('view')
+_rz(z,cI,'class',6,e,s,gg)
+var oJ=_mz(z,'image',['class',7,'mode',1,'src',2],[],e,s,gg)
+_(cI,oJ)
 _(oH,cI)
-cs.pop()
-_(hG,oH)
-cs.push("./pages/getPlaylistDetail/getPlaylistDetail.vue.wxml:view:1:453")
-var oJ=_n('view')
-_rz(z,oJ,'class',9,e,s,gg)
-cs.push("./pages/getPlaylistDetail/getPlaylistDetail.vue.wxml:view:1:508")
 var lK=_n('view')
 _rz(z,lK,'class',10,e,s,gg)
-var aL=_oz(z,11,e,s,gg)
+var aL=_n('view')
+_rz(z,aL,'class',11,e,s,gg)
+var tM=_oz(z,12,e,s,gg)
+_(aL,tM)
 _(lK,aL)
-cs.pop()
-_(oJ,lK)
-cs.push("./pages/getPlaylistDetail/getPlaylistDetail.vue.wxml:view:1:568")
-var tM=_n('view')
-_rz(z,tM,'class',12,e,s,gg)
-var eN=_oz(z,13,e,s,gg)
-_(tM,eN)
-cs.pop()
-_(oJ,tM)
-cs.pop()
-_(hG,oJ)
-cs.pop()
-_(oB,hG)
-var bO=_v()
-_(oB,bO)
-cs.push("./pages/getPlaylistDetail/getPlaylistDetail.vue.wxml:template:1:656")
-var oP=_oz(z,15,e,s,gg)
-var xQ=_gd(x[16],oP,e_,d_)
-if(xQ){
-var oR=_1z(z,14,e,s,gg) || {}
+var eN=_n('view')
+_rz(z,eN,'class',13,e,s,gg)
+var bO=_oz(z,14,e,s,gg)
+_(eN,bO)
+_(lK,eN)
+_(oH,lK)
+_(xC,oH)
+var oP=_v()
+_(xC,oP)
+var xQ=_oz(z,16,e,s,gg)
+var oR=_gd(x[16],xQ,e_,d_)
+if(oR){
+var fS=_1z(z,15,e,s,gg) || {}
 var cur_globalf=gg.f
-bO.wxXCkey=3
-xQ(oR,oR,bO,gg)
+oP.wxXCkey=3
+oR(fS,fS,oP,gg)
 gg.f=cur_globalf
 }
-else _w(oP,x[16],1,727)
-cs.pop()
-cs.pop()
-_(r,oB)
+else _w(xQ,x[16],1,761)
+_(oB,xC)
+}
+oB.wxXCkey=1
 }catch(err){
 p_[b]=false
 throw err
@@ -2489,7 +2330,6 @@ var cT=e_[x[17]].i
 _ai(cT,x[18],e_,x[17],1,1)
 var hU=_v()
 _(r,hU)
-cs.push("./pages/getPlaylistDetail/getPlaylistDetail.wxml:template:2:6")
 var oV=_oz(z,1,e,s,gg)
 var cW=_gd(x[17],oV,e_,d_)
 if(cW){
@@ -2500,26 +2340,23 @@ cW(oX,oX,hU,gg)
 gg.f=cur_globalf
 }
 else _w(oV,x[17],2,18)
-cs.pop()
 cT.pop()
 return r
 }
 e_[x[17]]={f:m10,j:[],i:[],ti:[x[18]],ic:[]}
 d_[x[19]]={}
-d_[x[19]]["62f6004a"]=function(e,s,r,gg){
+d_[x[19]]["8cdfbac0"]=function(e,s,r,gg){
 var z=gz$gwx_12()
-var b=x[19]+':62f6004a'
+var b=x[19]+':8cdfbac0'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/index/index.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[19]);return}
 p_[b]=true
 try{
-cs.push("./pages/index/index.vue.wxml:view:1:122")
 var oB=_n('view')
 _rz(z,oB,'class',1,e,s,gg)
 var xC=_v()
 _(oB,xC)
-cs.push("./pages/index/index.vue.wxml:template:1:162")
 var oD=_oz(z,3,e,s,gg)
 var fE=_gd(x[19],oD,e_,d_)
 if(fE){
@@ -2529,215 +2366,143 @@ xC.wxXCkey=3
 fE(cF,cF,xC,gg)
 gg.f=cur_globalf
 }
-else _w(oD,x[19],1,233)
-cs.pop()
-cs.push("./pages/index/index.vue.wxml:view:1:256")
+else _w(oD,x[19],1,234)
 var hG=_n('view')
 _rz(z,hG,'class',4,e,s,gg)
-cs.push("./pages/index/index.vue.wxml:swiper:1:292")
 var oH=_mz(z,'swiper',['autoplay',5,'circular',1,'class',2,'duration',3,'indicatorActiveColor',4,'indicatorDots',5,'interval',6,'nextMargin',7,'previousMargin',8],[],e,s,gg)
 var cI=_v()
 _(oH,cI)
-cs.push("./pages/index/index.vue.wxml:swiper-item:1:632")
 var oJ=function(aL,lK,tM,gg){
-cs.push("./pages/index/index.vue.wxml:swiper-item:1:632")
 var bO=_mz(z,'swiper-item',['bindtap',18,'class',1,'data-comkey',2,'data-eventid',3,'key',4],[],aL,lK,gg)
-cs.push("./pages/index/index.vue.wxml:image:1:863")
 var oP=_mz(z,'image',['class',23,'mode',1,'src',2],[],aL,lK,gg)
-cs.pop()
 _(bO,oP)
-cs.pop()
 _(tM,bO)
 return tM
 }
 cI.wxXCkey=2
 _2z(z,16,oJ,e,s,gg,cI,'item','index','item.index')
-cs.pop()
-cs.pop()
 _(hG,oH)
-cs.pop()
 _(oB,hG)
-cs.push("./pages/index/index.vue.wxml:view:1:972")
 var xQ=_mz(z,'view',['bindtap',26,'class',1,'data-comkey',2,'data-eventid',3],[],e,s,gg)
-cs.push("./pages/index/index.vue.wxml:text:1:1087")
 var oR=_n('text')
 _rz(z,oR,'class',30,e,s,gg)
 var fS=_oz(z,31,e,s,gg)
 _(oR,fS)
-cs.pop()
 _(xQ,oR)
 var cT=_oz(z,32,e,s,gg)
 _(xQ,cT)
-cs.pop()
 _(oB,xQ)
-cs.push("./pages/index/index.vue.wxml:scroll-view:1:1153")
 var hU=_mz(z,'scroll-view',['scrollX',-1,'class',33,'style',1],[],e,s,gg)
-cs.push("./pages/index/index.vue.wxml:view:1:1239")
 var oV=_n('view')
 _rz(z,oV,'class',35,e,s,gg)
 var cW=_v()
 _(oV,cW)
-cs.push("./pages/index/index.vue.wxml:view:1:1285")
 var oX=function(aZ,lY,t1,gg){
 var b3=_v()
 _(t1,b3)
 if(_oz(z,40,aZ,lY,gg)){b3.wxVkey=1
-cs.push("./pages/index/index.vue.wxml:view:1:1285")
-cs.push("./pages/index/index.vue.wxml:view:1:1285")
 var o4=_mz(z,'view',['bindtap',41,'class',1,'data-comkey',2,'data-eventid',3,'key',4],[],aZ,lY,gg)
-cs.push("./pages/index/index.vue.wxml:image:1:1536")
 var x5=_mz(z,'image',['class',46,'mode',1,'src',2],[],aZ,lY,gg)
-cs.pop()
 _(o4,x5)
-cs.push("./pages/index/index.vue.wxml:text:1:1613")
 var o6=_n('text')
 _rz(z,o6,'class',49,aZ,lY,gg)
 var f7=_oz(z,50,aZ,lY,gg)
 _(o6,f7)
-cs.pop()
 _(o4,o6)
-cs.pop()
 _(b3,o4)
-cs.pop()
 }
 b3.wxXCkey=1
 return t1
 }
 cW.wxXCkey=2
 _2z(z,38,oX,e,s,gg,cW,'item','index','item.index')
-cs.pop()
-cs.pop()
 _(hU,oV)
-cs.pop()
 _(oB,hU)
-cs.push("./pages/index/index.vue.wxml:view:1:1697")
 var c8=_n('view')
 _rz(z,c8,'class',51,e,s,gg)
-cs.push("./pages/index/index.vue.wxml:text:1:1737")
 var h9=_n('text')
 _rz(z,h9,'class',52,e,s,gg)
 var o0=_oz(z,53,e,s,gg)
 _(h9,o0)
-cs.pop()
 _(c8,h9)
 var cAB=_oz(z,54,e,s,gg)
 _(c8,cAB)
-cs.pop()
 _(oB,c8)
-cs.push("./pages/index/index.vue.wxml:scroll-view:1:1799")
 var oBB=_mz(z,'scroll-view',['scrollX',-1,'class',55,'style',1],[],e,s,gg)
-cs.push("./pages/index/index.vue.wxml:view:1:1885")
 var lCB=_n('view')
 _rz(z,lCB,'class',57,e,s,gg)
 var aDB=_v()
 _(lCB,aDB)
-cs.push("./pages/index/index.vue.wxml:view:1:1924")
 var tEB=function(bGB,eFB,oHB,gg){
-cs.push("./pages/index/index.vue.wxml:view:1:1924")
 var oJB=_mz(z,'view',['bindtap',62,'class',1,'data-comkey',2,'data-eventid',3,'key',4],[],bGB,eFB,gg)
-cs.push("./pages/index/index.vue.wxml:image:1:2144")
 var fKB=_mz(z,'image',['class',67,'mode',1,'src',2],[],bGB,eFB,gg)
-cs.pop()
 _(oJB,fKB)
-cs.push("./pages/index/index.vue.wxml:text:1:2220")
 var cLB=_n('text')
 _rz(z,cLB,'class',70,bGB,eFB,gg)
 var hMB=_oz(z,71,bGB,eFB,gg)
 _(cLB,hMB)
-cs.pop()
 _(oJB,cLB)
-cs.push("./pages/index/index.vue.wxml:view:1:2276")
 var oNB=_n('view')
 _rz(z,oNB,'class',72,bGB,eFB,gg)
-cs.push("./pages/index/index.vue.wxml:view:1:2313")
 var cOB=_n('view')
 _rz(z,cOB,'class',73,bGB,eFB,gg)
-cs.pop()
 _(oNB,cOB)
-cs.pop()
 _(oJB,oNB)
-cs.pop()
 _(oHB,oJB)
 return oHB
 }
 aDB.wxXCkey=2
-_2z(z,60,tEB,e,s,gg,aDB,'item','index','item.index')
-cs.pop()
-cs.pop()
+_2z(z,60,tEB,e,s,gg,aDB,'item','index0','item.index')
 _(oBB,lCB)
-cs.pop()
 _(oB,oBB)
-cs.push("./pages/index/index.vue.wxml:view:1:2389")
 var oPB=_n('view')
 _rz(z,oPB,'class',74,e,s,gg)
-cs.push("./pages/index/index.vue.wxml:text:1:2429")
 var lQB=_n('text')
 _rz(z,lQB,'class',75,e,s,gg)
 var aRB=_oz(z,76,e,s,gg)
 _(lQB,aRB)
-cs.pop()
 _(oPB,lQB)
 var tSB=_oz(z,77,e,s,gg)
 _(oPB,tSB)
-cs.pop()
 _(oB,oPB)
-cs.push("./pages/index/index.vue.wxml:scroll-view:1:2492")
 var eTB=_mz(z,'scroll-view',['scrollX',-1,'class',78,'style',1],[],e,s,gg)
-cs.push("./pages/index/index.vue.wxml:view:1:2578")
 var bUB=_n('view')
 _rz(z,bUB,'class',80,e,s,gg)
 var oVB=_v()
 _(bUB,oVB)
-cs.push("./pages/index/index.vue.wxml:view:1:2625")
 var xWB=function(fYB,oXB,cZB,gg){
 var o2B=_v()
 _(cZB,o2B)
 if(_oz(z,85,fYB,oXB,gg)){o2B.wxVkey=1
-cs.push("./pages/index/index.vue.wxml:view:1:2625")
-cs.push("./pages/index/index.vue.wxml:view:1:2625")
 var c3B=_mz(z,'view',['bindtap',86,'class',1,'data-comkey',2,'data-eventid',3,'key',4],[],fYB,oXB,gg)
-cs.push("./pages/index/index.vue.wxml:image:1:2877")
 var o4B=_mz(z,'image',['class',91,'mode',1,'src',2],[],fYB,oXB,gg)
-cs.pop()
 _(c3B,o4B)
-cs.push("./pages/index/index.vue.wxml:text:1:2957")
 var l5B=_n('text')
 _rz(z,l5B,'class',94,fYB,oXB,gg)
 var a6B=_oz(z,95,fYB,oXB,gg)
 _(l5B,a6B)
-cs.pop()
 _(c3B,l5B)
-cs.pop()
 _(o2B,c3B)
-cs.pop()
 }
 o2B.wxXCkey=1
 return cZB
 }
 oVB.wxXCkey=2
 _2z(z,83,xWB,e,s,gg,oVB,'item','index','item.index')
-cs.pop()
-cs.pop()
 _(eTB,bUB)
-cs.pop()
 _(oB,eTB)
-cs.push("./pages/index/index.vue.wxml:view:1:3041")
 var t7B=_n('view')
 _rz(z,t7B,'class',96,e,s,gg)
-cs.push("./pages/index/index.vue.wxml:text:1:3081")
 var e8B=_n('text')
 _rz(z,e8B,'class',97,e,s,gg)
 var b9B=_oz(z,98,e,s,gg)
 _(e8B,b9B)
-cs.pop()
 _(t7B,e8B)
 var o0B=_oz(z,99,e,s,gg)
 _(t7B,o0B)
-cs.pop()
 _(oB,t7B)
 var xAC=_v()
 _(oB,xAC)
-cs.push("./pages/index/index.vue.wxml:template:1:3147")
 var oBC=_oz(z,101,e,s,gg)
 var fCC=_gd(x[19],oBC,e_,d_)
 if(fCC){
@@ -2747,9 +2512,7 @@ xAC.wxXCkey=3
 fCC(cDC,cDC,xAC,gg)
 gg.f=cur_globalf
 }
-else _w(oBC,x[19],1,3218)
-cs.pop()
-cs.pop()
+else _w(oBC,x[19],1,3250)
 _(r,oB)
 }catch(err){
 p_[b]=false
@@ -2775,7 +2538,6 @@ var e2=e_[x[20]].i
 _ai(e2,x[21],e_,x[20],1,1)
 var b3=_v()
 _(r,b3)
-cs.push("./pages/index/index.wxml:template:2:6")
 var o4=_oz(z,1,e,s,gg)
 var x5=_gd(x[20],o4,e_,d_)
 if(x5){
@@ -2786,26 +2548,23 @@ x5(o6,o6,b3,gg)
 gg.f=cur_globalf
 }
 else _w(o4,x[20],2,18)
-cs.pop()
 e2.pop()
 return r
 }
 e_[x[20]]={f:m12,j:[],i:[],ti:[x[21]],ic:[]}
 d_[x[22]]={}
-d_[x[22]]["2b334e84"]=function(e,s,r,gg){
+d_[x[22]]["7f53695a"]=function(e,s,r,gg){
 var z=gz$gwx_14()
-var b=x[22]+':2b334e84'
+var b=x[22]+':7f53695a'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/mv/mv.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[22]);return}
 p_[b]=true
 try{
-cs.push("./pages/mv/mv.vue.wxml:view:1:117")
 var oB=_n('view')
 _rz(z,oB,'class',1,e,s,gg)
 var xC=_v()
 _(oB,xC)
-cs.push("./pages/mv/mv.vue.wxml:template:1:157")
 var oD=_oz(z,3,e,s,gg)
 var fE=_gd(x[22],oD,e_,d_)
 if(fE){
@@ -2815,47 +2574,33 @@ xC.wxXCkey=3
 fE(cF,cF,xC,gg)
 gg.f=cur_globalf
 }
-else _w(oD,x[22],1,228)
-cs.pop()
-cs.push("./pages/mv/mv.vue.wxml:view:1:251")
+else _w(oD,x[22],1,229)
 var hG=_n('view')
 _rz(z,hG,'class',4,e,s,gg)
-cs.push("./pages/mv/mv.vue.wxml:view:1:289")
 var oH=_n('view')
 _rz(z,oH,'class',5,e,s,gg)
-cs.push("./pages/mv/mv.vue.wxml:text:1:328")
 var cI=_mz(z,'text',['bindtap',6,'class',1,'data-comkey',2,'data-eventid',3],[],e,s,gg)
 var oJ=_oz(z,10,e,s,gg)
 _(cI,oJ)
-cs.pop()
 _(oH,cI)
-cs.push("./pages/mv/mv.vue.wxml:text:1:484")
 var lK=_mz(z,'text',['bindtap',11,'class',1,'data-comkey',2,'data-eventid',3],[],e,s,gg)
 var aL=_oz(z,15,e,s,gg)
 _(lK,aL)
-cs.pop()
 _(oH,lK)
-cs.push("./pages/mv/mv.vue.wxml:text:1:640")
 var tM=_mz(z,'text',['bindtap',16,'class',1,'data-comkey',2,'data-eventid',3],[],e,s,gg)
 var eN=_oz(z,20,e,s,gg)
 _(tM,eN)
-cs.pop()
 _(oH,tM)
-cs.pop()
 _(hG,oH)
-cs.push("./pages/mv/mv.vue.wxml:view:1:803")
 var bO=_n('view')
 _rz(z,bO,'class',21,e,s,gg)
 var oP=_v()
 _(bO,oP)
 if(_oz(z,22,e,s,gg)){oP.wxVkey=1
-cs.push("./pages/mv/mv.vue.wxml:view:1:844")
-cs.push("./pages/mv/mv.vue.wxml:view:1:844")
 var fS=_n('view')
 _rz(z,fS,'class',23,e,s,gg)
 var cT=_v()
 _(fS,cT)
-cs.push("./pages/mv/mv.vue.wxml:template:1:902")
 var hU=_oz(z,25,e,s,gg)
 var oV=_gd(x[22],hU,e_,d_)
 if(oV){
@@ -2865,22 +2610,16 @@ cT.wxXCkey=3
 oV(cW,cW,cT,gg)
 gg.f=cur_globalf
 }
-else _w(hU,x[22],1,973)
-cs.pop()
-cs.pop()
+else _w(hU,x[22],1,981)
 _(oP,fS)
-cs.pop()
 }
 var xQ=_v()
 _(bO,xQ)
 if(_oz(z,26,e,s,gg)){xQ.wxVkey=1
-cs.push("./pages/mv/mv.vue.wxml:view:1:1003")
-cs.push("./pages/mv/mv.vue.wxml:view:1:1003")
 var oX=_n('view')
 _rz(z,oX,'class',27,e,s,gg)
 var lY=_v()
 _(oX,lY)
-cs.push("./pages/mv/mv.vue.wxml:template:1:1061")
 var aZ=_oz(z,29,e,s,gg)
 var t1=_gd(x[22],aZ,e_,d_)
 if(t1){
@@ -2890,22 +2629,16 @@ lY.wxXCkey=3
 t1(e2,e2,lY,gg)
 gg.f=cur_globalf
 }
-else _w(aZ,x[22],1,1132)
-cs.pop()
-cs.pop()
+else _w(aZ,x[22],1,1141)
 _(xQ,oX)
-cs.pop()
 }
 var oR=_v()
 _(bO,oR)
 if(_oz(z,30,e,s,gg)){oR.wxVkey=1
-cs.push("./pages/mv/mv.vue.wxml:view:1:1162")
-cs.push("./pages/mv/mv.vue.wxml:view:1:1162")
 var b3=_n('view')
 _rz(z,b3,'class',31,e,s,gg)
 var o4=_v()
 _(b3,o4)
-cs.push("./pages/mv/mv.vue.wxml:template:1:1220")
 var x5=_oz(z,33,e,s,gg)
 var o6=_gd(x[22],x5,e_,d_)
 if(o6){
@@ -2915,20 +2648,14 @@ o4.wxXCkey=3
 o6(f7,f7,o4,gg)
 gg.f=cur_globalf
 }
-else _w(x5,x[22],1,1291)
-cs.pop()
-cs.pop()
+else _w(x5,x[22],1,1301)
 _(oR,b3)
-cs.pop()
 }
 oP.wxXCkey=1
 xQ.wxXCkey=1
 oR.wxXCkey=1
-cs.pop()
 _(hG,bO)
-cs.pop()
 _(oB,hG)
-cs.pop()
 _(r,oB)
 }catch(err){
 p_[b]=false
@@ -2954,7 +2681,6 @@ var o0=e_[x[23]].i
 _ai(o0,x[24],e_,x[23],1,1)
 var cAB=_v()
 _(r,cAB)
-cs.push("./pages/mv/mv.wxml:template:2:6")
 var oBB=_oz(z,1,e,s,gg)
 var lCB=_gd(x[23],oBB,e_,d_)
 if(lCB){
@@ -2965,157 +2691,113 @@ lCB(aDB,aDB,cAB,gg)
 gg.f=cur_globalf
 }
 else _w(oBB,x[23],2,18)
-cs.pop()
 o0.pop()
 return r
 }
 e_[x[23]]={f:m14,j:[],i:[],ti:[x[24]],ic:[]}
 d_[x[25]]={}
-d_[x[25]]["a87eecb8"]=function(e,s,r,gg){
+d_[x[25]]["ffddd90c"]=function(e,s,r,gg){
 var z=gz$gwx_16()
-var b=x[25]+':a87eecb8'
+var b=x[25]+':ffddd90c'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/mvDetail/mvDetail.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[25]);return}
 p_[b]=true
 try{
-cs.push("./pages/mvDetail/mvDetail.vue.wxml:view:1:27")
-var oB=_n('view')
-_rz(z,oB,'class',1,e,s,gg)
-cs.push("./pages/mvDetail/mvDetail.vue.wxml:view:1:56")
+var oB=_v()
+_(r,oB)
+if(_oz(z,1,e,s,gg)){oB.wxVkey=1
 var xC=_n('view')
 _rz(z,xC,'class',2,e,s,gg)
-cs.push("./pages/mvDetail/mvDetail.vue.wxml:video:1:91")
-var oD=_mz(z,'video',['controls',-1,'binderror',3,'class',1,'data-comkey',2,'data-eventid',3,'id',4,'poster',5,'src',6],[],e,s,gg)
-cs.pop()
+var oD=_n('view')
+_rz(z,oD,'class',3,e,s,gg)
+var fE=_mz(z,'video',['controls',-1,'binderror',4,'class',1,'data-comkey',2,'data-eventid',3,'id',4,'poster',5,'src',6],[],e,s,gg)
+_(oD,fE)
 _(xC,oD)
-cs.pop()
-_(oB,xC)
-cs.push("./pages/mvDetail/mvDetail.vue.wxml:view:1:280")
-var fE=_n('view')
-_rz(z,fE,'class',10,e,s,gg)
-cs.push("./pages/mvDetail/mvDetail.vue.wxml:view:1:320")
 var cF=_n('view')
 _rz(z,cF,'class',11,e,s,gg)
-cs.push("./pages/mvDetail/mvDetail.vue.wxml:view:1:359")
 var hG=_n('view')
 _rz(z,hG,'class',12,e,s,gg)
-var oH=_oz(z,13,e,s,gg)
+var oH=_n('view')
+_rz(z,oH,'class',13,e,s,gg)
+var cI=_oz(z,14,e,s,gg)
+_(oH,cI)
 _(hG,oH)
-cs.pop()
-_(cF,hG)
-cs.push("./pages/mvDetail/mvDetail.vue.wxml:view:1:419")
-var cI=_n('view')
-_rz(z,cI,'class',14,e,s,gg)
-cs.push("./pages/mvDetail/mvDetail.vue.wxml:text:1:453")
-var oJ=_n('text')
+var oJ=_n('view')
 _rz(z,oJ,'class',15,e,s,gg)
-var lK=_oz(z,16,e,s,gg)
+var lK=_n('text')
+_rz(z,lK,'class',16,e,s,gg)
+var aL=_oz(z,17,e,s,gg)
+_(lK,aL)
 _(oJ,lK)
-cs.pop()
-_(cI,oJ)
-cs.push("./pages/mvDetail/mvDetail.vue.wxml:text:1:524")
-var aL=_n('text')
-_rz(z,aL,'class',17,e,s,gg)
-var tM=_oz(z,18,e,s,gg)
-_(aL,tM)
-cs.pop()
-_(cI,aL)
-cs.pop()
-_(cF,cI)
-cs.push("./pages/mvDetail/mvDetail.vue.wxml:view:1:612")
-var eN=_n('view')
-_rz(z,eN,'class',19,e,s,gg)
-var bO=_oz(z,20,e,s,gg)
-_(eN,bO)
-cs.pop()
-_(cF,eN)
-cs.pop()
-_(fE,cF)
-cs.push("./pages/mvDetail/mvDetail.vue.wxml:view:1:679")
-var oP=_n('view')
-_rz(z,oP,'class',21,e,s,gg)
-cs.push("./pages/mvDetail/mvDetail.vue.wxml:text:1:719")
-var xQ=_n('text')
+var tM=_n('text')
+_rz(z,tM,'class',18,e,s,gg)
+var eN=_oz(z,19,e,s,gg)
+_(tM,eN)
+_(oJ,tM)
+_(hG,oJ)
+var bO=_n('view')
+_rz(z,bO,'class',20,e,s,gg)
+var oP=_oz(z,21,e,s,gg)
+_(bO,oP)
+_(hG,bO)
+_(cF,hG)
+var xQ=_n('view')
 _rz(z,xQ,'class',22,e,s,gg)
-var oR=_oz(z,23,e,s,gg)
-_(xQ,oR)
-cs.pop()
-_(oP,xQ)
+var oR=_n('text')
+_rz(z,oR,'class',23,e,s,gg)
 var fS=_oz(z,24,e,s,gg)
-_(oP,fS)
-cs.pop()
-_(fE,oP)
-cs.push("./pages/mvDetail/mvDetail.vue.wxml:view:1:781")
-var cT=_n('view')
-_rz(z,cT,'class',25,e,s,gg)
-var hU=_v()
-_(cT,hU)
-cs.push("./pages/mvDetail/mvDetail.vue.wxml:view:1:821")
-var oV=function(oX,cW,lY,gg){
-cs.push("./pages/mvDetail/mvDetail.vue.wxml:view:1:821")
-var t1=_mz(z,'view',['bindtap',30,'class',1,'data-comkey',2,'data-eventid',3,'key',4],[],oX,cW,gg)
-cs.push("./pages/mvDetail/mvDetail.vue.wxml:view:1:1036")
-var e2=_n('view')
-_rz(z,e2,'class',35,oX,cW,gg)
-cs.push("./pages/mvDetail/mvDetail.vue.wxml:image:1:1069")
-var b3=_mz(z,'image',['class',36,'mode',1,'src',2],[],oX,cW,gg)
-cs.pop()
+_(oR,fS)
+_(xQ,oR)
+var cT=_oz(z,25,e,s,gg)
+_(xQ,cT)
+_(cF,xQ)
+var hU=_n('view')
+_rz(z,hU,'class',26,e,s,gg)
+var oV=_v()
+_(hU,oV)
+var cW=function(lY,oX,aZ,gg){
+var e2=_mz(z,'view',['bindtap',31,'class',1,'data-comkey',2,'data-eventid',3,'key',4],[],lY,oX,gg)
+var b3=_n('view')
+_rz(z,b3,'class',36,lY,oX,gg)
+var o4=_mz(z,'image',['class',37,'mode',1,'src',2],[],lY,oX,gg)
+_(b3,o4)
 _(e2,b3)
-cs.pop()
-_(t1,e2)
-cs.push("./pages/mvDetail/mvDetail.vue.wxml:view:1:1154")
-var o4=_n('view')
-_rz(z,o4,'class',39,oX,cW,gg)
-cs.push("./pages/mvDetail/mvDetail.vue.wxml:view:1:1188")
 var x5=_n('view')
-_rz(z,x5,'class',40,oX,cW,gg)
-var o6=_oz(z,41,oX,cW,gg)
+_rz(z,x5,'class',40,lY,oX,gg)
+var o6=_n('view')
+_rz(z,o6,'class',41,lY,oX,gg)
+var f7=_oz(z,42,lY,oX,gg)
+_(o6,f7)
 _(x5,o6)
-cs.pop()
-_(o4,x5)
-cs.push("./pages/mvDetail/mvDetail.vue.wxml:view:1:1244")
-var f7=_n('view')
-_rz(z,f7,'class',42,oX,cW,gg)
-var c8=_oz(z,43,oX,cW,gg)
-_(f7,c8)
-cs.pop()
-_(o4,f7)
-cs.pop()
-_(t1,o4)
-cs.push("./pages/mvDetail/mvDetail.vue.wxml:view:1:1319")
-var h9=_n('view')
-_rz(z,h9,'class',44,oX,cW,gg)
-cs.push("./pages/mvDetail/mvDetail.vue.wxml:text:1:1352")
-var o0=_n('text')
-_rz(z,o0,'class',45,oX,cW,gg)
-cs.pop()
-_(h9,o0)
-cs.push("./pages/mvDetail/mvDetail.vue.wxml:text:1:1388")
+var c8=_n('view')
+_rz(z,c8,'class',43,lY,oX,gg)
+var h9=_oz(z,44,lY,oX,gg)
+_(c8,h9)
+_(x5,c8)
+_(e2,x5)
+var o0=_n('view')
+_rz(z,o0,'class',45,lY,oX,gg)
 var cAB=_n('text')
-_rz(z,cAB,'class',46,oX,cW,gg)
-cs.pop()
-_(h9,cAB)
-cs.push("./pages/mvDetail/mvDetail.vue.wxml:text:1:1424")
+_rz(z,cAB,'class',46,lY,oX,gg)
+_(o0,cAB)
 var oBB=_n('text')
-_rz(z,oBB,'class',47,oX,cW,gg)
-cs.pop()
-_(h9,oBB)
-cs.pop()
-_(t1,h9)
-cs.pop()
-_(lY,t1)
-return lY
+_rz(z,oBB,'class',47,lY,oX,gg)
+_(o0,oBB)
+var lCB=_n('text')
+_rz(z,lCB,'class',48,lY,oX,gg)
+_(o0,lCB)
+_(e2,o0)
+_(aZ,e2)
+return aZ
 }
-hU.wxXCkey=2
-_2z(z,28,oV,e,s,gg,hU,'item','index','item.id')
-cs.pop()
-cs.pop()
-_(fE,cT)
-cs.pop()
-_(oB,fE)
-cs.pop()
-_(r,oB)
+oV.wxXCkey=2
+_2z(z,29,cW,e,s,gg,oV,'item','index0','item.id')
+_(cF,hU)
+_(xC,cF)
+_(oB,xC)
+}
+oB.wxXCkey=1
 }catch(err){
 p_[b]=false
 throw err
@@ -3135,7 +2817,6 @@ var bGB=e_[x[26]].i
 _ai(bGB,x[27],e_,x[26],1,1)
 var oHB=_v()
 _(r,oHB)
-cs.push("./pages/mvDetail/mvDetail.wxml:template:2:6")
 var xIB=_oz(z,1,e,s,gg)
 var oJB=_gd(x[26],xIB,e_,d_)
 if(oJB){
@@ -3146,63 +2827,46 @@ oJB(fKB,fKB,oHB,gg)
 gg.f=cur_globalf
 }
 else _w(xIB,x[26],2,18)
-cs.pop()
 bGB.pop()
 return r
 }
 e_[x[26]]={f:m16,j:[],i:[],ti:[x[27]],ic:[]}
 d_[x[28]]={}
-d_[x[28]]["6e3424c4"]=function(e,s,r,gg){
+d_[x[28]]["f261eccc"]=function(e,s,r,gg){
 var z=gz$gwx_18()
-var b=x[28]+':6e3424c4'
+var b=x[28]+':f261eccc'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/mvList/mvList.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[28]);return}
 p_[b]=true
 try{
-cs.push("./pages/mvList/mvList.vue.wxml:view:1:27")
 var oB=_n('view')
 _rz(z,oB,'class',1,e,s,gg)
-cs.push("./pages/mvList/mvList.vue.wxml:view:1:67")
 var xC=_n('view')
 _rz(z,xC,'class',2,e,s,gg)
 var oD=_v()
 _(xC,oD)
-cs.push("./pages/mvList/mvList.vue.wxml:view:1:103")
 var fE=function(hG,cF,oH,gg){
-cs.push("./pages/mvList/mvList.vue.wxml:view:1:103")
 var oJ=_mz(z,'view',['bindtap',7,'class',1,'data-comkey',2,'data-eventid',3,'key',4],[],hG,cF,gg)
-cs.push("./pages/mvList/mvList.vue.wxml:image:1:320")
 var lK=_mz(z,'image',['class',12,'mode',1,'src',2],[],hG,cF,gg)
-cs.pop()
 _(oJ,lK)
-cs.push("./pages/mvList/mvList.vue.wxml:text:1:396")
 var aL=_n('text')
 _rz(z,aL,'class',15,hG,cF,gg)
 var tM=_oz(z,16,hG,cF,gg)
 _(aL,tM)
-cs.pop()
 _(oJ,aL)
-cs.push("./pages/mvList/mvList.vue.wxml:view:1:452")
 var eN=_n('view')
 _rz(z,eN,'class',17,hG,cF,gg)
-cs.push("./pages/mvList/mvList.vue.wxml:view:1:489")
 var bO=_n('view')
 _rz(z,bO,'class',18,hG,cF,gg)
-cs.pop()
 _(eN,bO)
-cs.pop()
 _(oJ,eN)
-cs.pop()
 _(oH,oJ)
 return oH
 }
 oD.wxXCkey=2
 _2z(z,5,fE,e,s,gg,oD,'item','index','item.index')
-cs.pop()
-cs.pop()
 _(oB,xC)
-cs.pop()
 _(r,oB)
 }catch(err){
 p_[b]=false
@@ -3223,7 +2887,6 @@ var oNB=e_[x[29]].i
 _ai(oNB,x[30],e_,x[29],1,1)
 var cOB=_v()
 _(r,cOB)
-cs.push("./pages/mvList/mvList.wxml:template:2:6")
 var oPB=_oz(z,1,e,s,gg)
 var lQB=_gd(x[29],oPB,e_,d_)
 if(lQB){
@@ -3234,68 +2897,58 @@ lQB(aRB,aRB,cOB,gg)
 gg.f=cur_globalf
 }
 else _w(oPB,x[29],2,18)
-cs.pop()
 oNB.pop()
 return r
 }
 e_[x[29]]={f:m18,j:[],i:[],ti:[x[30]],ic:[]}
 d_[x[31]]={}
-d_[x[31]]["e837adb8"]=function(e,s,r,gg){
+d_[x[31]]["160246fa"]=function(e,s,r,gg){
 var z=gz$gwx_20()
-var b=x[31]+':e837adb8'
+var b=x[31]+':160246fa'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/personalizedList/personalizedList.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[31]);return}
 p_[b]=true
 try{
-cs.push("./pages/personalizedList/personalizedList.vue.wxml:view:1:72")
-var oB=_n('view')
-_rz(z,oB,'class',1,e,s,gg)
-var xC=_v()
-_(oB,xC)
-cs.push("./pages/personalizedList/personalizedList.vue.wxml:template:1:112")
-var oD=_oz(z,3,e,s,gg)
-var fE=_gd(x[31],oD,e_,d_)
-if(fE){
-var cF=_1z(z,2,e,s,gg) || {}
+var oB=_v()
+_(r,oB)
+if(_oz(z,1,e,s,gg)){oB.wxVkey=1
+var xC=_n('view')
+_rz(z,xC,'class',2,e,s,gg)
+var oD=_v()
+_(xC,oD)
+var fE=_oz(z,4,e,s,gg)
+var cF=_gd(x[31],fE,e_,d_)
+if(cF){
+var hG=_1z(z,3,e,s,gg) || {}
 var cur_globalf=gg.f
-xC.wxXCkey=3
-fE(cF,cF,xC,gg)
+oD.wxXCkey=3
+cF(hG,hG,oD,gg)
 gg.f=cur_globalf
 }
-else _w(oD,x[31],1,183)
-cs.pop()
-cs.push("./pages/personalizedList/personalizedList.vue.wxml:view:1:206")
-var hG=_n('view')
-_rz(z,hG,'class',4,e,s,gg)
-var oH=_v()
-_(hG,oH)
-cs.push("./pages/personalizedList/personalizedList.vue.wxml:view:1:261")
-var cI=function(lK,oJ,aL,gg){
-cs.push("./pages/personalizedList/personalizedList.vue.wxml:view:1:261")
-var eN=_mz(z,'view',['bindtap',9,'class',1,'data-comkey',2,'data-eventid',3,'key',4],[],lK,oJ,gg)
-cs.push("./pages/personalizedList/personalizedList.vue.wxml:image:1:495")
-var bO=_mz(z,'image',['class',14,'mode',1,'src',2],[],lK,oJ,gg)
-cs.pop()
-_(eN,bO)
-cs.push("./pages/personalizedList/personalizedList.vue.wxml:text:1:572")
-var oP=_n('text')
-_rz(z,oP,'class',17,lK,oJ,gg)
-var xQ=_oz(z,18,lK,oJ,gg)
-_(oP,xQ)
-cs.pop()
-_(eN,oP)
-cs.pop()
-_(aL,eN)
-return aL
+else _w(fE,x[31],1,219)
+var oH=_n('view')
+_rz(z,oH,'class',5,e,s,gg)
+var cI=_v()
+_(oH,cI)
+var oJ=function(aL,lK,tM,gg){
+var bO=_mz(z,'view',['bindtap',10,'class',1,'data-comkey',2,'data-eventid',3,'key',4],[],aL,lK,gg)
+var oP=_mz(z,'image',['class',15,'mode',1,'src',2],[],aL,lK,gg)
+_(bO,oP)
+var xQ=_n('text')
+_rz(z,xQ,'class',18,aL,lK,gg)
+var oR=_oz(z,19,aL,lK,gg)
+_(xQ,oR)
+_(bO,xQ)
+_(tM,bO)
+return tM
 }
-oH.wxXCkey=2
-_2z(z,7,cI,e,s,gg,oH,'item','index','item.id')
-cs.pop()
-cs.pop()
-_(oB,hG)
-cs.pop()
-_(r,oB)
+cI.wxXCkey=2
+_2z(z,8,oJ,e,s,gg,cI,'item','index','item.id')
+_(xC,oH)
+_(oB,xC)
+}
+oB.wxXCkey=1
 }catch(err){
 p_[b]=false
 throw err
@@ -3318,7 +2971,6 @@ var oVB=e_[x[32]].i
 _ai(oVB,x[33],e_,x[32],1,1)
 var xWB=_v()
 _(r,xWB)
-cs.push("./pages/personalizedList/personalizedList.wxml:template:2:6")
 var oXB=_oz(z,1,e,s,gg)
 var fYB=_gd(x[32],oXB,e_,d_)
 if(fYB){
@@ -3329,129 +2981,81 @@ fYB(cZB,cZB,xWB,gg)
 gg.f=cur_globalf
 }
 else _w(oXB,x[32],2,18)
-cs.pop()
 oVB.pop()
 return r
 }
 e_[x[32]]={f:m20,j:[],i:[],ti:[x[33]],ic:[]}
 d_[x[34]]={}
-d_[x[34]]["80408d38"]=function(e,s,r,gg){
+d_[x[34]]["7e2a793a"]=function(e,s,r,gg){
 var z=gz$gwx_22()
-var b=x[34]+':80408d38'
+var b=x[34]+':7e2a793a'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/play/play.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[34]);return}
 p_[b]=true
 try{
-cs.push("./pages/play/play.vue.wxml:view:1:27")
-var oB=_n('view')
-_rz(z,oB,'class',1,e,s,gg)
-cs.push("./pages/play/play.vue.wxml:view:1:76")
+var oB=_v()
+_(r,oB)
+if(_oz(z,1,e,s,gg)){oB.wxVkey=1
 var xC=_n('view')
 _rz(z,xC,'class',2,e,s,gg)
-var oD=_oz(z,3,e,s,gg)
+var oD=_n('view')
+_rz(z,oD,'class',3,e,s,gg)
+var fE=_oz(z,4,e,s,gg)
+_(oD,fE)
 _(xC,oD)
-cs.pop()
-_(oB,xC)
-cs.push("./pages/play/play.vue.wxml:view:1:152")
-var fE=_n('view')
-_rz(z,fE,'class',4,e,s,gg)
-var cF=_oz(z,5,e,s,gg)
-_(fE,cF)
-cs.pop()
-_(oB,fE)
-cs.push("./pages/play/play.vue.wxml:view:1:232")
-var hG=_n('view')
-_rz(z,hG,'class',6,e,s,gg)
-cs.push("./pages/play/play.vue.wxml:image:1:278")
-var oH=_mz(z,'image',['class',7,'src',1],[],e,s,gg)
-cs.pop()
-_(hG,oH)
-cs.pop()
-_(oB,hG)
-cs.push("./pages/play/play.vue.wxml:view:1:360")
-var cI=_n('view')
-_rz(z,cI,'class',9,e,s,gg)
-cs.push("./pages/play/play.vue.wxml:view:1:409")
+var cF=_n('view')
+_rz(z,cF,'class',5,e,s,gg)
+var hG=_oz(z,6,e,s,gg)
+_(cF,hG)
+_(xC,cF)
+var oH=_n('view')
+_rz(z,oH,'class',7,e,s,gg)
+var cI=_mz(z,'image',['class',8,'src',1],[],e,s,gg)
+_(oH,cI)
+_(xC,oH)
 var oJ=_n('view')
 _rz(z,oJ,'class',10,e,s,gg)
-cs.push("./pages/play/play.vue.wxml:view:1:450")
 var lK=_n('view')
 _rz(z,lK,'class',11,e,s,gg)
-var aL=_oz(z,12,e,s,gg)
+var aL=_n('view')
+_rz(z,aL,'class',12,e,s,gg)
+var tM=_oz(z,13,e,s,gg)
+_(aL,tM)
 _(lK,aL)
-cs.pop()
+var eN=_n('view')
+_rz(z,eN,'class',14,e,s,gg)
+var bO=_oz(z,15,e,s,gg)
+_(eN,bO)
+_(lK,eN)
 _(oJ,lK)
-cs.push("./pages/play/play.vue.wxml:view:1:525")
-var tM=_n('view')
-_rz(z,tM,'class',13,e,s,gg)
-var eN=_oz(z,14,e,s,gg)
-_(tM,eN)
-cs.pop()
-_(oJ,tM)
-cs.pop()
-_(cI,oJ)
-cs.push("./pages/play/play.vue.wxml:slider:1:604")
-var bO=_mz(z,'slider',['activeColor',15,'bindchanging',1,'blockSize',2,'class',3,'data-comkey',4,'data-eventid',5,'max',6,'min',7,'step',8,'value',9],[],e,s,gg)
-cs.pop()
-_(cI,bO)
-cs.push("./pages/play/play.vue.wxml:view:1:847")
-var oP=_n('view')
-_rz(z,oP,'class',25,e,s,gg)
-cs.push("./pages/play/play.vue.wxml:view:1:894")
-var fS=_n('view')
-_rz(z,fS,'class',26,e,s,gg)
-cs.push("./pages/play/play.vue.wxml:image:1:939")
-var cT=_mz(z,'image',['mode',-1,'class',27,'src',1],[],e,s,gg)
-cs.pop()
-_(fS,cT)
-cs.pop()
-_(oP,fS)
-var xQ=_v()
-_(oP,xQ)
-if(_oz(z,29,e,s,gg)){xQ.wxVkey=1
-cs.push("./pages/play/play.vue.wxml:view:1:1032")
-cs.push("./pages/play/play.vue.wxml:view:1:1032")
-var hU=_mz(z,'view',['bindtap',30,'class',1,'data-comkey',2,'data-eventid',3],[],e,s,gg)
-cs.push("./pages/play/play.vue.wxml:image:1:1171")
-var oV=_mz(z,'image',['mode',-1,'class',34,'src',1],[],e,s,gg)
-cs.pop()
-_(hU,oV)
-cs.pop()
-_(xQ,hU)
-cs.pop()
-}
+var oP=_mz(z,'slider',['activeColor',16,'bindchanging',1,'blockSize',2,'class',3,'data-comkey',4,'data-eventid',5,'max',6,'min',7,'step',8,'value',9],[],e,s,gg)
+_(oJ,oP)
+var xQ=_n('view')
+_rz(z,xQ,'class',26,e,s,gg)
 var oR=_v()
-_(oP,oR)
-if(_oz(z,36,e,s,gg)){oR.wxVkey=1
-cs.push("./pages/play/play.vue.wxml:view:1:1265")
-cs.push("./pages/play/play.vue.wxml:view:1:1265")
-var cW=_mz(z,'view',['bindtap',37,'class',1,'data-comkey',2,'data-eventid',3],[],e,s,gg)
-cs.push("./pages/play/play.vue.wxml:image:1:1405")
-var oX=_mz(z,'image',['mode',-1,'class',41,'src',1],[],e,s,gg)
-cs.pop()
-_(cW,oX)
-cs.pop()
-_(oR,cW)
-cs.pop()
+_(xQ,oR)
+if(_oz(z,27,e,s,gg)){oR.wxVkey=1
+var cT=_mz(z,'view',['bindtap',28,'class',1,'data-comkey',2,'data-eventid',3],[],e,s,gg)
+var hU=_mz(z,'image',['mode',-1,'class',32,'src',1],[],e,s,gg)
+_(cT,hU)
+_(oR,cT)
 }
-cs.push("./pages/play/play.vue.wxml:view:1:1503")
-var lY=_n('view')
-_rz(z,lY,'class',43,e,s,gg)
-cs.push("./pages/play/play.vue.wxml:image:1:1548")
-var aZ=_mz(z,'image',['mode',-1,'class',44,'src',1],[],e,s,gg)
-cs.pop()
-_(lY,aZ)
-cs.pop()
-_(oP,lY)
-xQ.wxXCkey=1
+var fS=_v()
+_(xQ,fS)
+if(_oz(z,34,e,s,gg)){fS.wxVkey=1
+var oV=_mz(z,'view',['bindtap',35,'class',1,'data-comkey',2,'data-eventid',3],[],e,s,gg)
+var cW=_mz(z,'image',['mode',-1,'class',39,'src',1],[],e,s,gg)
+_(oV,cW)
+_(fS,oV)
+}
 oR.wxXCkey=1
-cs.pop()
-_(cI,oP)
-cs.pop()
-_(oB,cI)
-cs.pop()
-_(r,oB)
+fS.wxXCkey=1
+_(oJ,xQ)
+_(xC,oJ)
+_(oB,xC)
+}
+oB.wxXCkey=1
 }catch(err){
 p_[b]=false
 throw err
@@ -3471,7 +3075,6 @@ var c3B=e_[x[35]].i
 _ai(c3B,x[36],e_,x[35],1,1)
 var o4B=_v()
 _(r,o4B)
-cs.push("./pages/play/play.wxml:template:2:6")
 var l5B=_oz(z,1,e,s,gg)
 var a6B=_gd(x[35],l5B,e_,d_)
 if(a6B){
@@ -3482,26 +3085,23 @@ a6B(t7B,t7B,o4B,gg)
 gg.f=cur_globalf
 }
 else _w(l5B,x[35],2,18)
-cs.pop()
 c3B.pop()
 return r
 }
 e_[x[35]]={f:m22,j:[],i:[],ti:[x[36]],ic:[]}
 d_[x[37]]={}
-d_[x[37]]["9631e85c"]=function(e,s,r,gg){
+d_[x[37]]["125c1328"]=function(e,s,r,gg){
 var z=gz$gwx_24()
-var b=x[37]+':9631e85c'
+var b=x[37]+':125c1328'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/ranking/ranking.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[37]);return}
 p_[b]=true
 try{
-cs.push("./pages/ranking/ranking.vue.wxml:view:1:72")
 var oB=_n('view')
 _rz(z,oB,'class',1,e,s,gg)
 var xC=_v()
 _(oB,xC)
-cs.push("./pages/ranking/ranking.vue.wxml:template:1:119")
 var oD=_oz(z,3,e,s,gg)
 var fE=_gd(x[37],oD,e_,d_)
 if(fE){
@@ -3512,37 +3112,25 @@ fE(cF,cF,xC,gg)
 gg.f=cur_globalf
 }
 else _w(oD,x[37],1,190)
-cs.pop()
-cs.push("./pages/ranking/ranking.vue.wxml:view:1:213")
 var hG=_n('view')
 _rz(z,hG,'class',4,e,s,gg)
 var oH=_v()
 _(hG,oH)
-cs.push("./pages/ranking/ranking.vue.wxml:view:1:272")
 var cI=function(lK,oJ,aL,gg){
-cs.push("./pages/ranking/ranking.vue.wxml:view:1:272")
 var eN=_mz(z,'view',['bindtap',9,'class',1,'data-comkey',2,'data-eventid',3,'key',4],[],lK,oJ,gg)
-cs.push("./pages/ranking/ranking.vue.wxml:image:1:513")
 var bO=_mz(z,'image',['class',14,'mode',1,'src',2],[],lK,oJ,gg)
-cs.pop()
 _(eN,bO)
-cs.push("./pages/ranking/ranking.vue.wxml:view:1:609")
 var oP=_n('view')
 _rz(z,oP,'class',17,lK,oJ,gg)
 var xQ=_oz(z,18,lK,oJ,gg)
 _(oP,xQ)
-cs.pop()
 _(eN,oP)
-cs.pop()
 _(aL,eN)
 return aL
 }
 oH.wxXCkey=2
 _2z(z,7,cI,e,s,gg,oH,'item','index','item.index')
-cs.pop()
-cs.pop()
 _(oB,hG)
-cs.pop()
 _(r,oB)
 }catch(err){
 p_[b]=false
@@ -3566,7 +3154,6 @@ var xAC=e_[x[38]].i
 _ai(xAC,x[39],e_,x[38],1,1)
 var oBC=_v()
 _(r,oBC)
-cs.push("./pages/ranking/ranking.wxml:template:2:6")
 var fCC=_oz(z,1,e,s,gg)
 var cDC=_gd(x[38],fCC,e_,d_)
 if(cDC){
@@ -3577,144 +3164,108 @@ cDC(hEC,hEC,oBC,gg)
 gg.f=cur_globalf
 }
 else _w(fCC,x[38],2,18)
-cs.pop()
 xAC.pop()
 return r
 }
 e_[x[38]]={f:m24,j:[],i:[],ti:[x[39]],ic:[]}
 d_[x[40]]={}
-d_[x[40]]["3fe561ce"]=function(e,s,r,gg){
+d_[x[40]]["0660b324"]=function(e,s,r,gg){
 var z=gz$gwx_26()
-var b=x[40]+':3fe561ce'
+var b=x[40]+':0660b324'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/rankingList/rankingList.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[40]);return}
 p_[b]=true
 try{
-cs.push("./pages/rankingList/rankingList.vue.wxml:view:1:72")
-var oB=_n('view')
-_rz(z,oB,'class',1,e,s,gg)
-var xC=_v()
-_(oB,xC)
-cs.push("./pages/rankingList/rankingList.vue.wxml:template:1:112")
-var oD=_oz(z,3,e,s,gg)
-var fE=_gd(x[40],oD,e_,d_)
-if(fE){
-var cF=_1z(z,2,e,s,gg) || {}
+var oB=_v()
+_(r,oB)
+if(_oz(z,1,e,s,gg)){oB.wxVkey=1
+var xC=_n('view')
+_rz(z,xC,'class',2,e,s,gg)
+var oD=_v()
+_(xC,oD)
+var fE=_oz(z,4,e,s,gg)
+var cF=_gd(x[40],fE,e_,d_)
+if(cF){
+var hG=_1z(z,3,e,s,gg) || {}
 var cur_globalf=gg.f
-xC.wxXCkey=3
-fE(cF,cF,xC,gg)
+oD.wxXCkey=3
+cF(hG,hG,oD,gg)
 gg.f=cur_globalf
 }
-else _w(oD,x[40],1,183)
-cs.pop()
-cs.push("./pages/rankingList/rankingList.vue.wxml:view:1:206")
-var hG=_n('view')
-_rz(z,hG,'class',4,e,s,gg)
-cs.push("./pages/rankingList/rankingList.vue.wxml:view:1:259")
+else _w(fE,x[40],1,211)
 var oH=_n('view')
 _rz(z,oH,'class',5,e,s,gg)
-cs.push("./pages/rankingList/rankingList.vue.wxml:image:1:314")
-var cI=_mz(z,'image',['class',6,'mode',1,'src',2],[],e,s,gg)
-cs.pop()
+var cI=_n('view')
+_rz(z,cI,'class',6,e,s,gg)
+var oJ=_mz(z,'image',['class',7,'mode',1,'src',2],[],e,s,gg)
+_(cI,oJ)
 _(oH,cI)
-cs.pop()
-_(hG,oH)
-cs.push("./pages/rankingList/rankingList.vue.wxml:view:1:407")
-var oJ=_n('view')
-_rz(z,oJ,'class',9,e,s,gg)
-cs.push("./pages/rankingList/rankingList.vue.wxml:view:1:462")
 var lK=_n('view')
 _rz(z,lK,'class',10,e,s,gg)
-var aL=_oz(z,11,e,s,gg)
+var aL=_n('view')
+_rz(z,aL,'class',11,e,s,gg)
+var tM=_oz(z,12,e,s,gg)
+_(aL,tM)
 _(lK,aL)
-cs.pop()
-_(oJ,lK)
-cs.push("./pages/rankingList/rankingList.vue.wxml:view:1:522")
-var tM=_n('view')
-_rz(z,tM,'class',12,e,s,gg)
-var eN=_oz(z,13,e,s,gg)
-_(tM,eN)
-cs.pop()
-_(oJ,tM)
-cs.pop()
-_(hG,oJ)
-cs.pop()
-_(oB,hG)
-cs.push("./pages/rankingList/rankingList.vue.wxml:view:1:610")
-var bO=_n('view')
-_rz(z,bO,'class',14,e,s,gg)
-var oP=_v()
-_(bO,oP)
-cs.push("./pages/rankingList/rankingList.vue.wxml:view:1:650")
-var xQ=function(fS,oR,cT,gg){
-cs.push("./pages/rankingList/rankingList.vue.wxml:view:1:650")
-var oV=_mz(z,'view',['bindtap',19,'class',1,'data-comkey',2,'data-eventid',3,'key',4],[],fS,oR,gg)
-cs.push("./pages/rankingList/rankingList.vue.wxml:view:1:876")
-var cW=_n('view')
-_rz(z,cW,'class',24,fS,oR,gg)
-var oX=_oz(z,25,fS,oR,gg)
+var eN=_n('view')
+_rz(z,eN,'class',13,e,s,gg)
+var bO=_oz(z,14,e,s,gg)
+_(eN,bO)
+_(lK,eN)
+_(oH,lK)
+_(xC,oH)
+var oP=_n('view')
+_rz(z,oP,'class',15,e,s,gg)
+var xQ=_v()
+_(oP,xQ)
+var oR=function(cT,fS,hU,gg){
+var cW=_mz(z,'view',['bindtap',20,'class',1,'data-comkey',2,'data-eventid',3,'key',4],[],cT,fS,gg)
+var oX=_n('view')
+_rz(z,oX,'class',25,cT,fS,gg)
+var lY=_oz(z,26,cT,fS,gg)
+_(oX,lY)
 _(cW,oX)
-cs.pop()
-_(oV,cW)
-cs.push("./pages/rankingList/rankingList.vue.wxml:view:1:933")
-var lY=_n('view')
-_rz(z,lY,'class',26,fS,oR,gg)
-cs.push("./pages/rankingList/rankingList.vue.wxml:view:1:967")
 var aZ=_n('view')
-_rz(z,aZ,'class',27,fS,oR,gg)
-var t1=_oz(z,28,fS,oR,gg)
+_rz(z,aZ,'class',27,cT,fS,gg)
+var t1=_n('view')
+_rz(z,t1,'class',28,cT,fS,gg)
+var e2=_oz(z,29,cT,fS,gg)
+_(t1,e2)
 _(aZ,t1)
-cs.pop()
-_(lY,aZ)
-var e2=_v()
-_(lY,e2)
-cs.push("./pages/rankingList/rankingList.vue.wxml:text:1:1023")
-var b3=function(x5,o4,o6,gg){
-cs.push("./pages/rankingList/rankingList.vue.wxml:text:1:1023")
-var c8=_mz(z,'text',['class',33,'key',1],[],x5,o4,gg)
-var h9=_oz(z,35,x5,o4,gg)
-_(c8,h9)
-cs.pop()
-_(o6,c8)
-return o6
+var b3=_v()
+_(aZ,b3)
+var o4=function(o6,x5,f7,gg){
+var h9=_mz(z,'text',['class',34,'key',1],[],o6,x5,gg)
+var o0=_oz(z,36,o6,x5,gg)
+_(h9,o0)
+_(f7,h9)
+return f7
 }
-e2.wxXCkey=2
-_2z(z,31,b3,fS,oR,gg,e2,'childItem','i','childItem.i')
-cs.pop()
-cs.pop()
-_(oV,lY)
-cs.push("./pages/rankingList/rankingList.vue.wxml:view:1:1198")
-var o0=_n('view')
-_rz(z,o0,'class',36,fS,oR,gg)
-cs.push("./pages/rankingList/rankingList.vue.wxml:text:1:1231")
-var cAB=_n('text')
-_rz(z,cAB,'class',37,fS,oR,gg)
-cs.pop()
-_(o0,cAB)
-cs.push("./pages/rankingList/rankingList.vue.wxml:text:1:1267")
+b3.wxXCkey=2
+_2z(z,32,o4,cT,fS,gg,b3,'childItem','i','childItem.i')
+_(cW,aZ)
+var cAB=_n('view')
+_rz(z,cAB,'class',37,cT,fS,gg)
 var oBB=_n('text')
-_rz(z,oBB,'class',38,fS,oR,gg)
-cs.pop()
-_(o0,oBB)
-cs.push("./pages/rankingList/rankingList.vue.wxml:text:1:1303")
+_rz(z,oBB,'class',38,cT,fS,gg)
+_(cAB,oBB)
 var lCB=_n('text')
-_rz(z,lCB,'class',39,fS,oR,gg)
-cs.pop()
-_(o0,lCB)
-cs.pop()
-_(oV,o0)
-cs.pop()
-_(cT,oV)
-return cT
+_rz(z,lCB,'class',39,cT,fS,gg)
+_(cAB,lCB)
+var aDB=_n('text')
+_rz(z,aDB,'class',40,cT,fS,gg)
+_(cAB,aDB)
+_(cW,cAB)
+_(hU,cW)
+return hU
 }
-oP.wxXCkey=2
-_2z(z,17,xQ,e,s,gg,oP,'item','index','item.index')
-cs.pop()
-cs.pop()
-_(oB,bO)
-cs.pop()
-_(r,oB)
+xQ.wxXCkey=2
+_2z(z,18,oR,e,s,gg,xQ,'item','index','item.index')
+_(xC,oP)
+_(oB,xC)
+}
+oB.wxXCkey=1
 }catch(err){
 p_[b]=false
 throw err
@@ -3737,7 +3288,6 @@ var lIC=e_[x[41]].i
 _ai(lIC,x[42],e_,x[41],1,1)
 var aJC=_v()
 _(r,aJC)
-cs.push("./pages/rankingList/rankingList.wxml:template:2:6")
 var tKC=_oz(z,1,e,s,gg)
 var eLC=_gd(x[41],tKC,e_,d_)
 if(eLC){
@@ -3748,26 +3298,23 @@ eLC(bMC,bMC,aJC,gg)
 gg.f=cur_globalf
 }
 else _w(tKC,x[41],2,18)
-cs.pop()
 lIC.pop()
 return r
 }
 e_[x[41]]={f:m26,j:[],i:[],ti:[x[42]],ic:[]}
 d_[x[43]]={}
-d_[x[43]]["27728038"]=function(e,s,r,gg){
+d_[x[43]]["a21b228c"]=function(e,s,r,gg){
 var z=gz$gwx_28()
-var b=x[43]+':27728038'
+var b=x[43]+':a21b228c'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/singerInfo/singerInfo.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[43]);return}
 p_[b]=true
 try{
-cs.push("./pages/singerInfo/singerInfo.vue.wxml:view:1:162")
 var oB=_n('view')
 _rz(z,oB,'class',1,e,s,gg)
 var xC=_v()
 _(oB,xC)
-cs.push("./pages/singerInfo/singerInfo.vue.wxml:template:1:213")
 var oD=_oz(z,3,e,s,gg)
 var fE=_gd(x[43],oD,e_,d_)
 if(fE){
@@ -3777,81 +3324,55 @@ xC.wxXCkey=3
 fE(cF,cF,xC,gg)
 gg.f=cur_globalf
 }
-else _w(oD,x[43],1,284)
-cs.pop()
-cs.push("./pages/singerInfo/singerInfo.vue.wxml:view:1:307")
+else _w(oD,x[43],1,285)
 var hG=_n('view')
 _rz(z,hG,'class',4,e,s,gg)
-cs.push("./pages/singerInfo/singerInfo.vue.wxml:image:1:342")
 var oH=_mz(z,'image',['mode',-1,'class',5,'src',1],[],e,s,gg)
-cs.pop()
 _(hG,oH)
-cs.push("./pages/singerInfo/singerInfo.vue.wxml:view:1:414")
 var cI=_n('view')
 _rz(z,cI,'class',7,e,s,gg)
 var oJ=_oz(z,8,e,s,gg)
 _(cI,oJ)
-cs.pop()
 _(hG,cI)
-cs.pop()
 _(oB,hG)
-cs.push("./pages/singerInfo/singerInfo.vue.wxml:view:1:483")
 var lK=_n('view')
 _rz(z,lK,'class',9,e,s,gg)
-cs.push("./pages/singerInfo/singerInfo.vue.wxml:view:1:516")
 var aL=_n('view')
 _rz(z,aL,'class',10,e,s,gg)
-cs.push("./pages/singerInfo/singerInfo.vue.wxml:view:1:555")
 var tM=_mz(z,'view',['bindtap',11,'class',1,'data-comkey',2,'data-eventid',3],[],e,s,gg)
 var eN=_oz(z,15,e,s,gg)
 _(tM,eN)
-cs.pop()
 _(aL,tM)
-cs.push("./pages/singerInfo/singerInfo.vue.wxml:view:1:709")
 var bO=_mz(z,'view',['bindtap',16,'class',1,'data-comkey',2,'data-eventid',3],[],e,s,gg)
 var oP=_oz(z,20,e,s,gg)
 _(bO,oP)
-cs.pop()
 _(aL,bO)
-cs.push("./pages/singerInfo/singerInfo.vue.wxml:view:1:863")
 var xQ=_mz(z,'view',['bindtap',21,'class',1,'data-comkey',2,'data-eventid',3],[],e,s,gg)
 var oR=_oz(z,25,e,s,gg)
 _(xQ,oR)
-cs.pop()
 _(aL,xQ)
-cs.pop()
 _(lK,aL)
-cs.push("./pages/singerInfo/singerInfo.vue.wxml:view:1:1020")
 var fS=_n('view')
 _rz(z,fS,'class',26,e,s,gg)
 var cT=_v()
 _(fS,cT)
 if(_oz(z,27,e,s,gg)){cT.wxVkey=1
-cs.push("./pages/singerInfo/singerInfo.vue.wxml:view:1:1061")
-cs.push("./pages/singerInfo/singerInfo.vue.wxml:view:1:1061")
 var cW=_n('view')
 _rz(z,cW,'class',28,e,s,gg)
-cs.push("./pages/singerInfo/singerInfo.vue.wxml:view:1:1119")
 var oX=_n('view')
 _rz(z,oX,'class',29,e,s,gg)
 var lY=_oz(z,30,e,s,gg)
 _(oX,lY)
-cs.pop()
 _(cW,oX)
-cs.pop()
 _(cT,cW)
-cs.pop()
 }
 var hU=_v()
 _(fS,hU)
 if(_oz(z,31,e,s,gg)){hU.wxVkey=1
-cs.push("./pages/singerInfo/singerInfo.vue.wxml:view:1:1199")
-cs.push("./pages/singerInfo/singerInfo.vue.wxml:view:1:1199")
 var aZ=_n('view')
 _rz(z,aZ,'class',32,e,s,gg)
 var t1=_v()
 _(aZ,t1)
-cs.push("./pages/singerInfo/singerInfo.vue.wxml:template:1:1257")
 var e2=_oz(z,34,e,s,gg)
 var b3=_gd(x[43],e2,e_,d_)
 if(b3){
@@ -3861,22 +3382,16 @@ t1.wxXCkey=3
 b3(o4,o4,t1,gg)
 gg.f=cur_globalf
 }
-else _w(e2,x[43],1,1328)
-cs.pop()
-cs.pop()
+else _w(e2,x[43],1,1341)
 _(hU,aZ)
-cs.pop()
 }
 var oV=_v()
 _(fS,oV)
 if(_oz(z,35,e,s,gg)){oV.wxVkey=1
-cs.push("./pages/singerInfo/singerInfo.vue.wxml:view:1:1358")
-cs.push("./pages/singerInfo/singerInfo.vue.wxml:view:1:1358")
 var x5=_n('view')
 _rz(z,x5,'class',36,e,s,gg)
 var o6=_v()
 _(x5,o6)
-cs.push("./pages/singerInfo/singerInfo.vue.wxml:template:1:1416")
 var f7=_oz(z,38,e,s,gg)
 var c8=_gd(x[43],f7,e_,d_)
 if(c8){
@@ -3886,20 +3401,14 @@ o6.wxXCkey=3
 c8(h9,h9,o6,gg)
 gg.f=cur_globalf
 }
-else _w(f7,x[43],1,1487)
-cs.pop()
-cs.pop()
+else _w(f7,x[43],1,1501)
 _(oV,x5)
-cs.pop()
 }
 cT.wxXCkey=1
 hU.wxXCkey=1
 oV.wxXCkey=1
-cs.pop()
 _(lK,fS)
-cs.pop()
 _(oB,lK)
-cs.pop()
 _(r,oB)
 }catch(err){
 p_[b]=false
@@ -3927,7 +3436,6 @@ var fQC=e_[x[44]].i
 _ai(fQC,x[45],e_,x[44],1,1)
 var cRC=_v()
 _(r,cRC)
-cs.push("./pages/singerInfo/singerInfo.wxml:template:2:6")
 var hSC=_oz(z,1,e,s,gg)
 var oTC=_gd(x[44],hSC,e_,d_)
 if(oTC){
@@ -3938,7 +3446,6 @@ oTC(cUC,cUC,cRC,gg)
 gg.f=cur_globalf
 }
 else _w(hSC,x[44],2,18)
-cs.pop()
 fQC.pop()
 return r
 }
@@ -3947,7 +3454,6 @@ if(path&&e_[path]){
 window.__wxml_comp_version__=0.02
 return function(env,dd,global){$gwxc=0;var root={"tag":"wx-page"};root.children=[]
 var main=e_[path].f
-cs=[]
 if (typeof global==="undefined")global={};global.f=$gdc(f_[path],"",1);
 if(typeof(window.__webview_engine_version__)!='undefined'&&window.__webview_engine_version__+1e-6>=0.02+1e-6&&window.__mergeData__)
 {
@@ -3958,9 +3464,7 @@ main(env,{},root,global);
 _tsd(root)
 if(typeof(window.__webview_engine_version__)=='undefined'|| window.__webview_engine_version__+1e-6<0.01+1e-6){return _ev(root);}
 }catch(err){
-console.log(cs, env);
 console.log(err)
-throw err
 }
 return root;
 }
@@ -4001,7 +3505,7 @@ var setCssToHead = function(file, _xcInvalid, info) {
 var Ca = {};
 var css_id;
 var info = info || {};
-var _C= [[[2,1],[2,2],],[".",[1],"ease-row { display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; -webkit-justify-content: space-between; justify-content: space-between; -webkit-box-lines: multiple; -moz-box-lines: multiple; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-align: start; -ms-flex-align: start; -webkit-align-items: flex-start; align-items: flex-start; }\n.",[1],"ease-row .",[1],"ease-col-2-1 { -webkit-box-sizing: border-box; box-sizing: border-box; width: 50%; width: calc((100% - ",[0,24],") / 2); }\n.",[1],"ease-row .",[1],"ease-col-3-1 { -webkit-box-sizing: border-box; box-sizing: border-box; width: 33.3333%; width: calc((100% - ",[0,48],") / 3); }\n.",[1],"ease-row .",[1],"ease-col-3-2 { -webkit-box-sizing: border-box; box-sizing: border-box; width: 33.3333%; width: calc(100% - ((100% - ",[0,48],") / 3) - ",[0,24],"); }\n.",[1],"ease-row .",[1],"ease-col-4-1 { -webkit-box-sizing: border-box; box-sizing: border-box; width: calc((100% - ",[0,24],") / 4); }\n.",[1],"ease-row .",[1],"ease-col-4-3 { -webkit-box-sizing: border-box; box-sizing: border-box; width: calc((100% - ",[0,24],") / 4 * 3); }\n.",[1],"page-panel { padding: ",[0,32],"; }\n.",[1],"page-title { font-size: ",[0,36],"; padding: ",[0,25]," ",[0,0],"; font-weight: bold; color: rbga(72, 88, 162, 0.3); }\n.",[1],"themeColor { color: #e91e63; font-size: ",[0,46],"; }\nwx-image { vertical-align: middle; }\n.",[1],"mt30 { margin-top: ",[0,30],"; }\n.",[1],"playBtn { position: absolute; z-index: 99; left: ",[0,30],"; top: ",[0,30],"; width: ",[0,80],"; height: ",[0,80],"; background: rgba(255, 255, 255, 0.8); border-radius: 50%; }\n.",[1],"playBtn .",[1],"icon { margin: ",[0,26]," ",[0,0]," ",[0,0]," ",[0,30],"; width: 0; height: 0; border-top: ",[0,14]," solid transparent; border-bottom: ",[0,14]," solid transparent; border-left: ",[0,28]," solid #e91e63; border-radius: ",[0,5],"; }\n.",[1],"font-w-b { font-weight: bold; }\n.",[1],"privileges .",[1],"item { background: #fff; border-radius: ",[0,10],"; -webkit-box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.3); box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.3); margin-top: ",[0,32],"; padding: ",[0,20]," ",[0,32],"; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; }\n.",[1],"privileges .",[1],"item .",[1],"index { font-weight: bold; color: #666; margin-right: ",[0,32],"; line-height: ",[0,94],"; font-size: ",[0,48],"; padding: ",[0,0]," ",[0,10],"; }\n.",[1],"privileges .",[1],"item .",[1],"info { -webkit-box-flex: 1; -webkit-flex: 1; -ms-flex: 1; flex: 1; overflow: hidden; }\n.",[1],"privileges .",[1],"item .",[1],"info .",[1],"name { width: 100%; font-size: ",[0,34],"; overflow: hidden; -o-text-overflow: ellipsis; text-overflow: ellipsis; white-space: nowrap; }\n.",[1],"privileges .",[1],"item .",[1],"info .",[1],"arName { font-size: ",[0,28],"; color: #888; }\n.",[1],"privileges .",[1],"item .",[1],"btn { margin-top: ",[0,20],"; margin-left: ",[0,10],"; width: ",[0,70],"; }\n.",[1],"privileges .",[1],"item .",[1],"btn wx-text { display: inline-block; width: ",[0,10],"; height: ",[0,10],"; border-radius: 50%; background: #999; margin: ",[0,0]," ",[0,5],"; }\n.",[1],"simiMvList .",[1],"item { background: #fff; border-radius: ",[0,10],"; -webkit-box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.2); box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.2); margin-bottom: ",[0,40],"; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; }\n.",[1],"simiMvList .",[1],"item .",[1],"pic { width: ",[0,270],"; height: ",[0,170],"; margin-right: ",[0,30],"; }\n.",[1],"simiMvList .",[1],"item .",[1],"pic wx-image { max-width: 100%; height: ",[0,170],"; border-radius: ",[0,10],"; }\n.",[1],"simiMvList .",[1],"item .",[1],"info { -webkit-box-flex: 1; -webkit-flex: 1; -ms-flex: 1; flex: 1; }\n.",[1],"simiMvList .",[1],"item .",[1],"info .",[1],"name { margin-top: ",[0,25],"; font-weight: bold; font-size: ",[0,30],"; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; }\n.",[1],"simiMvList .",[1],"item .",[1],"info .",[1],"artistName { color: #999; font-size: ",[0,24],"; }\n.",[1],"simiMvList .",[1],"item .",[1],"btn { margin-top: ",[0,50],"; margin-left: ",[0,10],"; width: ",[0,85],"; }\n.",[1],"simiMvList .",[1],"item .",[1],"btn wx-text { display: inline-block; width: ",[0,10],"; height: ",[0,10],"; border-radius: 50%; background: #999; margin: ",[0,0]," ",[0,5],"; }\n",],[".",[1],"djRecommendList .",[1],"item { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; margin-bottom: ",[0,40],"; }\n.",[1],"djRecommendList .",[1],"item .",[1],"pic { position: relative; z-index: 1; margin-right: ",[0,40],"; }\n.",[1],"djRecommendList .",[1],"item .",[1],"pic .",[1],"playBtn { left: inherit; top: inherit; right: ",[0,20],"; bottom: ",[0,30],"; width: ",[0,50],"; height: ",[0,50],"; }\n.",[1],"djRecommendList .",[1],"item .",[1],"pic .",[1],"playBtn .",[1],"icon { margin: ",[0,16]," ",[0,0]," ",[0,0]," ",[0,18],"; border-top: ",[0,10]," solid transparent; border-bottom: ",[0,10]," solid transparent; border-left: ",[0,20]," solid #e91e63; }\n.",[1],"djRecommendList .",[1],"item .",[1],"pic wx-image { width: ",[0,180],"; height: ",[0,180],"; border-radius: ",[0,10],"; -webkit-box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.3); box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.3); }\n.",[1],"djRecommendList .",[1],"item .",[1],"content { -webkit-box-flex: 1; -webkit-flex: 1; -ms-flex: 1; flex: 1; }\n.",[1],"djRecommendList .",[1],"item .",[1],"content .",[1],"name { font-size: ",[0,38],"; font-weight: bold; }\n.",[1],"djRecommendList .",[1],"item .",[1],"content .",[1],"rcmdtext { margin-top: ",[0,10],"; font-size: ",[0,28],"; }\n.",[1],"djRecommendList .",[1],"item .",[1],"content .",[1],"info { margin-top: ",[0,30],"; font-size: ",[0,20],"; color: #999; }\n.",[1],"djRecommendList .",[1],"item .",[1],"content .",[1],"category { margin-left: ",[0,40],"; }\n.",[1],"nowPlay-seat { height: ",[0,100],"; }\n.",[1],"nowPlay-panel { position: fixed; z-index: 999; top: ",[0,0],"; left: ",[0,0],"; width: 100%; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; line-height: ",[0,62],"; overflow: hidden; padding: ",[0,20]," ",[0,32],"; -webkit-box-sizing: border-box; box-sizing: border-box; background: #fff; -webkit-box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.1); box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.1); }\n.",[1],"nowPlayIcom { width: ",[0,60],"; height: ",[0,60],"; margin-right: ",[0,10],"; }\n.",[1],"nowPlayIcomP { border-radius: 50%; -webkit-box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.1); box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.1); width: ",[0,56],"; height: ",[0,56],"; margin-left: ",[0,10],"; margin-top: ",[0,2],"; }\n.",[1],"nowPlayInfo { font-size: ",[0,34],"; color: #e91e63; margin-right: ",[0,12],"; }\n.",[1],"nowPlayName { font-size: ",[0,34],"; color: #666; overflow: hidden; -o-text-overflow: ellipsis; text-overflow: ellipsis; white-space: nowrap; -webkit-box-flex: 1; -webkit-flex: 1; -ms-flex: 1; flex: 1; }\n",],];
+var _C= [[[2,1],[2,2],],[".",[1],"ease-row { display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; -webkit-justify-content: space-between; justify-content: space-between; -webkit-box-lines: multiple; -moz-box-lines: multiple; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-align: start; -ms-flex-align: start; -webkit-align-items: flex-start; align-items: flex-start; }\n.",[1],"ease-row .",[1],"ease-col-2-1 { -webkit-box-sizing: border-box; box-sizing: border-box; width: 50%; width: -webkit-calc((100% - ",[0,24],") / 2); width: calc((100% - ",[0,24],") / 2); }\n.",[1],"ease-row .",[1],"ease-col-3-1 { -webkit-box-sizing: border-box; box-sizing: border-box; width: 33.3333%; width: -webkit-calc((100% - ",[0,48],") / 3); width: calc((100% - ",[0,48],") / 3); }\n.",[1],"ease-row .",[1],"ease-col-3-2 { -webkit-box-sizing: border-box; box-sizing: border-box; width: 33.3333%; width: -webkit-calc(100% - ((100% - ",[0,48],") / 3) - ",[0,24],"); width: calc(100% - ((100% - ",[0,48],") / 3) - ",[0,24],"); }\n.",[1],"ease-row .",[1],"ease-col-4-1 { -webkit-box-sizing: border-box; box-sizing: border-box; width: -webkit-calc((100% - ",[0,24],") / 4); width: calc((100% - ",[0,24],") / 4); }\n.",[1],"ease-row .",[1],"ease-col-4-3 { -webkit-box-sizing: border-box; box-sizing: border-box; width: -webkit-calc((100% - ",[0,24],") / 4 * 3); width: calc((100% - ",[0,24],") / 4 * 3); }\n.",[1],"page-panel { padding: ",[0,32],"; }\n.",[1],"page-title { font-size: ",[0,36],"; padding: ",[0,25]," ",[0,0],"; font-weight: bold; color: rbga(72, 88, 162, 0.3); }\n.",[1],"themeColor { color: #e91e63; font-size: ",[0,46],"; }\nwx-image { vertical-align: middle; }\n.",[1],"mt30 { margin-top: ",[0,30],"; }\n.",[1],"playBtn { position: absolute; z-index: 99; left: ",[0,30],"; top: ",[0,30],"; width: ",[0,80],"; height: ",[0,80],"; background: rgba(255, 255, 255, 0.8); -webkit-border-radius: 50%; border-radius: 50%; }\n.",[1],"playBtn .",[1],"icon { margin: ",[0,26]," ",[0,0]," ",[0,0]," ",[0,30],"; width: 0; height: 0; border-top: ",[0,14]," solid transparent; border-bottom: ",[0,14]," solid transparent; border-left: ",[0,28]," solid #e91e63; -webkit-border-radius: ",[0,5],"; border-radius: ",[0,5],"; }\n.",[1],"font-w-b { font-weight: bold; }\n.",[1],"privileges .",[1],"item { background: #fff; -webkit-border-radius: ",[0,10],"; border-radius: ",[0,10],"; -webkit-box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.3); box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.3); margin-top: ",[0,32],"; padding: ",[0,20]," ",[0,32],"; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; }\n.",[1],"privileges .",[1],"item .",[1],"index { font-weight: bold; color: #666; margin-right: ",[0,32],"; line-height: ",[0,94],"; font-size: ",[0,48],"; padding: ",[0,0]," ",[0,10],"; }\n.",[1],"privileges .",[1],"item .",[1],"info { -webkit-box-flex: 1; -webkit-flex: 1; -ms-flex: 1; flex: 1; overflow: hidden; }\n.",[1],"privileges .",[1],"item .",[1],"info .",[1],"name { width: 100%; font-size: ",[0,34],"; overflow: hidden; -o-text-overflow: ellipsis; text-overflow: ellipsis; white-space: nowrap; }\n.",[1],"privileges .",[1],"item .",[1],"info .",[1],"arName { font-size: ",[0,28],"; color: #888; }\n.",[1],"privileges .",[1],"item .",[1],"btn { margin-top: ",[0,20],"; margin-left: ",[0,10],"; width: ",[0,70],"; }\n.",[1],"privileges .",[1],"item .",[1],"btn wx-text { display: inline-block; width: ",[0,10],"; height: ",[0,10],"; -webkit-border-radius: 50%; border-radius: 50%; background: #999; margin: ",[0,0]," ",[0,5],"; }\n.",[1],"simiMvList .",[1],"item { background: #fff; -webkit-border-radius: ",[0,10],"; border-radius: ",[0,10],"; -webkit-box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.2); box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.2); margin-bottom: ",[0,40],"; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; }\n.",[1],"simiMvList .",[1],"item .",[1],"pic { width: ",[0,270],"; height: ",[0,170],"; margin-right: ",[0,30],"; }\n.",[1],"simiMvList .",[1],"item .",[1],"pic wx-image { max-width: 100%; height: ",[0,170],"; -webkit-border-radius: ",[0,10],"; border-radius: ",[0,10],"; }\n.",[1],"simiMvList .",[1],"item .",[1],"info { -webkit-box-flex: 1; -webkit-flex: 1; -ms-flex: 1; flex: 1; }\n.",[1],"simiMvList .",[1],"item .",[1],"info .",[1],"name { margin-top: ",[0,25],"; font-weight: bold; font-size: ",[0,30],"; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; }\n.",[1],"simiMvList .",[1],"item .",[1],"info .",[1],"artistName { color: #999; font-size: ",[0,24],"; }\n.",[1],"simiMvList .",[1],"item .",[1],"btn { margin-top: ",[0,50],"; margin-left: ",[0,10],"; width: ",[0,85],"; }\n.",[1],"simiMvList .",[1],"item .",[1],"btn wx-text { display: inline-block; width: ",[0,10],"; height: ",[0,10],"; -webkit-border-radius: 50%; border-radius: 50%; background: #999; margin: ",[0,0]," ",[0,5],"; }\n",],[".",[1],"djRecommendList .",[1],"item { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; margin-bottom: ",[0,40],"; }\n.",[1],"djRecommendList .",[1],"item .",[1],"pic { position: relative; z-index: 1; margin-right: ",[0,40],"; }\n.",[1],"djRecommendList .",[1],"item .",[1],"pic .",[1],"playBtn { left: inherit; top: inherit; right: ",[0,20],"; bottom: ",[0,30],"; width: ",[0,50],"; height: ",[0,50],"; }\n.",[1],"djRecommendList .",[1],"item .",[1],"pic .",[1],"playBtn .",[1],"icon { margin: ",[0,16]," ",[0,0]," ",[0,0]," ",[0,18],"; border-top: ",[0,10]," solid transparent; border-bottom: ",[0,10]," solid transparent; border-left: ",[0,20]," solid #e91e63; }\n.",[1],"djRecommendList .",[1],"item .",[1],"pic wx-image { width: ",[0,180],"; height: ",[0,180],"; -webkit-border-radius: ",[0,10],"; border-radius: ",[0,10],"; -webkit-box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.3); box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.3); }\n.",[1],"djRecommendList .",[1],"item .",[1],"content { -webkit-box-flex: 1; -webkit-flex: 1; -ms-flex: 1; flex: 1; }\n.",[1],"djRecommendList .",[1],"item .",[1],"content .",[1],"name { font-size: ",[0,38],"; font-weight: bold; }\n.",[1],"djRecommendList .",[1],"item .",[1],"content .",[1],"rcmdtext { margin-top: ",[0,10],"; font-size: ",[0,28],"; }\n.",[1],"djRecommendList .",[1],"item .",[1],"content .",[1],"info { margin-top: ",[0,30],"; font-size: ",[0,20],"; color: #999; }\n.",[1],"djRecommendList .",[1],"item .",[1],"content .",[1],"category { margin-left: ",[0,40],"; }\n.",[1],"nowPlay-seat { height: ",[0,100],"; }\n.",[1],"nowPlay-panel { position: fixed; z-index: 999; top: ",[0,0],"; left: ",[0,0],"; width: 100%; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; line-height: ",[0,62],"; overflow: hidden; padding: ",[0,20]," ",[0,32],"; -webkit-box-sizing: border-box; box-sizing: border-box; background: #fff; -webkit-box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.1); box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.1); }\n.",[1],"nowPlayIcom { width: ",[0,60],"; height: ",[0,60],"; margin-right: ",[0,10],"; }\n.",[1],"nowPlayIcomP { -webkit-border-radius: 50%; border-radius: 50%; -webkit-box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.1); box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.1); width: ",[0,56],"; height: ",[0,56],"; margin-left: ",[0,10],"; margin-top: ",[0,2],"; }\n.",[1],"nowPlayInfo { font-size: ",[0,34],"; color: #e91e63; margin-right: ",[0,12],"; }\n.",[1],"nowPlayName { font-size: ",[0,34],"; color: #666; overflow: hidden; -o-text-overflow: ellipsis; text-overflow: ellipsis; white-space: nowrap; -webkit-box-flex: 1; -webkit-flex: 1; -ms-flex: 1; flex: 1; }\n",],];
 function makeup(file, opt) {
 var _n = typeof(file) === "number";
 if ( _n && Ca.hasOwnProperty(file)) return "";
@@ -4067,9 +3571,45 @@ return rewritor;
 }
 setCssToHead([])();setCssToHead([[2,0]],undefined,{path:"./app.wxss"})();
 
+__wxAppCode__['app.wxss']=setCssToHead([[2,0]],undefined,{path:"./app.wxss"});    
+__wxAppCode__['app.wxml']=$gwx('./app.wxml');
+
+__wxAppCode__['pages/djList/djList.wxss']=undefined;    
+__wxAppCode__['pages/djList/djList.wxml']=$gwx('./pages/djList/djList.wxml');
+
+__wxAppCode__['pages/getPlaylistDetail/getPlaylistDetail.wxss']=setCssToHead([".",[1],"coverImgUrls { height: ",[0,212],"; }\n.",[1],"coverImgUrls wx-image { width: 100%; height: ",[0,212],"; -webkit-border-radius: ",[0,10],"; border-radius: ",[0,10],"; -webkit-box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.3); box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.3); }\n.",[1],"playlistInfo .",[1],"name { font-weight: bold; font-size: ",[0,32],"; }\n.",[1],"playlistInfo .",[1],"description { margin-top: ",[0,6],"; color: #999; font-size: ",[0,22],"; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; overflow: hidden; }\n",],undefined,{path:"./pages/getPlaylistDetail/getPlaylistDetail.wxss"});    
+__wxAppCode__['pages/getPlaylistDetail/getPlaylistDetail.wxml']=$gwx('./pages/getPlaylistDetail/getPlaylistDetail.wxml');
+
+__wxAppCode__['pages/index/index.wxss']=setCssToHead([".",[1],"djRecommendList .",[1],"item { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; margin-bottom: ",[0,40],"; }\n.",[1],"djRecommendList .",[1],"item .",[1],"pic { position: relative; z-index: 1; margin-right: ",[0,40],"; }\n.",[1],"djRecommendList .",[1],"item .",[1],"pic .",[1],"playBtn { left: inherit; top: inherit; right: ",[0,20],"; bottom: ",[0,30],"; width: ",[0,50],"; height: ",[0,50],"; }\n.",[1],"djRecommendList .",[1],"item .",[1],"pic .",[1],"playBtn .",[1],"icon { margin: ",[0,16]," ",[0,0]," ",[0,0]," ",[0,18],"; border-top: ",[0,10]," solid transparent; border-bottom: ",[0,10]," solid transparent; border-left: ",[0,20]," solid #e91e63; }\n.",[1],"djRecommendList .",[1],"item .",[1],"pic wx-image { width: ",[0,180],"; height: ",[0,180],"; -webkit-border-radius: ",[0,10],"; border-radius: ",[0,10],"; -webkit-box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.3); box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.3); }\n.",[1],"djRecommendList .",[1],"item .",[1],"content { -webkit-box-flex: 1; -webkit-flex: 1; -ms-flex: 1; flex: 1; }\n.",[1],"djRecommendList .",[1],"item .",[1],"content .",[1],"name { font-size: ",[0,32],"; font-weight: bold; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; }\n.",[1],"djRecommendList .",[1],"item .",[1],"content .",[1],"rcmdtext { margin-top: ",[0,10],"; font-size: ",[0,28],"; }\n.",[1],"djRecommendList .",[1],"item .",[1],"content .",[1],"info { margin-top: ",[0,10],"; font-size: ",[0,20],"; color: #999; }\n.",[1],"djRecommendList .",[1],"item .",[1],"content .",[1],"category { margin-left: ",[0,40],"; }\n.",[1],"banner wx-swiper { height: ",[0,236],"; -webkit-border-radius: ",[0,10],"; border-radius: ",[0,10],"; overflow: hidden; }\n.",[1],"banner wx-swiper wx-swiper-item { padding: ",[0,0]," ",[0,5],"; -webkit-box-sizing: border-box; box-sizing: border-box; }\n.",[1],"banner wx-image { width: 100%; height: ",[0,236],"; -webkit-border-radius: ",[0,10],"; border-radius: ",[0,10],"; -webkit-box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.1); box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.1); }\n.",[1],"personalizedList, .",[1],"topMvList, .",[1],"toplistArtistList { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; }\n.",[1],"personalizedList .",[1],"item { position: relative; z-index: 1; width: ",[0,240],"; height: ",[0,240],"; margin-right: ",[0,12],"; }\n.",[1],"personalizedList .",[1],"item .",[1],"name { position: absolute; z-index: 2; color: #fff; left: ",[0,0],"; bottom: ",[0,0],"; font-size: ",[0,20],"; padding: ",[0,10],"; background: rgba(0, 0, 0, 0.3); width: 100%; min-height: ",[0,76],"; -webkit-box-sizing: border-box; box-sizing: border-box; -webkit-border-radius: ",[0,0]," ",[0,0]," ",[0,10]," ",[0,10],"; border-radius: ",[0,0]," ",[0,0]," ",[0,10]," ",[0,10],"; }\n.",[1],"personalizedList .",[1],"item wx-image, .",[1],"topMvList .",[1],"item wx-image { max-width: 100%; height: ",[0,240],"; -webkit-border-radius: ",[0,10],"; border-radius: ",[0,10],"; -webkit-box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.1); box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.1); }\n.",[1],"topMvList .",[1],"item { position: relative; z-index: 1; width: ",[0,426],"; height: ",[0,240],"; margin-right: ",[0,12],"; }\n.",[1],"topMvList .",[1],"item .",[1],"name { position: absolute; z-index: 2; color: #fff; left: ",[0,0],"; bottom: ",[0,0],"; font-size: 10px; padding: ",[0,15],"; background: rgba(0, 0, 0, 0.3); width: 100%; -webkit-box-sizing: border-box; box-sizing: border-box; -webkit-border-radius: ",[0,0]," ",[0,0]," ",[0,10]," ",[0,10],"; border-radius: ",[0,0]," ",[0,0]," ",[0,10]," ",[0,10],"; }\n.",[1],"toplistArtistList .",[1],"item { position: relative; z-index: 1; width: ",[0,150],"; height: ",[0,150],"; line-height: ",[0,142],"; text-align: center; margin-right: ",[0,20],"; }\n.",[1],"toplistArtistList .",[1],"item wx-image { max-width: 100%; height: ",[0,150],"; -webkit-border-radius: 50%; border-radius: 50%; -webkit-box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.1); box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.1); vertical-align: middle; }\n.",[1],"toplistArtistList .",[1],"item .",[1],"name { position: absolute; z-index: 2; left: 0; top: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.3); color: #fff; -webkit-border-radius: 50%; border-radius: 50%; font-size: 10px; }\n",],undefined,{path:"./pages/index/index.wxss"});    
+__wxAppCode__['pages/index/index.wxml']=$gwx('./pages/index/index.wxml');
+
+__wxAppCode__['pages/mv/mv.wxss']=setCssToHead([".",[1],"mvListT .",[1],"item { position: relative; z-index: 1; overflow: hidden; height: ",[0,196],"; margin-bottom: ",[0,25],"; -webkit-border-radius: ",[0,10],"; border-radius: ",[0,10],"; -webkit-box-shadow: 0 0 10px hsla(0, 0%, 50%, 0.1); box-shadow: 0 0 10px hsla(0, 0%, 50%, 0.1); }\n.",[1],"mvListT .",[1],"item .",[1],"name { position: absolute; z-index: 2; left: 0; bottom: 0; width: 100%; color: #fff; font-size: ",[0,22],"; -webkit-box-sizing: border-box; box-sizing: border-box; padding: ",[0,12]," ",[0,16],"; background: rgba(0, 0, 0, 0.5); overflow: hidden; -o-text-overflow: ellipsis; text-overflow: ellipsis; white-space: nowrap; }\n.",[1],"mvListT .",[1],"item wx-image { max-width: 100%; height: ",[0,196],"; -webkit-border-radius: ",[0,10],"; border-radius: ",[0,10],"; -o-object-fit: cover; object-fit: cover; -o-object-position: right top; object-position: right top; }\n.",[1],"mvListT .",[1],"item .",[1],"playBtn { left: ",[0,40],"; top: ",[0,40],"; width: ",[0,50],"; height: ",[0,50],"; }\n.",[1],"mvListT .",[1],"item .",[1],"playBtn .",[1],"icon { margin: ",[0,16]," ",[0,0]," ",[0,0]," ",[0,18],"; border-top: ",[0,10]," solid transparent; border-bottom: ",[0,10]," solid transparent; border-left: ",[0,20]," solid #e91e63; }\n.",[1],"left-tab .",[1],"tab-title { text-align: center; }\n.",[1],"left-tab .",[1],"tab-title .",[1],"item { display: inline-block; -webkit-box-shadow: 0 0 10px hsla(0, 0%, 50%, 0.1); box-shadow: 0 0 10px hsla(0, 0%, 50%, 0.1); text-align: center; font-size: ",[0,26],"; padding: ",[0,20]," ",[0,40],"; margin: ",[0,0]," ",[0,20]," ",[0,30],"; -webkit-border-radius: ",[0,10],"; border-radius: ",[0,10],"; color: #888; }\n.",[1],"left-tab .",[1],"tab-title .",[1],"item.",[1],"active { background: #e91e63; color: #fff; }\n",],undefined,{path:"./pages/mv/mv.wxss"});    
+__wxAppCode__['pages/mv/mv.wxml']=$gwx('./pages/mv/mv.wxml');
+
+__wxAppCode__['pages/mvDetail/mvDetail.wxss']=setCssToHead(["body { background: rgb(251, 251, 251); }\n.",[1],"video wx-video { width: 100%; }\n.",[1],"videoInfo { padding-bottom: ",[0,40],"; }\n.",[1],"videoInfo .",[1],"name { font-weight: bold; font-size: ",[0,34],"; }\n.",[1],"videoInfo .",[1],"tips { margin-top: ",[0,20],"; font-size: ",[0,22],"; color: #999; }\n.",[1],"videoInfo .",[1],"tips .",[1],"artistName { margin-left: ",[0,40],"; }\n.",[1],"videoInfo .",[1],"desc { margin-top: ",[0,20],"; font-size: ",[0,26],"; color: #666; line-height: ",[0,40],"; }\n",],undefined,{path:"./pages/mvDetail/mvDetail.wxss"});    
+__wxAppCode__['pages/mvDetail/mvDetail.wxml']=$gwx('./pages/mvDetail/mvDetail.wxml');
+
+__wxAppCode__['pages/mvList/mvList.wxss']=setCssToHead([".",[1],"mvList .",[1],"item { position: relative; z-index: 1; margin-bottom: ",[0,32],"; }\n.",[1],"mvList .",[1],"item wx-image { width: 100%; -webkit-border-radius: ",[0,10],"; border-radius: ",[0,10],"; -webkit-box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.3); box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.3); }\n.",[1],"mvList .",[1],"item .",[1],"name { position: absolute; z-index: 2; left: ",[0,0],"; bottom: ",[0,0],"; color: #fff; background: rgba(0, 0, 0, 0.5); display: inline-block; width: 100%; padding: ",[0,25]," ",[0,20],"; font-size: ",[0,30],"; -webkit-box-sizing: border-box; box-sizing: border-box; -webkit-border-radius: ",[0,0]," ",[0,0]," ",[0,10]," ",[0,10],"; border-radius: ",[0,0]," ",[0,0]," ",[0,10]," ",[0,10],"; }\n",],undefined,{path:"./pages/mvList/mvList.wxss"});    
+__wxAppCode__['pages/mvList/mvList.wxml']=$gwx('./pages/mvList/mvList.wxml');
+
+__wxAppCode__['pages/personalizedList/personalizedList.wxss']=setCssToHead([".",[1],"personalizedList .",[1],"item { position: relative; z-index: 1; margin-bottom: ",[0,24],"; height: ",[0,332],"; }\n.",[1],"personalizedList .",[1],"item .",[1],"name { position: absolute; z-index: 2; display: inline-block; bottom: ",[0,0],"; left: ",[0,0],"; color: #fff; background: rgba(0, 0, 0, 0.3); -webkit-border-radius: ",[0,0]," ",[0,0]," ",[0,10]," ",[0,10],"; border-radius: ",[0,0]," ",[0,0]," ",[0,10]," ",[0,10],"; padding: ",[0,15],"; font-size: ",[0,24],"; min-height: ",[0,98],"; width: 100%; -webkit-box-sizing: border-box; box-sizing: border-box; }\n.",[1],"personalizedList .",[1],"item wx-image { max-width: 100%; height: ",[0,332],"; -webkit-border-radius: ",[0,10],"; border-radius: ",[0,10],"; -webkit-box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.3); box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.3); }\n",],undefined,{path:"./pages/personalizedList/personalizedList.wxss"});    
+__wxAppCode__['pages/personalizedList/personalizedList.wxml']=$gwx('./pages/personalizedList/personalizedList.wxml');
+
+__wxAppCode__['pages/play/play.wxss']=setCssToHead(["wx-page.",[1],"data-v-31d2bec7 { width: 100%; height: 100%; }\n.",[1],"page-panel-h.",[1],"data-v-31d2bec7 { position: relative; z-index: 1; width: 100%; height: 100%; color: #e91e63; text-align: center; }\n.",[1],"music-name.",[1],"data-v-31d2bec7 { padding: ",[0,40]," ",[0,20]," ",[0,0],"; font-size: ",[0,40],"; font-weight: bold; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; }\n.",[1],"music-author.",[1],"data-v-31d2bec7 { font-size: ",[0,28],"; }\n.",[1],"music-pic.",[1],"data-v-31d2bec7 { margin: ",[0,60]," auto ",[0,0],"; width: ",[0,340],"; height: ",[0,340],"; -webkit-border-radius: 50%; border-radius: 50%; overflow: hidden; border: ",[0,15]," solid #e91e63; -webkit-box-shadow: 0px 0px ",[0,20]," rgba(233, 30, 99, 0.5); box-shadow: 0px 0px ",[0,20]," rgba(233, 30, 99, 0.5); }\n.",[1],"music-pic wx-image.",[1],"data-v-31d2bec7 { width: ",[0,340],"; height: ",[0,340],"; -webkit-border-radius: 50%; border-radius: 50%; }\n.",[1],"player-panel.",[1],"data-v-31d2bec7 { position: fixed; z-index: 2; left: 0; bottom: 0; width: 100%; padding: ",[0,20]," ",[0,0],"; }\n.",[1],"player-btn.",[1],"data-v-31d2bec7 { text-align: center; line-height: ",[0,100],"; padding-bottom: ",[0,100],"; }\n.",[1],"player-btn .",[1],"playStop.",[1],"data-v-31d2bec7, .",[1],"player-btn .",[1],"nextPrev.",[1],"data-v-31d2bec7 { display: inline-block; }\n.",[1],"player-btn .",[1],"playStop wx-image.",[1],"data-v-31d2bec7 { width: ",[0,100],"; height: ",[0,100],"; margin: ",[0,0]," ",[0,80],"; }\n.",[1],"player-btn .",[1],"nextPrev wx-image.",[1],"data-v-31d2bec7 { width: ",[0,70],"; height: ",[0,70],"; }\n.",[1],"time.",[1],"data-v-31d2bec7 { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; padding: ",[0,0]," ",[0,30],"; }\n.",[1],"time .",[1],"item.",[1],"data-v-31d2bec7 { font-size: ",[0,24],"; -webkit-box-flex: 1; -webkit-flex: 1; -ms-flex: 1; flex: 1; text-align: left; }\n.",[1],"time .",[1],"item.",[1],"data-v-31d2bec7:nth-child(2) { text-align: right; }\n",],undefined,{path:"./pages/play/play.wxss"});    
+__wxAppCode__['pages/play/play.wxml']=$gwx('./pages/play/play.wxml');
+
+__wxAppCode__['pages/ranking/ranking.wxss']=setCssToHead([".",[1],"ranking-panel .",[1],"item.",[1],"data-v-3b95b416 { position: relative; z-index: 1; margin-bottom: ",[0,32],"; }\n.",[1],"ranking-panel .",[1],"item .",[1],"ranking-name.",[1],"data-v-3b95b416 { position: absolute; z-index: 2; bottom: 0; left: 0; background: rgba(0, 0, 0, 0.3); -webkit-border-radius: ",[0,0]," ",[0,0]," ",[0,10]," ",[0,10],"; border-radius: ",[0,0]," ",[0,0]," ",[0,10]," ",[0,10],"; padding: ",[0,15],"; font-size: ",[0,22],"; width: 100%; -webkit-box-sizing: border-box; box-sizing: border-box; color: #fff; overflow: hidden; -o-text-overflow: ellipsis; text-overflow: ellipsis; white-space: nowrap; }\n.",[1],"ranking-panel .",[1],"item .",[1],"ranking-pic.",[1],"data-v-3b95b416 { max-width: 100%; -webkit-border-radius: ",[0,10],"; border-radius: ",[0,10],"; -webkit-box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.3); box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.3); height: ",[0,212],"; }\n",],undefined,{path:"./pages/ranking/ranking.wxss"});    
+__wxAppCode__['pages/ranking/ranking.wxml']=$gwx('./pages/ranking/ranking.wxml');
+
+__wxAppCode__['pages/rankingList/rankingList.wxss']=setCssToHead([".",[1],"coverImgUrls { height: ",[0,212],"; }\n.",[1],"coverImgUrls wx-image { width: 100%; height: ",[0,212],"; -webkit-border-radius: ",[0,10],"; border-radius: ",[0,10],"; -webkit-box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.3); box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.3); }\n.",[1],"playlistInfo .",[1],"name { font-weight: bold; font-size: ",[0,32],"; }\n.",[1],"playlistInfo .",[1],"description { margin-top: ",[0,6],"; color: #999; font-size: ",[0,22],"; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; overflow: hidden; }\n.",[1],"privileges .",[1],"item { background: #fff; -webkit-border-radius: ",[0,10],"; border-radius: ",[0,10],"; -webkit-box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.3); box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.3); margin-top: ",[0,32],"; padding: ",[0,20]," ",[0,32],"; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; }\n.",[1],"privileges .",[1],"item .",[1],"index { font-weight: bold; color: #666; margin-right: ",[0,32],"; line-height: ",[0,94],"; font-size: ",[0,48],"; padding: ",[0,0]," ",[0,10],"; }\n.",[1],"privileges .",[1],"item .",[1],"info { -webkit-box-flex: 1; -webkit-flex: 1; -ms-flex: 1; flex: 1; overflow: hidden; }\n.",[1],"privileges .",[1],"item .",[1],"info .",[1],"name { width: 100%; font-size: ",[0,34],"; overflow: hidden; -o-text-overflow: ellipsis; text-overflow: ellipsis; white-space: nowrap; }\n.",[1],"privileges .",[1],"item .",[1],"info .",[1],"arName { font-size: ",[0,28],"; color: #888; }\n.",[1],"privileges .",[1],"item .",[1],"btn { margin-top: ",[0,20],"; margin-left: ",[0,10],"; width: ",[0,70],"; }\n.",[1],"privileges .",[1],"item .",[1],"btn wx-text { display: inline-block; width: ",[0,10],"; height: ",[0,10],"; -webkit-border-radius: 50%; border-radius: 50%; background: #999; margin: ",[0,0]," ",[0,5],"; }\n",],undefined,{path:"./pages/rankingList/rankingList.wxss"});    
+__wxAppCode__['pages/rankingList/rankingList.wxml']=$gwx('./pages/rankingList/rankingList.wxml');
+
+__wxAppCode__['pages/singerInfo/singerInfo.wxss']=setCssToHead([".",[1],"singerInfo .",[1],"panel { position: relative; z-index: 1; width: ",[0,300],"; height: ",[0,300],"; text-align: center; margin: ",[0,20]," auto; font-weight: bold; -webkit-border-radius: 50%; border-radius: 50%; overflow: hidden; color: #fff; -webkit-box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.3); box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.3); }\n.",[1],"singerInfo .",[1],"panel wx-image { width: ",[0,300],"; height: ",[0,300],"; }\n.",[1],"singerInfo .",[1],"panel .",[1],"name { position: absolute; z-index: 2; top: 0; left: 0; width: ",[0,300],"; height: ",[0,300],"; line-height: ",[0,300],"; background: rgba(0, 0, 0, 0.3); }\n.",[1],"tab-title { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; text-align: center; font-size: ",[0,28],"; }\n.",[1],"tab-title .",[1],"item { padding: ",[0,20],"; -webkit-box-flex: 1; -webkit-flex: 1; -ms-flex: 1; flex: 1; border-bottom: 3px solid #fff; }\n.",[1],"tab-title .",[1],"item.",[1],"active { border-color: #e91e63; }\n.",[1],"tab-content .",[1],"item { margin-top: ",[0,40],"; }\n.",[1],"SingerDesc { color: #666; font-size: ",[0,28],"; line-height: 1.8; text-indent: 2em; -webkit-border-radius: ",[0,10],"; border-radius: ",[0,10],"; padding: ",[0,20]," ",[0,30],"; -webkit-box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.1); box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.1); }\n",],undefined,{path:"./pages/singerInfo/singerInfo.wxss"});    
+__wxAppCode__['pages/singerInfo/singerInfo.wxml']=$gwx('./pages/singerInfo/singerInfo.wxml');
+
 ;var __pageFrameEndTime__ = Date.now();
-if(!window.__uniAppViewReady__){
-	window.__uniAppViewReady__ = true;
-	document.dispatchEvent(new CustomEvent('uniAppViewReady'));
-}
+(function() {
+       plus.webview.getLaunchWebview().evalJS('__uniAppViewReadyCallback__("' + plus.webview.currentWebview()
+           .id + '")')
+})();
 

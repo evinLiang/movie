@@ -2,7 +2,7 @@
 page {
 	background: rgb(251, 251, 251);
 }
-.video ._video {
+.video video {
 	width: 100%;
 }
 .videoInfo {

@@ -7,7 +7,8 @@
 	text-align: center;
 	margin: 20rpx auto;
 	font-weight: bold;
-	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	        border-radius: 50%;
 	overflow: hidden;
 	color: #fff;
 	-webkit-box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.3);
@@ -54,7 +55,8 @@
 	font-size: 28rpx;
 	line-height: 1.8;
 	text-indent: 2em;
-	border-radius: 10rpx;
+	-webkit-border-radius: 10rpx;
+	        border-radius: 10rpx;
 	padding: 20rpx 30rpx;
 	-webkit-box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.1);
 	        box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.1);

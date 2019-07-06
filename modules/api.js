@@ -1,5 +1,5 @@
 module.exports = {
-	server:'http://106.13.10.72:3000/',		//正式环境地址
+	server:'https://music.evinweb.com/',		//正式环境地址
 	doucment: 'https://binaryify.github.io/NeteaseCloudMusicApi/#/',	//接口说明文档
 	type:{
 		banner: "banner",						//说明 : 调用此接口 , 可获取 banner( 轮播图 ) 数据

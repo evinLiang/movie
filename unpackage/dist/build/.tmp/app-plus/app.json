@@ -19,6 +19,7 @@
     "navigationBarBackgroundColor": "#e91e63",
     "backgroundColor": "#e91e63"
   },
+  "usingComponents": {},
   "tabBar": {
     "color": "#333333",
     "selectedColor": "#e91e63",
@@ -44,8 +45,11 @@
       }
     ]
   },
+  "nvueCompiler": "weex",
   "splashscreen": {
-    "autoclose": true
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
   },
-  "appname": "音乐"
+  "appname": "音乐",
+  "compilerVersion": "2.0.1"
 }

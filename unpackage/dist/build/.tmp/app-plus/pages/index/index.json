@@ -1,4 +1,5 @@
 {
+  "usingComponents": {},
   "navigationBarTitleText": "音乐",
   "enablePullDownRefresh": true
 }

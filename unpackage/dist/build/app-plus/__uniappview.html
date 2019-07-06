@@ -4,8 +4,11 @@
     <head>
         <meta charset="UTF-8" />
         <script>
-            var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') || CSS.supports('top: constant(a)'))
-            document.write('<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' + (coverSupport ? ', viewport-fit=cover' : '') + '" />')
+            var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') ||
+                CSS.supports('top: constant(a)'))
+            document.write(
+                '<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' +
+                (coverSupport ? ', viewport-fit=cover' : '') + '" />')
         </script>
         <title>View</title>
         <style>
@@ -17,11 +20,9 @@
             input[type="search"i]::-webkit-search-cancel-button {
                 display: none;
             }
-
         </style>
         <script>
-            var __wxConfig = {"debug":false,"appname":"音乐","entryPagePath":"pages/index/index.html","page":{"pages/index/index.html":{"window":{"navigationBarTitleText":"音乐","enablePullDownRefresh":true}},"pages/mvDetail/mvDetail.html":{"window":{"navigationBarTitleText":"MV详情"}},"pages/getPlaylistDetail/getPlaylistDetail.html":{"window":{"navigationBarTitleText":"歌单列表"}},"pages/personalizedList/personalizedList.html":{"window":{"navigationBarTitleText":"歌单"}},"pages/mvList/mvList.html":{"window":{"navigationBarTitleText":"mv列表"}},"pages/djList/djList.html":{"window":{"navigationBarTitleText":"电台列表"}},"pages/play/play.html":{"window":{}},"pages/ranking/ranking.html":{"window":{"navigationBarTitleText":"排行榜"}},"pages/mv/mv.html":{"window":{"navigationBarTitleText":"MV","enablePullDownRefresh":true}},"pages/rankingList/rankingList.html":{"window":{}},"pages/singerInfo/singerInfo.html":{"window":{}}},"global":{"window":{"navigationBarTextStyle":"white","navigationBarTitleText":"音乐","navigationBarBackgroundColor":"#e91e63","backgroundColor":"#e91e63"}},"tabBar":{"color":"#333333","selectedColor":"#e91e63","backgroundColor":"","borderStyle":"black","list":[{"text":"首页","pagePath":"pages/index/index.html","iconPath":"static/images/index-d.png","selectedIconPath":"static/images/index-a.png"},{"text":"牌行榜","pagePath":"pages/ranking/ranking.html","iconPath":"static/images/ranking-d.png","selectedIconPath":"static/images/ranking-a.png"},{"text":"MV","pagePath":"pages/mv/mv.html","iconPath":"static/images/mv-d.png","selectedIconPath":"static/images/mv-a.png"}],"position":"bottom"},"networkTimeout":{"request":60000,"connectSocket":60000,"uploadFile":60000,"downloadFile":60000},"platform":"devtools","pages":["pages/index/index","pages/mvDetail/mvDetail","pages/getPlaylistDetail/getPlaylistDetail","pages/personalizedList/personalizedList","pages/mvList/mvList","pages/djList/djList","pages/play/play","pages/ranking/ranking","pages/mv/mv","pages/rankingList/rankingList","pages/singerInfo/singerInfo"],"subPackages":[],"splashscreen":{"autoclose":true}}
-
+            var __wxConfig = {"debug":false,"appname":"音乐","entryPagePath":"pages/index/index.html","page":{"pages/index/index.html":{"window":{"usingComponents":{},"navigationBarTitleText":"音乐","enablePullDownRefresh":true}},"pages/mvDetail/mvDetail.html":{"window":{"usingComponents":{},"navigationBarTitleText":"MV详情"}},"pages/getPlaylistDetail/getPlaylistDetail.html":{"window":{"usingComponents":{},"navigationBarTitleText":"歌单列表"}},"pages/personalizedList/personalizedList.html":{"window":{"usingComponents":{},"navigationBarTitleText":"歌单"}},"pages/mvList/mvList.html":{"window":{"usingComponents":{},"navigationBarTitleText":"mv列表"}},"pages/djList/djList.html":{"window":{"usingComponents":{},"navigationBarTitleText":"电台列表"}},"pages/play/play.html":{"window":{"usingComponents":{}}},"pages/ranking/ranking.html":{"window":{"usingComponents":{},"navigationBarTitleText":"排行榜"}},"pages/mv/mv.html":{"window":{"usingComponents":{},"navigationBarTitleText":"MV","enablePullDownRefresh":true}},"pages/rankingList/rankingList.html":{"window":{"usingComponents":{}}},"pages/singerInfo/singerInfo.html":{"window":{"usingComponents":{}}}},"global":{"window":{"navigationBarTextStyle":"white","navigationBarTitleText":"音乐","navigationBarBackgroundColor":"#e91e63","backgroundColor":"#e91e63"}},"tabBar":{"color":"#333333","selectedColor":"#e91e63","backgroundColor":"","borderStyle":"black","list":[{"text":"首页","pagePath":"pages/index/index.html","iconPath":"static/images/index-d.png","selectedIconPath":"static/images/index-a.png"},{"text":"牌行榜","pagePath":"pages/ranking/ranking.html","iconPath":"static/images/ranking-d.png","selectedIconPath":"static/images/ranking-a.png"},{"text":"MV","pagePath":"pages/mv/mv.html","iconPath":"static/images/mv-d.png","selectedIconPath":"static/images/mv-a.png"}],"position":"bottom"},"networkTimeout":{"request":60000,"connectSocket":60000,"uploadFile":60000,"downloadFile":60000},"platform":"devtools","pages":["pages/index/index","pages/mvDetail/mvDetail","pages/getPlaylistDetail/getPlaylistDetail","pages/personalizedList/personalizedList","pages/mvList/mvList","pages/djList/djList","pages/play/play","pages/ranking/ranking","pages/mv/mv","pages/rankingList/rankingList","pages/singerInfo/singerInfo"],"subPackages":[],"usingComponents":{},"nvueCompiler":"weex","splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false},"compilerVersion":"2.0.1"}
         </script>
         <script>
             var __id__ = '';
@@ -29,9 +30,22 @@
                 __id__ = page;
                 document.title = page;
                 // window.history.pushState('', '', page);
-                plus.webview.currentWebview().setJsFile('_www/' + page.replace('.html', '.js'));
+                var wxss = page.replace('.html', '.wxss')
+                if (
+                    typeof __wxAppCode__ !== 'undefined' &&
+                    __wxAppCode__.hasOwnProperty(wxss)
+                ) {
+                    var setCssToHead = __wxAppCode__[wxss]
+                    typeof setCssToHead === 'function' && setCssToHead()
+                    document.dispatchEvent(new CustomEvent("generateFuncReady", {
+                        detail: {
+                            generateFunc: $gwx(page.replace('.html', '.wxml'))
+                        }
+                    }));
+                } else {
+                    plus.webview.currentWebview().setJsFile('_www/' + page.replace('.html', '.js'));
+                }
             };
-
         </script>
         <script src="__uniappes6.js"></script>
         <script src="uniapp://ready"></script>

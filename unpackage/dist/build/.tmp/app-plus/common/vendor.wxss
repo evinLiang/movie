@@ -28,7 +28,8 @@
 .djRecommendList .item .pic image {
 	width: 180rpx;
 	height: 180rpx;
-	border-radius: 10rpx;
+	-webkit-border-radius: 10rpx;
+	        border-radius: 10rpx;
 	-webkit-box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.3);
 	        box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.3);
 }
@@ -87,7 +88,8 @@
 	margin-right: 10rpx;
 }
 .nowPlayIcomP {
-	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	        border-radius: 50%;
 	-webkit-box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.1);
 	        box-shadow: 0 0 10px hsla(0, 0%, 51%, 0.1);
 	width: 56rpx;
